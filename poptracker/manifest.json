@@ -2,7 +2,7 @@
   "name": "Core Keeper Archipelago Mainline",
   "game_name": "Core Keeper",
   "package_uid": "core-keeper-archipelago-mainline",
-  "package_version": "0.9.0-rc.8",
+  "package_version": "1.0.1",
   "author": "URAQTDev",
   "platform": "PC",
   "min_poptracker_version": "0.35.3",

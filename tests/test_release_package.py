@@ -38,6 +38,7 @@ class ReleasePackageTests(unittest.TestCase):
         self.assertIn("Settings", setup_text)
         self.assertIn("Archipelago", setup_text)
         self.assertIn("Save and Connect", setup_text)
+        self.assertIn("subscribe to **Core Keeper Archipelago**", setup_text)
         self.assertNotIn("press `F4`", setup_text)
 
     def test_mod_archive_is_deterministic_and_rooted(self) -> None:
@@ -88,14 +89,14 @@ class ReleasePackageTests(unittest.TestCase):
 
     def test_component_versions_are_aligned(self) -> None:
         self.assertIn(
-            '"world_version": "0.9.0-rc.8"',
+            '"world_version": "1.0.1"',
             (ROOT / "apworld" / "core_keeper" / "archipelago.json").read_text(encoding="utf-8"),
         )
         self.assertIn(
-            '"package_version": "0.9.0-rc.8"',
+            '"package_version": "1.0.1"',
             (ROOT / "poptracker" / "manifest.json").read_text(encoding="utf-8"),
         )
-        self.assertEqual("0.9.0-rc.8", RELEASE.VERSION)
+        self.assertEqual("1.0.1", RELEASE.VERSION)
 
     def test_release_uses_texture_free_tracker_distribution(self) -> None:
         packaging = (ROOT / "tools" / "package_release.py").read_text(encoding="utf-8")

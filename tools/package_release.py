@@ -9,7 +9,7 @@ import zipfile
 from pathlib import Path
 
 
-VERSION = "0.9.0-rc.8"
+VERSION = "1.0.1"
 ZIP_TIME = (1980, 1, 1, 0, 0, 0)
 
 

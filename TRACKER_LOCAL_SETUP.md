@@ -24,7 +24,7 @@ textured PopTracker pack locally.
 7. After verifying the textured pack, setup removes the replaced texture-free
    Core Keeper pack so PopTracker shows only one copy.
 8. Open PopTracker and select **(Textured) Core Keeper Archipelago Mainline
-   0.9.0-rc.8**.
+   1.0.1**.
 
 The installer never uploads game files or extracted artwork. Generated artwork
 remains on the player's computer. Rerun setup after a supported tracker update

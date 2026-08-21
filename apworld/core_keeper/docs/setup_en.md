@@ -1,6 +1,6 @@
 # Core Keeper Multiworld Setup
 
-This package is the evidence-validated Core Keeper Archipelago 1.0.0 release.
+This package is the evidence-validated Core Keeper Archipelago 1.0.1 release.
 
 1. Install `core_keeper.apworld` with **Install APWorld** in the Archipelago
    Launcher, then restart Archipelago if prompted.
