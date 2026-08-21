@@ -8,8 +8,8 @@ dist/
 .tools/
 .icon-tooldeps/
 *.apworld
+!release-assets/core_keeper.apworld
 *.apsave
 AP_*.zip
 Player.log
 Player-prev.log
-
