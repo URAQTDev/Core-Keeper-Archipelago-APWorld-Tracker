@@ -13,9 +13,13 @@ and is installed through Core Keeper's in-game **Mods** menu.
 
 Current release: `0.9.0-rc.8`
 
+## AI use
+
+This project was developed with substantial generative-AI assistance under
+human direction and testing. See [AI_USE.md](AI_USE.md) for the full disclosure.
+
 ## License
 
 Original project code and documentation are available under the MIT License.
 Core Keeper and its assets belong to Pugstorm and their respective rights
 holders. See `ASSET_NOTICE.md` and `THIRD_PARTY_NOTICES.md`.
-
