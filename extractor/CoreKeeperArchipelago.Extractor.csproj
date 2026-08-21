@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json"><HintPath>C:\Program Files (x86)\Steam\steamapps\common\Core Keeper\CoreKeeper_Data\Managed\Newtonsoft.Json.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="PugMod.SDK"><HintPath>C:\Program Files (x86)\Steam\steamapps\common\Core Keeper\CoreKeeper_Data\Managed\PugMod.SDK.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="PugMod.SDK.Runtime"><HintPath>C:\Program Files (x86)\Steam\steamapps\common\Core Keeper\CoreKeeper_Data\Managed\PugMod.SDK.Runtime.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Pug.Other"><HintPath>C:\Program Files (x86)\Steam\steamapps\common\Core Keeper\CoreKeeper_Data\Managed\Pug.Other.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Pug.Base"><HintPath>C:\Program Files (x86)\Steam\steamapps\common\Core Keeper\CoreKeeper_Data\Managed\Pug.Base.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Pug.ECS.Components"><HintPath>C:\Program Files (x86)\Steam\steamapps\common\Core Keeper\CoreKeeper_Data\Managed\Pug.ECS.Components.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.Entities"><HintPath>C:\Program Files (x86)\Steam\steamapps\common\Core Keeper\CoreKeeper_Data\Managed\Unity.Entities.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.Collections"><HintPath>C:\Program Files (x86)\Steam\steamapps\common\Core Keeper\CoreKeeper_Data\Managed\Unity.Collections.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Unity.Mathematics"><HintPath>C:\Program Files (x86)\Steam\steamapps\common\Core Keeper\CoreKeeper_Data\Managed\Unity.Mathematics.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>C:\Program Files (x86)\Steam\steamapps\common\Core Keeper\CoreKeeper_Data\Managed\UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.ImageConversionModule"><HintPath>C:\Program Files (x86)\Steam\steamapps\common\Core Keeper\CoreKeeper_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

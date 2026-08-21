@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Archipelago.MultiClient.Net">
+      <HintPath>..\..\build\vendor-client\Archipelago.MultiClient.Net.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Core Keeper\CoreKeeper_Data\Managed\Newtonsoft.Json.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\client\ArchipelagoConnection.cs" Link="ArchipelagoConnection.cs" />
+    <Compile Include="..\..\client\ConnectionSettings.cs" Link="ConnectionSettings.cs" />
+    <Compile Include="..\..\client\ProtocolConstants.cs" Link="ProtocolConstants.cs" />
+    <Compile Include="..\..\client\LocationIds.cs" Link="LocationIds.cs" />
+    <Compile Include="..\..\client\State\PendingLocationChecks.cs" Link="PendingLocationChecks.cs" />
+    <Compile Include="..\..\client\State\ReceivedItemCursor.cs" Link="ReceivedItemCursor.cs" />
+    <Compile Include="..\..\client\State\ReconnectBackoff.cs" Link="ReconnectBackoff.cs" />
+    <Compile Include="..\..\client\State\GoalLocationPolicy.cs" Link="GoalLocationPolicy.cs" />
+    <Compile Include="..\..\client\State\LicenseMode.cs" Link="LicenseMode.cs" />
+  </ItemGroup>
+</Project>

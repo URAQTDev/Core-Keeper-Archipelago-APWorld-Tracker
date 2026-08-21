@@ -1,0 +1,2902 @@
+{
+  "schema_version": 1,
+  "source_timestamp": "2026-06-08T12:37:51.0000000Z",
+  "core_keeper": {
+    "steam_app_id": 1621690,
+    "steam_build_id": 23543556,
+    "last_updated_unix": 1780922271,
+    "object_id_catalog": {
+      "path": "CoreKeeper_Data/StreamingAssets/Conf/ID/ObjectID.json",
+      "sha256": "bcbde003d05804db7b320fcd63aefc3f350abc9bb1570aea82009eb34aa098fe"
+    },
+    "configuration_manifest": [
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/AttacksAllButNotAttacked.json",
+        "length": 380,
+        "sha256": "f3d6e781cff92f4c40b03098751702897c4fa24dc1f3fe14c571427f98782183"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/AttacksAllButNotPlayer.json",
+        "length": 346,
+        "sha256": "32466d9a316edb51a6f6a3fe9f82d3e524488cd274744fbfb0f002e23a942820"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/Bird.json",
+        "length": 335,
+        "sha256": "3029082b484badc3d8da5bfa6a536d5c45c852441d93b344e947fd18749e554d"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/CanOnlyBeAttackedByPlayerOrExplosion.json",
+        "length": 66,
+        "sha256": "3844e4e446d61a25eb485864100fa6fea2bc416141e1a46522401d011d42d932"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/Caveling.json",
+        "length": 299,
+        "sha256": "41d04657dc474a80107a75551a702b48fc480ce8a34be6ff33321912af3ce930"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/CoreBoss.json",
+        "length": 335,
+        "sha256": "2d95983066181bec73706227aab9da52de0db9a7a4d94ba0e8c68d73b25b2b95"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/CrystalCreature.json",
+        "length": 335,
+        "sha256": "71b9bd48ee3254ffa091fe1845841c18c9d05cefedac7900fd2b9e6e3740b2c8"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/DesertCaveling.json",
+        "length": 300,
+        "sha256": "c2215eab01ba89570ee7b51a78fb4108cfc79e7fc05aa2cb50e3934ac0eb09c7"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/Explosion.json",
+        "length": 393,
+        "sha256": "a6047f459e6a77b514d2e1a14a027fbe0584fe1282b1e478d66057b574713299"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/Larva.json",
+        "length": 335,
+        "sha256": "6ac417f443f86674b733f581a3a553c94618b6edb27ee35931f4da82c04162d9"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/LavaCreature.json",
+        "length": 324,
+        "sha256": "db7cce555b2c52dd493f34c9dde07a75179d3ae33168563ebde2c4d9d1816a95"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/Merchant.json",
+        "length": 51,
+        "sha256": "ec2933f19bf8961fe8d21ab3159731e929bd0f79f3dc5ec1767fd1e6ef3f45d2"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/MoldInfected.json",
+        "length": 335,
+        "sha256": "ce8a275f024f77dd5a1c69a0a52af9d2121f683e367bdb43a35c9ab4562cd2b2"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/MushroomEnemy.json",
+        "length": 324,
+        "sha256": "06196c4a7b5967556ec8b63db5c77280b94a44162c38974bfdaeb4d14939caf9"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/NatureCaveling.json",
+        "length": 300,
+        "sha256": "c5116bb3e3aec1f799d00b5977c9debf0dfe317610ac6b83550c9485caa06c24"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/Neutral.json",
+        "length": 346,
+        "sha256": "a3962802b4c441b5db459fe4683b2e93c0344fba37714ff15e490c430a705ffc"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/None.json",
+        "length": 323,
+        "sha256": "698629993ca1b1fe2f53ee956999c233119f8274747257775abf7393be00c83c"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/OnlyAttacksPlayer.json",
+        "length": 65,
+        "sha256": "4fc679ed88d32f0ba7569cf754fe4834012f28918e33bcf8b0c75e14d3a9f615"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/PassageEnemy.json",
+        "length": 335,
+        "sha256": "fe35e06916fb1696f9de2eb953ae11db324d01e833cabb26e9f76efcdfa8f9b4"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/Player.json",
+        "length": 392,
+        "sha256": "cbeadaa08cdeb92d52a719dc4ae74fb687d0553a167c0e250e92a60fec9471b8"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/PlayerMinion.json",
+        "length": 358,
+        "sha256": "37b80c76e9996fead1835e669edd61c0541d9be5e325afcc74bbf84f4cd035e2"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/Robot.json",
+        "length": 311,
+        "sha256": "6091d12ef3138d2265e137e3d5731b77c6fafdba9262c9b321ffdcb46ccf26d9"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/Scarab.json",
+        "length": 323,
+        "sha256": "555839375d820803496e1bfe214a07d291d7f48972570f77358527212be03d7d"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/SeaCaveling.json",
+        "length": 300,
+        "sha256": "6fb86be5a4678280d496249ef7e5688aaa3069023e698b4e20cb7e45c0ec9615"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/SeaCreature.json",
+        "length": 324,
+        "sha256": "e3e14aeafdd061f58677b63882019254be4ef0db374f3ffa3627f48fc41164c9"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/Slime.json",
+        "length": 299,
+        "sha256": "f258e93348255cab78242e8efbe108e13a0234c52abb3ec4c8d0c56b23f3884a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/UnfriendlyAgainstAll.json",
+        "length": 346,
+        "sha256": "8104bc1a2a6d61f4481b8352a4469fa600af89f6a1edb2048e9cacb950440122"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/Void.json",
+        "length": 299,
+        "sha256": "89fd4976e0ab9a9144730ba9ba0bb624b8247b5ff91127dcc4c5b96b54d3467a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/VoidRobot.json",
+        "length": 299,
+        "sha256": "3fba5973d375b2c2aedeab1a6fc5ae3f89737fbc4390a6edfecd4a84efa58915"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Factions/VoidScarab.json",
+        "length": 299,
+        "sha256": "7816acc4d9b2e94b9c5d808de2d5180b8c673a18b15d47aaa69da344a43bc989"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/AngleFish.json",
+        "length": 528,
+        "sha256": "e604adbe8ccbc59fcbcf601d1d46cc2e6b3e908b65410aba66cba24bff777c03"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/AstralJelly.json",
+        "length": 369,
+        "sha256": "47d00bbf54da8ab9e43dc758fe62b0cacb54f4b6267a5b19e09047a9c59647da"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/AzureFeatherFish.json",
+        "length": 210,
+        "sha256": "f0c12a8827e6b89f6abf2f758ea4345d20b6b2cfc8d8193639a8d736cc6948b1"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/BlackSteelUrchin.json",
+        "length": 687,
+        "sha256": "2275082686cbee83e6b8bb92d4eecb5a028bef39a65221b2e1daa6dc3f317cca"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/BlueCaveGuppy.json",
+        "length": 449,
+        "sha256": "13b71c61b8fc7089423a8be40637fb31220b630e638d4ca54a8001bd62bdef12"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/BottomTracer.json",
+        "length": 369,
+        "sha256": "842b9b4486147d07d48cb7fe95a437664ad29b05b095bd694d7506c5a09678c6"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/BrightLavaEater.json",
+        "length": 369,
+        "sha256": "e85d12c2ca724b216bc8a5304f52bea8d8a89544e4ff29c92fe0e605aafacd1e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/BrownDuneTail.json",
+        "length": 528,
+        "sha256": "530f26bb546afdcc42c03c769a9eacceb3b4bd5cdbed517c5f38b980b68eccb1"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/CosmicForm.json",
+        "length": 687,
+        "sha256": "c96cd6ebd39bffe5cc3d4754fd1e14dd3ab818ea301c13198c60915ea3986a82"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/CrownSquid.json",
+        "length": 528,
+        "sha256": "75e8be81229bcb6d7d105705133cfe686578d7477a15619b1b4eed2438d1f4d8"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/DaggerFin.json",
+        "length": 210,
+        "sha256": "9a311b2ab19b817bff41f819691cc445b1d7100b69b031229eb5a189235a38a0"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/DarkLavaEater.json",
+        "length": 290,
+        "sha256": "76ecf64e3423c7495aabc5f3d167b25375ce6f90d83c4f31e80558fb6dca74ee"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/Deepstalker.json",
+        "length": 687,
+        "sha256": "20e69f7bcbbfbfc603029dbfcc8261c7979e3ae75a734149c83452b896d0c46d"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/DevilWorm.json",
+        "length": 210,
+        "sha256": "9eef36c9727d0aa5b581dbfa175f2fd793f6f2919a154f3807361a2eedff3c12"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/ElderDragonfish.json",
+        "length": 528,
+        "sha256": "40a3ac4cabdaa5cdd6f0cb35acd4e94c34693989fb356b130a97fc0a3e482b4d"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/EmeraldFeatherFish.json",
+        "length": 449,
+        "sha256": "b906a73b6ff8668e28997ee22cdddcccf2757fdc1758f92f979d011ca951a6e3"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/GemCrab.json",
+        "length": 369,
+        "sha256": "536f40c704fe4b5ab575a46fb804495e561266ea3de876c96d67dcbe82cea246"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/GoldenAngleFish.json",
+        "length": 528,
+        "sha256": "3e7ca946e0f6e0eec8714c87916bb5e2449743d08eebe83e313fe66c910b2f3b"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/GoldenDeepstalker.json",
+        "length": 687,
+        "sha256": "81b7f7fd5dd8a34dd923f6b8eb4c1ec5504c6b5542bcddd6a01e49e256732eb6"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/GoldenTorrentDart.json",
+        "length": 528,
+        "sha256": "8792d138860dc34fae9253aac302553e027f89b111b59b5e7fd817e2c538511e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/GreenBlisterHead.json",
+        "length": 369,
+        "sha256": "35f0cc7ede34324958c4f338d0a8b1c53135df776779222b230f486991132140"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/GreenhornPico.json",
+        "length": 687,
+        "sha256": "2261077fa4727bdb075a1ae22d2eb6ff9a7f76f88a6bdfa9e358a0b88e3d31e4"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/GreyDuneTail.json",
+        "length": 528,
+        "sha256": "2e4fe78b90ec25a51f5d1dd700527157d18da655332ead37163442c9d06555a2"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/LithoTrilobite.json",
+        "length": 290,
+        "sha256": "0733aafd192b4b3a921d30c471f21e40b81abbd251a8dfad9b07c028c9639348"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/MoldShark.json",
+        "length": 528,
+        "sha256": "46a1db28d537b6ab8a219856e6ede6933135db372eb2d7f762311dfcdae512d1"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/OrangeCaveGuppy.json",
+        "length": 210,
+        "sha256": "90c08a541077dd6b313002c2f1bede3c5a717371e8c42196c5aa426394384754"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/PinkCoralotl.json",
+        "length": 528,
+        "sha256": "090a9243f33f6df15a91919b250a122745a29f4aff6044e2ed1c05975bdc2091"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/PinkhornPico.json",
+        "length": 528,
+        "sha256": "6dccf88754798a7bc7ab192de99c061e1530d377cb0771bda7ebe53935d9e92a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/PinkPalaceFish.json",
+        "length": 369,
+        "sha256": "509f78d24de0fe7c02faaf99a492626b1478ca15bf71dc830d8605519023b44e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/RiftianLampfish.json",
+        "length": 687,
+        "sha256": "f8007c29027b011c80ddcbe98444e3aa8af6d73c2ff3665db90939a6ffe98b70"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/RockJaw.json",
+        "length": 528,
+        "sha256": "5421998599ee77b65c6c3daecc6205f3f9f97fff19c130a829bf346f9f567dec"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/RotFish.json",
+        "length": 210,
+        "sha256": "c4ed429e0f2d0237e8c68ae14097a49fa5f1a50333b27f136be7d2551f85a97d"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/SandySpikeback.json",
+        "length": 369,
+        "sha256": "f8e99484ec9f46fb2d05e5b59d1f1913da46c39009dcc8c61299629d63391c52"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/SilverTorrentDart.json",
+        "length": 369,
+        "sha256": "b3ea5fd3d6441a22df7b36cfda72bf0b57979c529c787f6e2cc549dd8cab9db5"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/SolidSpikeback.json",
+        "length": 369,
+        "sha256": "949c0f388f01f1bab1317630d30f75b14ab77020c63c7ee824b71c681e1b62d8"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/SpiritVeil.json",
+        "length": 369,
+        "sha256": "a1ca4f995fd506ccae3f643c08a093ae092ddc5a42e5ed488305ab3f8494b405"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/StarlightNautilus.json",
+        "length": 369,
+        "sha256": "63888e428992d0f610935666a6759728eafa905684713a50a81479755a68c169"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/TealPalaceFish.json",
+        "length": 369,
+        "sha256": "1cfcc77c680ee42300801cd4d91e6b8b008723800c4c6c653b7a9a58de856785"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/TerraTrilobite.json",
+        "length": 369,
+        "sha256": "457384f1896ff2e855026bd5febf4d27821e87fef641f7fa496d2a8d15d814af"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/TornisKingfish.json",
+        "length": 801,
+        "sha256": "12f2d896d8efff013831222fe5ad72e389739b13c981ad3bcac52153fcd7e2d4"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/VampireEel.json",
+        "length": 528,
+        "sha256": "8ef21f453af25f661556b4f39ea86edda64cf9f6f95d9227118fb94a231178e6"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/VerdantDragonfish.json",
+        "length": 687,
+        "sha256": "dd0e9681a112fff830e49ab54069166b66ad5cc88e4a48b912c4464486e73803"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/WhiteCoralotl.json",
+        "length": 528,
+        "sha256": "51ba649944568a15f5d7fbb4a28e46763162664ca208e8991488f47eee67ba56"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Fishing/YellowBlisterHead.json",
+        "length": 369,
+        "sha256": "603daa16017d9a825d0f2ed57c07b37d2f04c2418a26ca19486bb0fa2bb457b1"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/ID/Biome.json",
+        "length": 189,
+        "sha256": "1eee98d8d41bdbd25304205ccd2a2946eb5f5a40eb7a1a7ea18bb128df3fceb9"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/ID/ConditionID.json",
+        "length": 11920,
+        "sha256": "455f20cfef2e603fd1f1f1be2ceaa4197d447d12ea2c824256e1c8e0b60b699f"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/ID/FactionID.json",
+        "length": 599,
+        "sha256": "1c9ece1fb11920830e4dba3395ae4466bc0388180b549b2fd6e4595406c35f7b"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/ID/LootTableID.json",
+        "length": 4229,
+        "sha256": "af208add07dfee0c08fb992dac7327528196245e504d0678ae7d636880cf76bb"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/ID/ObjectID.json",
+        "length": 57220,
+        "sha256": "bcbde003d05804db7b320fcd63aefc3f350abc9bb1570aea82009eb34aa098fe"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/ID/PugTilemap.Tileset.json",
+        "length": 1496,
+        "sha256": "a7cc4ab22c7941a74a62b7983fa1b1a9eacb253a96695958fe8888271ba2b001"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/ID/PugTilemap.TileType.json",
+        "length": 574,
+        "sha256": "f97d778d7519c67ad73a8b1ec72f1a1a67d27a72827280d2b5402e6350e4600f"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/ID/Season.json",
+        "length": 136,
+        "sha256": "b3fd7f62925c7a6086bb2f0877a98b29294b5e0bfd9e30ed97bce784d0f90d17"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/ID/SkillID.json",
+        "length": 197,
+        "sha256": "a42f6717944f12c69fd0ee512c953d4f1a1319c301097f98ad2676d085506016"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/AbioticFactorDestructible.json",
+        "length": 3867,
+        "sha256": "ee89c108d21bcfcf16cb936d1741beb77dff83b16433bb42d6e2dd79a1fd2732"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/AbioticFactorElectroPest.json",
+        "length": 1901,
+        "sha256": "fe3ae1d155eb5b704f86a7d80612b1f566b078ada32673ced234d28e63ab3feb"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/AbioticFactorLargeDestructible.json",
+        "length": 3867,
+        "sha256": "eaf6f411d837417e43f6a5b157079507609a2a360d5c1ddb375d49bfc8ae98aa"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/AcidLarva.json",
+        "length": 2254,
+        "sha256": "678f3ad2812b494e254a817f08d614d971551aeeb67b62fa58cb97640f30cbbb"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/AlienChest.json",
+        "length": 5702,
+        "sha256": "c27002847eacf69b2bbd3261455c46131f0f90287b22fca9258c2ac1b832c7a5"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/AlienEventTerminal.json",
+        "length": 4108,
+        "sha256": "b8db177c0b7a5a97f1206dbff2bb940d572e23bdae71be2dc32f680c69c3c1e6"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/AlienTechDestructible.json",
+        "length": 2507,
+        "sha256": "dea6836c4b7ee6ec72044e8366d4d5e9276161b9dcabeb8ebc7685041972e213"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/AmoebaGiantWorm.json",
+        "length": 1189,
+        "sha256": "9ad344191bdbccd7adcd006ec9990be8e4d2d3a1035506a6c18da28b1791beb8"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/AmoebaWorm.json",
+        "length": 940,
+        "sha256": "30d8ceb388600038bb19a4ff14f2baca2c8e522e40b5aa3ae96ef79cf07303ea"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/AncientDestructible.json",
+        "length": 8067,
+        "sha256": "bfbbaf5f7b7eb68a069a579e3286d38a1a73b4bb2f79ab846ab4e60acd6a5a33"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/AncientGolem.json",
+        "length": 4363,
+        "sha256": "29ff6c3d4aa04014675e3531a83522ad03e71e075f4ff1bfc1744f151f24fadf"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/ArcheologistWallLoot.json",
+        "length": 2532,
+        "sha256": "4039a6acbe2951c1ef52c431f460c47227472de7bae228055b0f2206291a224f"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/AtlanteanWormBoss.json",
+        "length": 4642,
+        "sha256": "e8e983f9d763e709a564185842d75f9c91d07ab7f5997dae3c14aa002cea4a47"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/Biglarva.json",
+        "length": 4917,
+        "sha256": "1cf2012660cc50e2033dca24d96c7c0090e057cbfff5c57ca24380fe44274d95"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/BirdBoss.json",
+        "length": 4899,
+        "sha256": "7ffb794f17d0bdf5e297447a062b164f71fd7d044853ccdba4a43a0af9f3872e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/BombScarab.json",
+        "length": 2756,
+        "sha256": "7d420a3aa7366ff9f95a607579aa03cb1b64e9b162f49939aff43b4b098fe4a8"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/Bosslarva.json",
+        "length": 5692,
+        "sha256": "c4d547c10cce3568774d7ef3943a9f8d2362e700637e287455ef0eef306ef678"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/BrokenRobotDestructibleBig.json",
+        "length": 1727,
+        "sha256": "0bfcf378225387d375cc138a3b01001e300823b335998f6e12981b611adc38d2"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/BrokenRobotDestructibleSmall.json",
+        "length": 1729,
+        "sha256": "03caac843a724c9115999ca9bd80fba17dde719d15bede715bdcd059d732605c"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/Caveling.json",
+        "length": 5691,
+        "sha256": "cc1613afa1d08ae1ce196e3a14f3a601ced732252eef0bbe97af824c8890f00b"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CavelingAssassin.json",
+        "length": 2247,
+        "sha256": "77088f5d87a849a9af712b8ffe4ab2afc7ba2a486249c0d5b4f4dd73615f3cfa"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CavelingBrute.json",
+        "length": 5431,
+        "sha256": "eb432d1e1a84479fae77625c7e07770f96093d7e25885c37c039a4dd7a2e943d"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CavelingDestructbile.json",
+        "length": 3798,
+        "sha256": "49fdb447f632cfd1944246cf67f1ab60a55dce4d2e0b4f084fb5874db9925a05"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CavelingGardener.json",
+        "length": 4325,
+        "sha256": "ebc837a6d8541a954f1105b16307570157fb540c12edfbdea025720b75d4e646"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CavelingHunter.json",
+        "length": 2223,
+        "sha256": "1a157518eb90214b6a55eb9da17b68bc12f7c068d1cbfe0f29cf8a2631aa7815"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CavelingMummy.json",
+        "length": 2263,
+        "sha256": "542c07743de0570b9d820dc7f2361b544cb1f75f454e3aef755d120f57474c42"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CavelingScholar.json",
+        "length": 5169,
+        "sha256": "01786a0a8067b0d38652062f62678a94115326c9f6e4b2cf9de456dd3d4d53bc"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CavelingShaman.json",
+        "length": 5961,
+        "sha256": "5c9fb1a21eacf5e4fbb821ec31e82ce3f338beea130fc51d4cc686352cdec343"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CavelingSkirmisher.json",
+        "length": 4383,
+        "sha256": "d52583301568cdf5f79e6793be74f3c31e4e959de4244cba15286a7944c97895"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CavelingSpearman.json",
+        "length": 4383,
+        "sha256": "993ea766ccb3d87cabf5bdfe271efe98a053eb0df4e22524b93519eda700b11a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/ChristmasLuxuryPresent.json",
+        "length": 5875,
+        "sha256": "fdd7ac2792149380cf44a0af4a998b63105d89faad1fff6cbe0fca85575864d5"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/ChristmasPresent.json",
+        "length": 3408,
+        "sha256": "428e2c33c824e17d53affcb33813fda690195ba07e3cc3f777ba6c40691f8e22"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CicadaDungeonChest.json",
+        "length": 3060,
+        "sha256": "18dbab89bf1c0728b7f8682d6d0623cc524bca0dc1b868e1fd4aab9531217ecb"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CicadaNymph.json",
+        "length": 674,
+        "sha256": "cefe2566614d04cf8b3fb218ef381d507a82792fd91c4f6a779ca2820adc87b5"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CityDestructible.json",
+        "length": 5444,
+        "sha256": "036c7264ea65b96c8a3eeed0a200994141ff489088d173c07cc828441887399c"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CityDungeonChest.json",
+        "length": 9722,
+        "sha256": "477cbcdbf3adf59ca53fe81934e9f790ceec7aad67bde7a56f6d8fff5b1fe4ce"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/ClayPot.json",
+        "length": 6233,
+        "sha256": "094f16dad21d98ddb8f8e21120b24dae7364e70f1eed53e274339cd9711f0678"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/ClayWall.json",
+        "length": 671,
+        "sha256": "9305c066c248b8b08a78390cb957d611e1c3a81fd52ed4b5cfc4fb9980982619"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/Cocoon.json",
+        "length": 922,
+        "sha256": "a23982aeb773d8515ff970b6fe61173b84cc6a5e11c7f4311df411c5e2687efd"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CopperChest.json",
+        "length": 10748,
+        "sha256": "2f335b956fd95058c2f0128ec0fa02f5c4262bd4a9331829148fb631a8b80d13"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CoralWoodRoot.json",
+        "length": 1169,
+        "sha256": "ada05d08fe9fd63e7a25c2a18edf7eb9f377c86692b877222231519ef8c4faf3"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CoreCommander.json",
+        "length": 3400,
+        "sha256": "8681ee301f7116c40a7c10e5e58ad262d0e8996045c1909678ddea672e233021"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CrabEnemy.json",
+        "length": 1995,
+        "sha256": "0d16ecf6af2e0e47b91e7ccbc52e458144939759145783ebdcb08ea0edf1531a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CrystalBigSnail.json",
+        "length": 1188,
+        "sha256": "33d69424651629a8c175ddeb8bfd22f56090335f5db1ee91bd7ced244f31e9af"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CrystalDestructible.json",
+        "length": 2789,
+        "sha256": "dd131dafca01b14db3b821992d0a995981e19bcde422145b39cfdc223871c7ac"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CrystalFishes.json",
+        "length": 1450,
+        "sha256": "689cfeeb7fb48a663dda2a0051627980e435632bc3b7f432eb05a6d16bb6e98c"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CrystalFishingLoot.json",
+        "length": 4107,
+        "sha256": "da7c384641ce28e9c66e9cbadccd7f1c0e99c54dc8e40f77803f2f9c2e75ffba"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/CrystalWall.json",
+        "length": 143,
+        "sha256": "8687e9802ac109b7855a2290d86ba450596a5c5442ca76b14394d18c2346fc97"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/DesertDestructible.json",
+        "length": 4484,
+        "sha256": "9570483ec072cc18d439514eab33e8362ce61aad705563949f9823c31e4e0158"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/DesertDungeonChest.json",
+        "length": 9406,
+        "sha256": "80405d2d8149f6b4f052ab8455beafeb97acae642faf106d926810bf3bee2f8b"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/DesertFishes.json",
+        "length": 1435,
+        "sha256": "eb148daf6c467defd71960cc3003f674b71a413ef1348dd279c03a225e45af3e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/DesertFishingLoot.json",
+        "length": 5174,
+        "sha256": "304ad5b845e3978c4a5325b22558bd150c64d59011d3dbc948d3822f3a4acb94"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/DesertTempleDestructible.json",
+        "length": 5435,
+        "sha256": "f1517c64f6883f008d91530d8cf7eb3fa5313446802bd4636be04a3d58718770"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/DiggingSpot.json",
+        "length": 5443,
+        "sha256": "f1c87f9bc3c6a4464437786197aa5a4b74eecca48d4f06b733d7c8c7511a940b"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/DiggingSpotDesert.json",
+        "length": 3331,
+        "sha256": "54469b1e0f4010881716eca4e66d6f099b095894200935e62b2c2bb0a707cddc"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/DiggingSpotExcavation.json",
+        "length": 2259,
+        "sha256": "d559f60e9d9a27b2a95c02af3bbf2df13678ca8d84716ce2d1bd67c399fbc93c"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/DiggingSpotLava.json",
+        "length": 3855,
+        "sha256": "7cb9801059b688465ec429efd33139bad6692e2104a531e6709fb0f8836d388d"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/DiggingSpotNature.json",
+        "length": 4127,
+        "sha256": "9caca009df99d18d2303dd941abf26e94e8599542b8be16222ead1ccc71bca86"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/DiggingSpotSea.json",
+        "length": 3592,
+        "sha256": "3ce05964bc31570717c21328e6b6584c25407f7fac801f896e7c1053a0a6ebf5"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/DirtFishes.json",
+        "length": 1202,
+        "sha256": "fe8d5daaee32b3731c7fb6c7599bca63dd1a1b2aa306684b0cc40d99c71af502"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/DirtFishingLoot.json",
+        "length": 3848,
+        "sha256": "18d167c8cb5cc7f83824a2f18ff19b6cb1948da518b5dd5417acd40f9db019e9"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/DirtWall.json",
+        "length": 657,
+        "sha256": "82b4a3aacce94a18b401e3c5a46047f014e62c55786d2ff1421d3db2fa8a5f5a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/Empty.json",
+        "length": 141,
+        "sha256": "df875219d5eaf25499368e801de3c900daa07ef8ab7b7604d76d4befc27c97f1"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/ExcavationDestructible.json",
+        "length": 3581,
+        "sha256": "cebb7f1d9bb586fa6169268cb97ce605a6ed43ac17b08242fa919f8f4119daa8"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/FallExcavationRockDestructible.json",
+        "length": 1463,
+        "sha256": "d9ae9cfeda97e8a2db13501ff4d82ca55d6f531952dd32d9587d95dbfcc7e301"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/FallRockDestructible.json",
+        "length": 2522,
+        "sha256": "f621eb54976149595a03170b7159e999872b3fafa3fbe54c30db327d4c9ef690"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/GalaxiteChest.json",
+        "length": 7581,
+        "sha256": "24e5a6060ecfeeab4d96385d04f581706e4a165c215421987b85becb0e2c7dd8"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/GiantCicadaBoss.json",
+        "length": 2255,
+        "sha256": "4f372637e2fff53d161c39e4d5db1535bfbcdb3487d11bbbc3be425412cf8e7d"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/GleamWoodRoot.json",
+        "length": 674,
+        "sha256": "42a268faf977ee18b1b50aae241b6a798d64ba2aec183c52a851faa8ae324eac"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/GoldenBombScarab.json",
+        "length": 1979,
+        "sha256": "4d54ab9d4d5eec3e3da282e49628aaf77b10c49632cd8156be78e6fe759d4be4"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/Grass.json",
+        "length": 1184,
+        "sha256": "669383f3e00929e86f9cc60f2d8034eb008291304cb49e888eceac78c6712057"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/GreenDesertDestructible.json",
+        "length": 4588,
+        "sha256": "c9356cf8c3e049ad88a9ded396a6d6ed9a1218cf28418163af115cd9b5360838"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/GreenLargeDesertDestructible.json",
+        "length": 5561,
+        "sha256": "30efdbfef924290afcc0fabac50e0b3a4bb8f0c5c6d8450c01921dd5c4affffa"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/HalloweenGoodieBag.json",
+        "length": 3299,
+        "sha256": "99cfe624dc2a3de9d6981aa28149d3c716cd63981915d0e9457c1f39a8c31b12"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/HiveBoss.json",
+        "length": 6224,
+        "sha256": "6a2d2be2782d939b0af2c4fdc93248a754ce9c594a8a311a24306f461fe30f91"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/HiveDungeon.json",
+        "length": 8332,
+        "sha256": "3ce6537497da54e78099eb43e782b1c4cd8ea1ae1a7b0ecf259060bb475be892"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/HydraBossDesert.json",
+        "length": 5106,
+        "sha256": "41300648c045952737e96dcf1ce377335e94aa39e64244f8ab80fb04bd2f60bc"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/HydraBossNature.json",
+        "length": 4861,
+        "sha256": "2cddfeb5edbfe641195674a5a43cb1e61a8544257098b88a11b268f0b99e5cd6"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/HydraBossSea.json",
+        "length": 4861,
+        "sha256": "14b70b929bc64e2ba0789fe521b900db3a6292035aca4dc021386b9231aa0d2e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/HydraBossVoid.json",
+        "length": 1992,
+        "sha256": "c247b3e6033e9cc49f7cce88586cbb95b72bc4fb881e97a8af0eab2ed2fdb73d"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/InfectedCaveling.json",
+        "length": 3583,
+        "sha256": "f4eefc94c6170010c81754b712a3144ac57a8fce3c430ea197729f4f29b112ac"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/IronChest.json",
+        "length": 9857,
+        "sha256": "b8744cb36f309e7c97498e9d9aabed4862d1c653ab3111e99a5973393a8c8e73"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/JellyfishDestructible.json",
+        "length": 3335,
+        "sha256": "eefc3db9ae2c1a0e60f78c584e02eba89b39dda922fb131ee44d3eead19e49f9"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LargeAlienTechDestructible.json",
+        "length": 5171,
+        "sha256": "6d7de5c953fc8a85b53c6c7b73f8489df256c6d75698c7344bfd150a439e359a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LargeAncientDestructible.json",
+        "length": 10728,
+        "sha256": "3f1ee807d104bc374227fedaa8504aad04abf89c64508f678b1e0f3956706009"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LargeCityDestructible.json",
+        "length": 8372,
+        "sha256": "642590ad3f3b3aba8c596d4894783e9bacdf08848f404e207974c3e1e40d37c0"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LargeCrystalDestructible.json",
+        "length": 4908,
+        "sha256": "7e5eff06618c900bcee7ffe65067cb550d8881cf5ae708eb84c9a85d8dbf19d6"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LargeDesertDestructible.json",
+        "length": 4986,
+        "sha256": "c30669f526c66ebd5e092cf15bcbb3345015faad65110bf1233799326b207d88"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LargeDesertTempleDestructible.json",
+        "length": 6243,
+        "sha256": "b1a98be3be04a694deba22ea6d96804fd3248facc5f4394b642fdddfad898a3d"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LargeExcavationDestructible.json",
+        "length": 4901,
+        "sha256": "38ae58d54d08029caf24e21271ee3d6435352b2fbbd8cbaedf2632bb5216b390"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LargeJellyfishDestructible.json",
+        "length": 4928,
+        "sha256": "065dafb47b3d8b0f8c0d95f0c712361f047265536719fa2bffac591b00cf1a6f"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LargeLavaWoodenDestructible.json",
+        "length": 5977,
+        "sha256": "1fe20171b016e1d28c96c45b0ef9fcc64ef03bf75d40faf6bad6ed01895f1537"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LargeMoldDestructable.json",
+        "length": 6200,
+        "sha256": "6bbc1c26db5ba7fc9e52df47291885dfae44800bc6afec06151b8120480d0b34"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LargeNatureDestructable.json",
+        "length": 6363,
+        "sha256": "43a1e6c069b23f8800685449b36b7aaa5b144650960192423706eb4a4200e286"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LargePassageDestructible.json",
+        "length": 1959,
+        "sha256": "ac9a61a5dbe869d617786f67a87d2441bd6ea2f8d4d0882aec983438feeec33b"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LargeSlimeDestructible.json",
+        "length": 5699,
+        "sha256": "e08ddb29c2242821634a3d9ce516ea5e230351cc7513f12b7aae44a39c62bac2"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LargeWoodenDestructible.json",
+        "length": 10465,
+        "sha256": "7cea17069cdd8cfa1dee43a4e5790fdb0988ce5199a25df5b6d616206cbd79af"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LargeWoodenNatureDestructable.json",
+        "length": 8036,
+        "sha256": "5c5d5da2881e3d1684de359ba11100bc57f22444f6e9b13445b80a6772c8bb82"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/Larva.json",
+        "length": 2786,
+        "sha256": "62dc84ce09281fbc4640bed7442651bced07ee7ee420e54a22612a7da8a9b081"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LarvaFishes.json",
+        "length": 1202,
+        "sha256": "632744c20c0759f09b5f467f45a492f1301a2c35525628ac8f1de7eecb393c91"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LarvaFishingLoot.json",
+        "length": 4113,
+        "sha256": "d18c059ce00d7be16ce4bf87d0839886ef0ba661037a5e9d94771c86e2e949f7"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LarvaHiveDestructible.json",
+        "length": 3824,
+        "sha256": "c7b10cde05c593a3039973694df00d530a34ece6b49d29ced1f44f06634d71aa"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LavaButterfly.json",
+        "length": 1186,
+        "sha256": "36959b7f9d92bb4c4b70e8ff88dc3f5ba60ca6880cbb48d05f1297797a9bb691"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LavaDungeonChest.json",
+        "length": 8612,
+        "sha256": "cf7889ab4d995e59eb03b89061a3f9788b7e5ce4efc0f2ea7d636ca5e523af01"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LavaFishes.json",
+        "length": 1467,
+        "sha256": "7b5917b4014b15e40676e9156113c23067c88ce4bc530dd54544754b1a709b0a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LavaFishingLoot.json",
+        "length": 4115,
+        "sha256": "47811fdbb0ad72c90beca412b6445db2ede7517f35e3c3ae33763b5f33bc262a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LavaSlimeBlob.json",
+        "length": 2771,
+        "sha256": "e375ec3c0531ec2f55f4f9f8f5cec01b81fe635c29c6617424e8ec2b67bc7797"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LavaSlimeBoss.json",
+        "length": 4342,
+        "sha256": "4c206114104df2cc219d1d4c25b107149f0125df3a0807c3e9694ceb7cb6d9a1"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/LavaWoodenDestructible.json",
+        "length": 5168,
+        "sha256": "4e6fef4e7bb94d9d81d2865b919087159d1b97496a8cf057f0a6654a48b880e4"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/Mimite.json",
+        "length": 2788,
+        "sha256": "b8710b0c5f346d6f2b2f4e57b1b43cfec2e169e9a6a3b150533f4d95697af9b9"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/MoldDestructable.json",
+        "length": 4622,
+        "sha256": "9a2421443c30764ef8c5c78194538df43a1c0b57c1b08011e81eec7d2379be43"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/MoldDungeonChest.json",
+        "length": 6212,
+        "sha256": "fb935b3b04dae4b14ed0799189fc22caa818e9467e0e6d5474d24be36bc1741f"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/MoldFishes.json",
+        "length": 922,
+        "sha256": "a61d1bc11882698a04b3dd7400ab5bcce4ee0d540499b6c1245b42fee34ce9b3"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/MoldFishingLoot.json",
+        "length": 3584,
+        "sha256": "ff1d837023b6ee36f8c2ef7bb959b233c05a7d5c86ed11347b1ff3201a9b65ed"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/MoldTentacle.json",
+        "length": 2775,
+        "sha256": "f288854a172ffb1ab26a78b050d2542f43f186872c18540ebf3d0d144a1aa92d"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/MushroomEnemy.json",
+        "length": 3585,
+        "sha256": "58d2425135a6b05484e857e3053efdebdbdec1f302d6e9ec74c997905afca8c2"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/NatureCicada.json",
+        "length": 2517,
+        "sha256": "d4c7fe0b5bc2bf3ef84d29517011ab5c164060953ed3e3f4021a9561280eae18"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/NatureDestructible.json",
+        "length": 5840,
+        "sha256": "dce158be70221b22dc7edc4d7a42983ac04b9f68242f83f876e8e9d52b277d90"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/NatureFishes.json",
+        "length": 1202,
+        "sha256": "e722cca2660f3022236e34a659186e4ffd75bcb01d8f1db314e7efb663baf751"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/NatureFishingLoot.json",
+        "length": 5438,
+        "sha256": "cd7517b1705710d630849bbfd96721669cc3e4bdc732e604339e11b42ebf3caa"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/NatureWall.json",
+        "length": 2523,
+        "sha256": "d7ba74eca5ce0618ff69935767c67e88a3369d19bb2c6ec34b2200ebc52f5a26"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/Nilipede.json",
+        "length": 2260,
+        "sha256": "234f407ad905e061c41f96bede255d6fdbc0b64b5022a20caad9b6ba3d216996"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/OasisChest.json",
+        "length": 5969,
+        "sha256": "f714f11ce15b75d708d4775c1c8a4b3a1d65dbfe4e4b4221cc91148436790781"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/OasisDestructible.json",
+        "length": 1467,
+        "sha256": "82eb35b59de989a80286ea05ed827147681e04c9d75570d6fe5003120dfe57e2"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/OctarineChest.json",
+        "length": 10547,
+        "sha256": "3f03f005afa19353049d2a49061c0b062d61628858b3d637f9de7a4208661262"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/OctopusBoss.json",
+        "length": 4109,
+        "sha256": "388b293b6ebe5dfa9c89498bdf666425984a2aea66005b1d33a9968bf8c01c8a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/OrbitalTurret.json",
+        "length": 2521,
+        "sha256": "42500d2aa330b8e823bfcaa5d80d1f853c91a68e19c61d8f3e5467f050d5b041"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/PandoriumCrystal.json",
+        "length": 395,
+        "sha256": "b037c1b5f682ec1410e5924dfd6e11d3f02e981040f8cfa1e773d9e4773d9c19"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/PandoriumCrystalSmall.json",
+        "length": 395,
+        "sha256": "39feb57f19521b7347b6848bc7d852a5f988bee2d122d1faca21c7bbf434f753"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/PassageChest.json",
+        "length": 6760,
+        "sha256": "2991c6dad32fdafa2e59ea5d79087643dedad9761f22706391f70403592ed124"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/PassageDestructible.json",
+        "length": 935,
+        "sha256": "263adae250a0a8d76003d08e70bbe08fdfcb0f946ac6748aa495296a8d019fd1"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/PassageFishes.json",
+        "length": 1452,
+        "sha256": "a2851ea276b8230c306b09da8a499f39e2ab57ec8d1eb51d2b112a20bfa81320"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/PassageFishingLoot.json",
+        "length": 1467,
+        "sha256": "60d0c5e00f8efed4f70cd4c92147a3cfa3bdd8ca3a1f3cd6a25754c239467725"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/PassageWall.json",
+        "length": 143,
+        "sha256": "68617e13c75c3ae13fd61d970bcd26dbddcabd18075b744e9a5773f3c18b2ac2"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/PoisonSlimeBlobs.json",
+        "length": 3058,
+        "sha256": "1eceea718114d9ecc7024965c247d56402f150406ad3f12e6743e6893faaec04"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/PoisonSlimeBoss.json",
+        "length": 4889,
+        "sha256": "6391dd481f04b986cb0166b03119e036660e8a4b17fce04a81de2c20232fc85f"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/RedEnvelope.json",
+        "length": 396,
+        "sha256": "5c9c06ba1594634270ba7fe3cbcb2cff45bcac788404ffc7293820d7283efc7c"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/RedSlimeBlob.json",
+        "length": 3588,
+        "sha256": "98c0deaac81024f06b0c511396c3f8ad189ea81c1c19b8ef0f9d2508e1857b46"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/ReluciteChest.json",
+        "length": 5688,
+        "sha256": "acfeaf59de5b1fa8e750607fb1eb7bbe5cbbc5dfc93a2494b487e4b4e77ee27e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/RobotBoss.json",
+        "length": 2520,
+        "sha256": "39ed04233d20126ffa67218a7a9cda8930205be1d56276ee36844803356e9bc2"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/RobotMiner.json",
+        "length": 2524,
+        "sha256": "3d39cb95b2e6f493d0096f6c055782bb76a34d68fabc04f6ef60bfb3eb9a980e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/RobotPatroller.json",
+        "length": 3842,
+        "sha256": "63fafdfd364a9a748db04b24e1eace87aa438f677eb1e609bf040321573e38bc"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/RobotSwarmer.json",
+        "length": 1185,
+        "sha256": "991ea72452cb2de7ba7d46bcea7e0b1d04d989b16b0df5f16fca7e250beb232c"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/ScarabBoss.json",
+        "length": 4380,
+        "sha256": "aa14691e2c7c972ac8f9c41f447e56845643c34f2940782f2008df31b0ad47da"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/ScarletChest.json",
+        "length": 8603,
+        "sha256": "cf60deb99a851521f7161bd8a58d2b44197ba7e21751c06dbc0aec1cfd7f09ac"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/SeaBiomeChest.json",
+        "length": 11831,
+        "sha256": "aefcb86728c1d8d6847123908f5d5776eb6f8012a784ec2960a1e3a82de56a6b"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/SeaFishes.json",
+        "length": 1464,
+        "sha256": "47016fccd1d72c4a3be7419ac691571c145b0977d68dd79f4ded78a45856ff11"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/SeaFishingLoot.json",
+        "length": 4909,
+        "sha256": "eb493a89f366382ee6fde84ca9ed0680df05d94d523dbd03aaeaa8cdd0ae50d6"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/ShamanBoss.json",
+        "length": 7293,
+        "sha256": "e8f61a2cd623cadf49571a9741b3fb0a9136093f23e045831547f4562556e5f0"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/ShroomanBrute.json",
+        "length": 2531,
+        "sha256": "dc9c086ca79915c1937f5640b76b9d59be0b93fe4b1888f2b552d11d89ffe24d"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/SlimeBlobs.json",
+        "length": 2792,
+        "sha256": "93e94b499e640bb02d6a09fd21975147718eb190bdec4c1131ebc16ee73a3699"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/SlimeBoss.json",
+        "length": 5153,
+        "sha256": "89cd1f435167743b847f2e24335b9dacb6f4cfc7e8b9eaca3021e37177850fb0"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/SlipperySlimeBlobs.json",
+        "length": 2529,
+        "sha256": "fc808d04dd8ce48d0bc315101dc15f05c4ac3074e2a108eadf99c565669dcaa0"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/SlipperySlimeBoss.json",
+        "length": 5418,
+        "sha256": "7fc3b0fa3959474a47ca716d486330d007089ba3586092090a133b04de0ff1cc"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/SnarePlant.json",
+        "length": 1203,
+        "sha256": "d0d9b71024f57d8202d0c71808e5bf2298c451a775018c1984f214f7722b7b05"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/SolariteChest.json",
+        "length": 7280,
+        "sha256": "0bdf8db088a085dcee1df1657bbbc531db855331166fa5e82f3bf1208fbab9f9"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/StarGrub.json",
+        "length": 1995,
+        "sha256": "ed62998aeddc9a5c6755ef74ff239413a68d57f76c3db5183a945d901b699d1e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/StoneFishes.json",
+        "length": 1202,
+        "sha256": "60999fe65616c8c26638097bec1ca969fb61f0c1a84111e49c4e85569f9d3198"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/StoneFishingLoot.json",
+        "length": 4380,
+        "sha256": "e3ba0deca674b848c8c5c25e7a65ec53a57dd5d77e1d0e3b96472765375e39e1"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/StoneWall.json",
+        "length": 671,
+        "sha256": "a1af7403cea6d1cf14269fe716acbd199edefcf6173d80b43e6cd05bad55750f"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/Tentacle.json",
+        "length": 1715,
+        "sha256": "f3b7727e8a939c59d594289b0ba287a09da866264c69633b902f832b5ff20fb5"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/ThornWoodRoot.json",
+        "length": 1464,
+        "sha256": "76e9e9b83c03df6cebf350ac6ba9b0b8029146b037abdadc5538e0e5cb026747"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/TreasurePedestal.json",
+        "length": 2872,
+        "sha256": "823e5138d7e4411497dc1bab3d081e49e7c1263c579d9e528650faa9105d7f91"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/ValentinePresent.json",
+        "length": 3542,
+        "sha256": "ecbb5226d4593dba8ddf59dd0c90e629b1c784d5ac980cc7cca94364b4c9ec7e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/VoidCavelingBrute.json",
+        "length": 1450,
+        "sha256": "51dd08e36c69f2a69a19cef2804aca107fd03eff00fbb05bb2d91c693fa3e796"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/VoidCavelingMiner.json",
+        "length": 1450,
+        "sha256": "754f006e4658797f78ffa8c0c3902c68a10b084a3c660f83faa0bf07b0422aab"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/VoidCavelingShaman.json",
+        "length": 1450,
+        "sha256": "9b8317c86530c9c49e72c040bce9b11da6a6a2a74ae51ebc58e7272951dc86ec"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/VoidLarva.json",
+        "length": 1735,
+        "sha256": "8f960fd149c553e4a456ee640cf9d6b3c92c350c1fd9b9561e03b565250cc4c8"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/VoidLarvaCocoon.json",
+        "length": 941,
+        "sha256": "953614cdd7a419d81ee81944338712b2d276d78ed43f2c75628f0f334326b167"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/WallBoss.json",
+        "length": 3048,
+        "sha256": "daef434fdb1a0106f803bd897450ed12a76eed4d5053faa94ff3015608e43f0f"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/WoodenDestructible.json",
+        "length": 9671,
+        "sha256": "4332089605dd070b9bee2f22d576965c7ffde2d27f2d123ec091f08d2c65d809"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/WoodenNatureDestructable.json",
+        "length": 4588,
+        "sha256": "7028e3ee25f8c3db6103cb297b98ad244a11335016cb6dc7c79833860c6bb1a7"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/WoodRoomPedestal.json",
+        "length": 3427,
+        "sha256": "19e52a7ec2e0ebba297c7070a149a5d6dad69f257a18b40e9b22d543720dd4ad"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/WoodRoot.json",
+        "length": 1185,
+        "sha256": "1d796d2e5a2303af4e77b127be7c8dc55619959d73eab7424fa7379f97dcdd24"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/WorldChest.json",
+        "length": 13372,
+        "sha256": "1ffd06ce1f42846cdf06a1d8db1bcebd44c53ae20b5937a93bd6c32b0d42ff3a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Loot/WorldChestNature.json",
+        "length": 10462,
+        "sha256": "f34cf126c9f74ed5316650492c34b3de0efa41fc77dd4899d151a7dcf919eaf0"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/README.txt",
+        "length": 2566,
+        "sha256": "cddb55c4afd2adc5f6c125fa6ce81b20036fe0b10944a01c50c5fcdde23b07a8"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/BombScarab.json",
+        "length": 1063,
+        "sha256": "f507470b8044a709d173df4d79c0fff70280d57fdfcb1d3b081a402339fbf1d5"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/Camel.json",
+        "length": 1669,
+        "sha256": "3f1a90ea092300cfd72421778e57ef803b30e93b29533a35fda2df9f17096b85"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/CavelingAssassin.json",
+        "length": 1069,
+        "sha256": "39a77bf813cd67e1be714f25f87ec6600d05ae37c4e47c1dafe65304a35fc2c8"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/CopperOreBoulder.json",
+        "length": 1143,
+        "sha256": "8f556f3dba56954d84af174b0fe8e44aee2aeb6a68e74689d06d3bf098643933"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/DesertBush.json",
+        "length": 1063,
+        "sha256": "01855ec74a5170a8221efb9baaea05a82468227ef2f400e97c8d8366772a3b99"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/DesertCavelingMoss.json",
+        "length": 1085,
+        "sha256": "ec59382965f2375d4484e0375b37982782220f5cef86e9eef4f1be52e5599f61"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/DesertDestructible.json",
+        "length": 1085,
+        "sha256": "36ffee2af4680be0d2b8c79e8554b49b7e05a809d938281b791d5b04c4e6b8a9"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/DesertRock1.json",
+        "length": 1064,
+        "sha256": "85258701dc6b8f7828d4a9714f4da580fac84b1e135f127f0f8529cb4abc9f00"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/DesertRock2Left.json",
+        "length": 1069,
+        "sha256": "94504cb8c6f287c40972ca4e230c8d23b039ed192c801dc798e3150b32681d84"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/DesertRock2Right.json",
+        "length": 1070,
+        "sha256": "d942b6057cb848da89e5bf38f20f5669ee563caf291fb9b2b94e5bd5130fbf88"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/DesertRock3Left.json",
+        "length": 1069,
+        "sha256": "c0715305117bdc224fa0ef216401bb079e6e7f6f0edb02be7da55553d0e76173"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/DesertRock3Right.json",
+        "length": 1070,
+        "sha256": "a9387b271f0488629a84b6b2c2afddab12021a5fc797053f46ffc3132ad8bea0"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/DiggingSpotDesert.json",
+        "length": 1070,
+        "sha256": "e55057057753d6d9dcbbfe30562d931c033c0fa6ad4be1b9aa8a73237faaa743"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/Dodo.json",
+        "length": 1668,
+        "sha256": "eab727378056d3965362625106f29e5948b4bdc1c89d0be3d5a0ba9494f942ca"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/GalaxiteOreBoulder.json",
+        "length": 1145,
+        "sha256": "108211aa2dd78f39dd1d9adae702372b98626ade8a66f67dd4765e87078a5e1c"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/Geyser.json",
+        "length": 1059,
+        "sha256": "4d39ed38e5818ee99624d3b7418e5caf5953a3e0b8ad7ebe8fbe4fcc3a152ba5"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/GoldOreBoulder.json",
+        "length": 1144,
+        "sha256": "943f05ef041f4244e3a2281f3dc48d0caf66c76b35810e1fe004b8848bbf8f68"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/GreenDesertDestructible.json",
+        "length": 1244,
+        "sha256": "81a9a80ad31f74633e0a00f3af11e94bf1ee7488d2747e7a21715dea274786c5"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/GreenLargeDesertDestructible.json",
+        "length": 1249,
+        "sha256": "176788f8484617be11f9ab54752e56bff989509664d7ad8e57e215d2c63bd8ed"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/IronOreBoulder.json",
+        "length": 1141,
+        "sha256": "d6cb6b8a840330a0317b0a25af120fa8ae25f1ffe8b72462e5f186e90886c97b"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/LargeDesertDestructible.json",
+        "length": 1076,
+        "sha256": "54afb22487ed303a4120a2c3226049f6499f5ac3763345c258c92ab31951ef45"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/PlumeTree.json",
+        "length": 1062,
+        "sha256": "557f9779cf79212a2c68720d30faf846283ba4249b91c8d1cc9e8f8ec8937647"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/RolyPoly.json",
+        "length": 1671,
+        "sha256": "2355d09386847285220d4f28cffa040cb4c7ad55252bf7dd96e2ec4ff0cdadff"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/RoofHole.json",
+        "length": 1073,
+        "sha256": "89b82b8b855571fc64d073b0e85f2c06d263bff2cb22f8054e1fde86f17354e8"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/RoofHole2.json",
+        "length": 1074,
+        "sha256": "d64cf9086a2d7d964b15243ded7c810ea4a83ca49b8ad2fbc94c398fb6506a60"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/ScarabWingcover.json",
+        "length": 1068,
+        "sha256": "052470ce200195723aad77576a2d949862a00c5ab0f694c56695b4d30b2cf409"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/SmallDesertGrass.json",
+        "length": 1082,
+        "sha256": "85e9e3160cdce30841604b31dc416cae5d52b40382eabbe9db01360017e07fff"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/SmallGrass.json",
+        "length": 1215,
+        "sha256": "46ad048a0059eeafd7fb84ccb45eab598970cbb0f5e5d159a24df245245fcc3b"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/TinOreBoulder.json",
+        "length": 1140,
+        "sha256": "ff7f16ead59b495920ae66a65c2cc5ac7e0019446d548079d158244aec8907ba"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/WallGrass.json",
+        "length": 1059,
+        "sha256": "534f6ffda363c8632ccc97d43f491bd0289d2bac2b4342048ef74b204fde718a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/WallGrass2.json",
+        "length": 1059,
+        "sha256": "8368798962dde9bc5ed295631012da0048670b5fa8c823555acaf4210e16a2a2"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Desert/YellowFirefly.json",
+        "length": 1065,
+        "sha256": "6a5fd1c1604093e8f57f71c0a33a4759adc47ef1336e1e769cf49aa05de87651"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/BlueFireFly.json",
+        "length": 1068,
+        "sha256": "28f3b0e0fe78ae25f76d20bd4264e2d6058924ccc8045720159232cf57b10dcc"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/BlueFireFly2.json",
+        "length": 1046,
+        "sha256": "b1e5844fe4bf4d292e1d6f8cfd6c6101b90a5aa3d2a8eef9fde9218e9a879726"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/DeadTree.json",
+        "length": 1095,
+        "sha256": "7582e0562b0a9a14be8b7573d3704091c4ad6a6c6b9c34dc26e311ae34c9c91d"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/DesertRock1.json",
+        "length": 1101,
+        "sha256": "211308fe6ff2924143c43d199431602807f5ffb21364ac50e92dfbc7bbb3b161"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/DesertRockSmall.json",
+        "length": 1104,
+        "sha256": "7ccaae7ddb9868cef417e4bb9f6bff3851b9315597fcaabad7f619bf3118e955"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/ExcavationBrokenRobotDecorationCharger.json",
+        "length": 1327,
+        "sha256": "1d98c1ac5604d5bac1c0bad00f05bcc72219a75d67a5270ec42601df51ab7cfe"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/ExcavationBrokenRobotDecorationCharger2.json",
+        "length": 1328,
+        "sha256": "83ed10f8c01140b397cb830a9f504b762e32fbf186733d73a6ae35053eb23d73"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/ExcavationBrokenRobotDecorationPatroller.json",
+        "length": 1329,
+        "sha256": "5072f5140dd3739cea24d64e6862d1e129fb704a33732b46e57111cd27ba05a4"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/ExcavationBrokenRobotDecorationSwarmer.json",
+        "length": 1327,
+        "sha256": "4cdef0d7c9632256813ff3e0a39dca3eb7b5df4112041c45a12948e9452668bf"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/ExcavationBrokenRobotDecorationSwarmer2.json",
+        "length": 1328,
+        "sha256": "59c4a624c8162f14c377281ae46b7b0f759123241ee4fde661094c3ec96dd86a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/ExcavationDestructibleReinforcedBox.json",
+        "length": 1308,
+        "sha256": "d540f1509571191977bee592630f5862f6b64c160dfd0341cf3ffe8949798e8b"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/ExcavationDestructibleSteelBox.json",
+        "length": 1304,
+        "sha256": "c271c88ce3f261c377134f8f7a0bc36dbdda7579039cd860f81cd2cc575f480b"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/ExcavationMoss.json",
+        "length": 1099,
+        "sha256": "a6803518e94199391d6d8f24ee6414eabf8efac91e42645e3d561e2193e4f3cf"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/ExcavationVoidMoss.json",
+        "length": 1088,
+        "sha256": "d36e65553cf53c0e786ed587be3f2359ab9c2330a54dd35454bfcd65ee424400"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/ExcavationVoidMoss2.json",
+        "length": 1088,
+        "sha256": "928492c7995d75b8d485aebfb2c0e4279b9f63e3d0244f338dead0b4241f0a1d"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/ExplosiveBarrel.json",
+        "length": 1288,
+        "sha256": "8982af0d6bbf44fdde8de46bfc96edf5c89722233ec81ee59f1e49063204c882"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/GlowingMushroom.json",
+        "length": 1087,
+        "sha256": "de9372b7ddff7e47b8c93032ba19bd5a276e7f5a4a1fd03cdc7bd3982f13e11f"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/LampPost.json",
+        "length": 1113,
+        "sha256": "a7332c793589cb7b1789e3cd23abb32a823cf48bacb2fb56d2042b96f99987ba"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/MetalBarrel.json",
+        "length": 1284,
+        "sha256": "259c68cb2e4d8df0a9a7ee9a73c4d2893daf6cc712367f49a2052d5669f12869"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/MetalBarricade.json",
+        "length": 1119,
+        "sha256": "5517d2f62fe0fb5ef31989185c30c72fae21634bcef3b9c8fa521ba5a961f0c3"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/MetalPallet.json",
+        "length": 1285,
+        "sha256": "703b113ba5bc752236defaf7865758f9d58972419d544b7f14c27e4e808a5322"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/PurpleFireFly.json",
+        "length": 1069,
+        "sha256": "90021441996c8645e716c95e50ff680108e3788f7d25c6911dd4c52d1e885090"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/ReluciteOreBoulder.json",
+        "length": 1173,
+        "sha256": "ddf0df072a1bce334bc0c489d61a8b56fa17c2ba99bfc814e2f832a230ed04a7"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/RobotMiner.json",
+        "length": 1066,
+        "sha256": "bbceee853cf4e12fdaa0f1ac6d2d9cfd4035d90cd0d1e4a0c3a4b421e9f88c37"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/RobotPatroller.json",
+        "length": 1070,
+        "sha256": "76095bc257b6b30350871f774d3a15ef67bc08bd165069ae2c539c9d2d5b0076"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/RobotSwarmer.json",
+        "length": 1069,
+        "sha256": "cabe7327c34a2f7d66a28d098d0af163722c65e07c8c948416687d5d17aa4b77"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/SmallStones.json",
+        "length": 1097,
+        "sha256": "cc12f7760ce98a8080c7354be616c46955504eda373d9af85b30dc36341087f5"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/VoidCaveling.json",
+        "length": 1069,
+        "sha256": "33b31fae1446a195c757f97b7292759656c8a54f3b80850517166e9b54b81306"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/VoidCavelingBrute.json",
+        "length": 1074,
+        "sha256": "378a6d1cfb37655430d6941869065ab90d2351837fb75ac46ba263136d148d04"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/VoidCavelingShaman.json",
+        "length": 1075,
+        "sha256": "c8dee8a859bfdda1466e871eceb790b9a64f87f4a9b34bda539577753770450f"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/VoidLarva.json",
+        "length": 1080,
+        "sha256": "a8b65063ffec346b382d12d525b39b45bc25a40db64970d568c4fdc3eb7047ae"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Excavation/VoidLarvaCocoon.json",
+        "length": 1548,
+        "sha256": "119c9380aeef9a47f1c3ec5edb29af96c203e9edf04af8deb1d2d07a5abe7998"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/BombPepperPlant.json",
+        "length": 1066,
+        "sha256": "cb668703fda6e7b02b667d00174fe753aec866933ea1c7449ed2f567da7f9c75"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/BombPepperPlant2.json",
+        "length": 1237,
+        "sha256": "34ae144195f2009db2a302805e3528be89c92cc9b79b37a9ceebb28cbee95ee8"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/CavelingSkirmisher.json",
+        "length": 1069,
+        "sha256": "b6b15cb80b98959ec2be2d9165b077c219c2370d43b3d44ee3919841125340c0"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/CavelingSpearman.json",
+        "length": 1067,
+        "sha256": "2010ed9c1d7a0a04d38245826d764d839f30ee7505ae1b992107c2c097e9545a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/ClayCavelingMoss.json",
+        "length": 1080,
+        "sha256": "c68a3a692b72160a23c1d38a8a92079f0ef2be7517f9e08d6a72078318106a92"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/ClayWormSegment.json",
+        "length": 1067,
+        "sha256": "b2ed9dfff7353caeeffb49791937e5cdbf9f005c3b6625bb4cee08b2a8614ba6"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/CopperOreBoulder.json",
+        "length": 1113,
+        "sha256": "149610c375d74f4ca992f2f81e3ff4e5a7ba66da310894e5932835a387a4d498"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/DiggingSpot.json",
+        "length": 1062,
+        "sha256": "874d70f26f0620f1e4711cde6098716b6dbcf33d05f8d05bd13e7fb9d545ecb2"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/GiantMushroom.json",
+        "length": 1542,
+        "sha256": "febfe34ac0128ca90fb5593b5113beb915707175eebaa8dac07439bf0e3e1b3a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/GlowingTulipPlant.json",
+        "length": 1068,
+        "sha256": "15b7db79e19d57e67858b064f3cec44a2b71c6e62d667567d44af11e932d3271"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/GlowingTulipPlant2.json",
+        "length": 1238,
+        "sha256": "f4f337e96260c96425957aa23e4eabda2c633641dc07a5b06173b20d74c49fdb"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/GoldOreBoulder.json",
+        "length": 1110,
+        "sha256": "4e4dd1051904366ed96119d9281b2df42e6b7dcd5150a7b47dee7c0f22cadbd0"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/GrubKapokPlant.json",
+        "length": 1065,
+        "sha256": "3477927810f5823fb71bd2a5bc84dd88a3dcb612add2632a8b0c310b3da27109"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/HeartBerryPlant.json",
+        "length": 1066,
+        "sha256": "0a404a44770ea0418ca73420511c2d7dbd7e03fabb4d2b4301a8e4a80b84a328"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/HeartBerryPlant2.json",
+        "length": 1237,
+        "sha256": "c287e7b7f8369073e6a7aa9f1a300b6045d7d6518e32011857968c7dc86d60f4"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/Mushroom.json",
+        "length": 1258,
+        "sha256": "f7dd797dfd9ff2eb9536dfa4e975e0dc9aef33f802fb4ad3a705683d8ee28fca"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/SmallGrass.json",
+        "length": 1061,
+        "sha256": "537ae670fecb0d9363e6b3e551587f4d534d95915a462c89cdad14818224a088"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/SmallGrass2.json",
+        "length": 1215,
+        "sha256": "3f30bb28578fb23e6a7cae26b422b0c9101d1d4afe1b141701beca82e195847b"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/SmallStones.json",
+        "length": 1060,
+        "sha256": "4ad8136971b1715ab1e5543d6863c82f9dce9ee457993a3b21ad9895915365db"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/SmallStones2.json",
+        "length": 1214,
+        "sha256": "4a29aa2ee245fa8bcee5a18c61ec321abdb668c04421a8335418afcc8dfe0f0c"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/Stalagmite.json",
+        "length": 1035,
+        "sha256": "0e1ddf18214fa1ed346900b37521e1a4a16c322ae3bd50eaea308bccbaf16bd0"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/TinOreBoulder.json",
+        "length": 1108,
+        "sha256": "3dba2f450ac1521f18b062f610dbe59788a2ac64db2c87872411e794a0986f18"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/WallGrass.json",
+        "length": 1088,
+        "sha256": "0fe44e92f649a845cd95ad41e6510fe59969a762aa661dbcd9301ba69590292e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/WallGrass2.json",
+        "length": 1258,
+        "sha256": "9ec9fec436d7c7bcf052493e43fc20e8a7acabf9788dd753b0225e8c29fb5483"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/WoodenDestructible.json",
+        "length": 1268,
+        "sha256": "2e55ac5934724f8934ac09c575bc66319ef2a8026d27ae7cf17bc48c396655f3"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/WoodenDestructible2.json",
+        "length": 1717,
+        "sha256": "296a163e3a795550d0152a4ebc32b725e03dcfd59feaf1e5f605a071adab1f42"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Larva/YellowFirefly.json",
+        "length": 1040,
+        "sha256": "dd673c07402d6ef455881cf0ae477c27dde26e884440138d0a83d4322c3e2802"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/AncientFeather.json",
+        "length": 1065,
+        "sha256": "50a731439b9eb0dbb4b4d95d1f208254fb1dd2b3c607a192ef32de076e83b489"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/BloatOatPlant.json",
+        "length": 1064,
+        "sha256": "4c06ff38fb6a7a833c049a6d97d7aabb494c14a9ddc43fe550e552cbca5cb463"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/BloatOatPlant2.json",
+        "length": 1235,
+        "sha256": "9a9dd5ffa15e323e53083c9f7cfe9f5bf918852b3e7bdb2fa5bb4762127c3e60"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/Bush.json",
+        "length": 1054,
+        "sha256": "082f1808130eb97eb2c84526bf61bd7d1d9b8fc32c82588af8d52b2f6e896a70"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/CavelingGardener.json",
+        "length": 1067,
+        "sha256": "18a6d33104c6e3d7ce8029ff874af0f1853913cb966d1e4c3a61ecea0318375a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/CavelingHunter.json",
+        "length": 1065,
+        "sha256": "47d5412a187252a642e79e4a3598f21a3409be7281990ed577249fb4491eb7af"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/CopperOreBoulder.json",
+        "length": 1153,
+        "sha256": "8cee55a3d387243d3962240438a2ed19297fadbf707681bdfc13e807bacccf84"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/DiggingSpotNature.json",
+        "length": 1068,
+        "sha256": "2b4963752a1a6df7de89be76fed3f151917322120f214e030ed447e03e040b59"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/Dodo.json",
+        "length": 1641,
+        "sha256": "e80c9ba80bf9c9829b6c3b25fe9af8f8b1b72a648d7f19b5d1f3a5d2482857f0"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/GlowingTulipPlant.json",
+        "length": 1068,
+        "sha256": "7479aca73d07f66a348f143b9b78359194ba78bddd1fbb1cbba4aad0414223fc"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/GlowingTulipPlant2.json",
+        "length": 1239,
+        "sha256": "d6e7c290612a9a6176193ec05dfde087af1df113d5c1025bbaf7368e41cbb253"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/GoldOreBoulder.json",
+        "length": 1156,
+        "sha256": "b9c8e178e2ad481bce6b67f4fcd40f924d4185bb262745686b7ff776a2757765"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/GraveTree.json",
+        "length": 1060,
+        "sha256": "c7a1ca2cdb84165ac10f7030e501629684efdc66c110b1aadf944bdeb55a1d37"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/GroundPoisonSlime.json",
+        "length": 1082,
+        "sha256": "d717d553c9e6f9df24ff00454697028a3b936fd3b0ee1b41d346bb45739ffdfd"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/IronOreBoulder.json",
+        "length": 1150,
+        "sha256": "655f80f0ee22dc3c8276ac2ab62cd1eb9421cc98fb7383c72e949807b1a8611e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/NatureCavelingMoss.json",
+        "length": 1083,
+        "sha256": "dc2c80ac40cf0f3b94a91d037283af734d350a3707addbe6b4932e2e7b4d928c"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/NatureDestructible.json",
+        "length": 1068,
+        "sha256": "f3d851d955434f20fbe3c5b579ad04baa3471f778596a537f99289d10fe4ee20"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/NatureDestructible2.json",
+        "length": 1069,
+        "sha256": "e7d5803e69897dac4593ec3c09586a67b32bc54a32a7924dcc95ef8e9837c8ea"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/NatureWoodenDestructible.json",
+        "length": 1273,
+        "sha256": "139efd258b25b5042a796d592aeb2cad53a79d66bbbc9cb61681a661cf2960c8"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/NatureWoodenDestructible2.json",
+        "length": 1722,
+        "sha256": "782838ef0462e381f0d8d309de2f70c31494511f0e76c1f411760ff906fad48b"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/PoisonSlimeBlob.json",
+        "length": 1066,
+        "sha256": "87cf85c44ed01382754528d766f0bb955cd76ac16f58527903b644c41167ee54"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/PuffungiPlant.json",
+        "length": 1063,
+        "sha256": "c0ef42cfd7291ab5d1703f3e1a95342cdb30514d95a0321d2b5f5d7fc2d2d9b9"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/RedFireFly.json",
+        "length": 1061,
+        "sha256": "c787439ca1304b3971a4ae7298f3cdf9dd6858a0c063cb7ccfc084e5b3320ca0"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/RoofHole.json",
+        "length": 1072,
+        "sha256": "5ed2b028dcfa292ee4ff2be875800b903d4a509dd93980be793d5f1b9b05401f"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/RoofHole2.json",
+        "length": 1074,
+        "sha256": "2b3237829db43f3908a6b594029c92f6ba5c6284fe52df2d314a3e25239a2f6b"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/ScarletOreBoulder.json",
+        "length": 1153,
+        "sha256": "922c7cad1cce7bd028e5d0c08b39d4103ee8c5793cbda22639bba7a7ab212c08"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/Stalagmite.json",
+        "length": 1036,
+        "sha256": "e3136429587a154eb557e7ac72e755f686bd0cb081e093ab5b6152cba0cf438a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/TallGrass.json",
+        "length": 1059,
+        "sha256": "91e763bddd6384ce86917c67ad9a4e038a44cd43780743d7b23f8926e53bb64d"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/TinOreBoulder.json",
+        "length": 1150,
+        "sha256": "05c9a130dccc5040572521bd4de827b9746d5816236e8e3ba710f85540b1e54c"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/WallGrass.json",
+        "length": 1058,
+        "sha256": "f742f51827acf213bc7d7f75558f7d7ae66e643aaa797c9b9dc22054fdc0dacc"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/WaterKelp.json",
+        "length": 1059,
+        "sha256": "8225ae886103ea170dcb8411fd8a2eb80c1ae07720db0660e21d93a92918bd36"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/WaterKelp2.json",
+        "length": 1229,
+        "sha256": "5f80872af5f523dd90ff113d337a28691fb80dba2564e9f804f1f62b46c4bb7d"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Nature/WaterLily.json",
+        "length": 1059,
+        "sha256": "aa32c013ef6807c7fadce245f64bf9bf0309378ccd6801467d2153d36605ca8c"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/None/CrystalBigSnail.json",
+        "length": 1066,
+        "sha256": "d0e104416d55600cfc9d318570efad5f6ce1ef95ae2f5f9bad0eb66faa1af5d4"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/None/CrystalCrust.json",
+        "length": 1076,
+        "sha256": "170eb66f85135efeefb044c220e1cb6914754c64f38542cf4863e7ea0d986822"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/None/CrystalDestructible.json",
+        "length": 1268,
+        "sha256": "9b515112de3838da33c569dd6a3b04c847cc38d3a707d7eaa864c5c9d7ae29c8"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/None/FishShoal.json",
+        "length": 1104,
+        "sha256": "a31a6afde70b58a042d3e6692de937c3263cf4f2996ebbdcbb25650cceb6255a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/None/InfectedCaveling.json",
+        "length": 1231,
+        "sha256": "6877109eabda5c5e7ca23b2a2ae5121045eec9dd7b4481a330eb37262413b214"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/None/LargeCrystalDestructible.json",
+        "length": 1707,
+        "sha256": "cc26ad2af02459e7a83c1a3546c5b609eba58b516a607db4ea6853b2df318119"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/None/LucentOakTree.json",
+        "length": 1092,
+        "sha256": "1675e906cbce2a687f15050926dec3cdfb436706285a3f6bfdf47174c44bc942"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/None/LunacornPlant.json",
+        "length": 1063,
+        "sha256": "0369af00b7b6cd2724485da71d2edd7289cdfe0dbc1736f1bc96a448764ed6f7"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/None/Mimite.json",
+        "length": 1069,
+        "sha256": "d1e7087987aa331bd29a4c73b187b17d021a1e8a3c2abd6d0ffe614248d05668"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/None/MoldTentacle.json",
+        "length": 1060,
+        "sha256": "ed2f00fe3c15099aa2e5a29b82824c2090bdc754f891a971e11d54dda8b8f1ea"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/None/OrbitalTurret.json",
+        "length": 1076,
+        "sha256": "ead6bb4f5b478ffdc40b40dcd687a465676007f2a3d3b1b5e7f0085eeb07a8b9"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/None/RadiationCrystal.json",
+        "length": 1235,
+        "sha256": "b26a2a8cb310d86f8d18875179e4cec7246b28ad09a98a5b433647b051a460fc"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/None/SmallCrystalGrass.json",
+        "length": 1067,
+        "sha256": "8f8ca332b6f3b4f9509060244717fc46bf95fedd6c01cf429d43bb97994343a9"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/None/SolariteOreBoulder.json",
+        "length": 1139,
+        "sha256": "4f8583985236d16d1405085d99986c7bc4a2259427d52cc692c21c08362a75f3"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/None/Stalagmite.json",
+        "length": 1088,
+        "sha256": "37e07cb6b3e1d318679c5cd7aa7007703cab527f479c047af96aa80c7c4ac2fc"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/None/SunricePlant.json",
+        "length": 1062,
+        "sha256": "929c3f1936e89dabd2844b22fa833f57249269ee7ad681dfae059f841e02c77b"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/None/TallCrystalGrass.json",
+        "length": 1066,
+        "sha256": "209fd41a7334ccdae612d8c37685f7affd210d8833e41e3302c8a23a22c9731b"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/None/WormSegment.json",
+        "length": 1062,
+        "sha256": "06dcee38330833bb8b4d9f2cad603804ad7c51a9a53d934908fd42be8e08114a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Passage/CritterPassageFly.json",
+        "length": 1103,
+        "sha256": "52357779a7dfbd319eade6c141023a5173c6d63d10d036634145149fecd2797e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Passage/FeatherTree.json",
+        "length": 2674,
+        "sha256": "6f8de5fd617324e3990dcd095a8f1d72dc5875954f615a8190152f636def0d9f"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Passage/FeatherTree2.json",
+        "length": 2689,
+        "sha256": "c834c639927a46e2682158787817769d9fb6c9b205c9d7d8eddebe5be5622c49"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Passage/LargePassageDestructible.json",
+        "length": 1572,
+        "sha256": "265ab9bdd2b3cb7bb0885db30e10933696ddd4a08de57693c8556454591f417d"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Passage/PandoriumCrystal.json",
+        "length": 1799,
+        "sha256": "792aae8ca5c892ce8326fe41e4da33f7d611ff7961b158f8b22f114a6c22e402"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Passage/PandoriumOreBoulder.json",
+        "length": 1179,
+        "sha256": "9000878811b1356f4f11d626b346ea5f2b5a8824e6f0afe7e21a004ae76714f1"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Passage/PassageDestructible.json",
+        "length": 1753,
+        "sha256": "d1931e66601e5043ec24230dc20051ef756d4600e87ca9be83b8256d85181cb2"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Passage/PassageDestructible2.json",
+        "length": 1752,
+        "sha256": "29a5b2e359357bb04280a304b46e8ae62cb57aaaa66266e5202bc6527cde1172"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Passage/PassageGroundDecoration.json",
+        "length": 1090,
+        "sha256": "4c8cabbf83e3b0b8de38229bcf9cbf2cf3a15acf72b1341ebbee8f073c228321"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Passage/SmallBarnacleGrass.json",
+        "length": 1256,
+        "sha256": "77d79c3a3ea5a2295aca9ae71efd5337c894fa180855cc90b27b74a8987edd3b"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Passage/SmallBarnacleGrass2.json",
+        "length": 1749,
+        "sha256": "1161d89d0a205d8ee33ed7943015bbcd7ca16bc1ca6e2f21b0b50651d7ed4c2a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Passage/SmallPandoriumCrystal.json",
+        "length": 1323,
+        "sha256": "7f259e4e7cd3e8e9650f48e00050400b55748d039522f2a2b64044b092d5fa94"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Passage/SulfurBud.json",
+        "length": 1262,
+        "sha256": "cffd7ee9e165cd11ffff40c9d2f56dc4af3ceefa87370cd45d0ba1b21ea0d22c"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Passage/SulfurTree.json",
+        "length": 1727,
+        "sha256": "eabb3b9bfba6afd7b2aed84223575e9846be121d96b806bbdbdd60d1aa42ac7b"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Passage/TallBarnacleGrass.json",
+        "length": 1748,
+        "sha256": "dca91f4d9a4df250da463634f43d3f56ad140bfd67439192a6dcc6f39b1a977e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Passage/TallBarnacleGrass2.json",
+        "length": 1752,
+        "sha256": "eb2e7d1388c99aebc44649361e0c1ccb9ee7b572eaf820ae0cc96163f970ebf4"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/CrabEnemy.json",
+        "length": 1058,
+        "sha256": "5965a9e0bf064cd85a1b9530c1adca8ce7bbf93aedca257d77f289b9601d0808"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/DiggingSpotSea.json",
+        "length": 1063,
+        "sha256": "99ea58f9c5460742b1924bfb392276c4a89761bfc2beebc863a42957aa974046"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/FishShoal.json",
+        "length": 1059,
+        "sha256": "80cfa9cbf267b88b1b4bb12befb7cfec89a4cb2e0df7a53ed40f579ddcd29e4a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/GlowingCoral.json",
+        "length": 1061,
+        "sha256": "68b1cc0c07b4ce7abd1cc32a4b77495ab42aa04ace84589c0ad25a240699cc6a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/GlowingCoral2.json",
+        "length": 1261,
+        "sha256": "7f8b78c4c0fcf1527d34317dfbe70bbddbeaf851637c31406a813b69ddb86db0"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/GreenFireFly.json",
+        "length": 1061,
+        "sha256": "25151fa2df3cbc8f22948cda3395951b514754368caa392cca831eeba5f57cdc"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/GroundSlipperySlime.json",
+        "length": 1058,
+        "sha256": "c9281bf8615de9e7c619e0feadc51e7056ebf36b7c1ea7230a76a9cb94c75ae2"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/JellyFish.json",
+        "length": 1058,
+        "sha256": "ba4faee2ade62dfe1a878643cef46f6f98938d74fd55f91c730783907013022b"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/JellyFish2.json",
+        "length": 1089,
+        "sha256": "cabc145d7144c1e963312263c0de55a64ba6a1d0d2944b4590ad9306d3081e0f"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/JellyfishDestructable.json",
+        "length": 1069,
+        "sha256": "a4a1700b28e5a19841d77d95c82fb5ba4fa5579d8372ccec708537bebb60434e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/LandKelp.json",
+        "length": 1056,
+        "sha256": "fb949568fde43870a2a4b521a3641b422012925e7af3172c5793992002262cf2"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/LargeJellyfishDestructable.json",
+        "length": 1074,
+        "sha256": "97213bceeaceec5adec93820e238d350a03839f04b7168d3e49796b1a451e03a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/OctarineOreBoulder.json",
+        "length": 1137,
+        "sha256": "c1c3574c43cadef8ad3a027b214dcad016bdb8b3c56cfbb78e5debce5b83a806"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/PewpayaPlant.json",
+        "length": 1061,
+        "sha256": "1a2286e8a0087abf0a3cef7d2350c0e4b5cda8ff341c087fc8fee1131b013a5c"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/PewpayaPlant2.json",
+        "length": 1232,
+        "sha256": "ff3f9cba45f240e3848a30aa5c5c4d7083ff2d64de43c5f85d4edab7b3b152fb"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/PinegrapplePlant.json",
+        "length": 1065,
+        "sha256": "730eb147f75a3327b1c9b7ba3ca3feef92a11d133419a5a99fb8808af1b63545"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/PinegrapplePlant2.json",
+        "length": 1236,
+        "sha256": "0466b7ca82c0752d0f54069ff3371e0e5672c6821344e97c6912eaa640496eb5"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/RoofHole.json",
+        "length": 1071,
+        "sha256": "67d54ef647fa3d8d6228e5cd1799c5ffba94f1ef170b1768aadafe1b135ed760"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/SeaShell.json",
+        "length": 1057,
+        "sha256": "e003939f4053b976b1541f8674a377aeb0ec95b09ffe9dad07e7934575a39c5f"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/SeaWoodenDestructible.json",
+        "length": 1268,
+        "sha256": "85fde37e3b368f69c5e566578100e6f2973e295bce7029410a9605dbf1e27b16"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/SeaWoodenDestructible2.json",
+        "length": 1717,
+        "sha256": "e5dc7fb35c42591e35fdea6aef3590c529b51521630e05035ac9aa84f76f6db5"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/SlipperySlimeBlob.json",
+        "length": 1042,
+        "sha256": "643fe1cd060d63ea588d89bd9691bdcab7ebd7040c6f2de1a55eb37b844f8567"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/SmallTentacle.json",
+        "length": 1064,
+        "sha256": "b785e1fba18226367b88b537b2c0014f5e8769f2a52907991551b6a21f8fa8f7"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/SmallTentacle2.json",
+        "length": 1232,
+        "sha256": "48304b7672aaee63fe1e3bb87734ecc57c05fda4a72a77bf9a1322ba06df3ce6"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/TallLandKelp.json",
+        "length": 1060,
+        "sha256": "d37fabb6dcf523607e3c3b7ff6e49fbb877c84c8ca83fa2e5ff2f229ed1c5087"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/Turtle.json",
+        "length": 1666,
+        "sha256": "7464bbcbff5b481c2f9cc79efed24ba6249556f8e4c3513c7681a94e7dcc6456"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/WallGrass.json",
+        "length": 1056,
+        "sha256": "db1b26b2fc6435451e8034f5bd37971bb8d23e12c554eb3ff321cae6b829d3d4"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Sea/WallGrass2.json",
+        "length": 1057,
+        "sha256": "22d290167212065d38bfc1f3bf37205636a923a7d957645990a5c44b22073793"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/BombPepperPlant.json",
+        "length": 1081,
+        "sha256": "416b17cc387d4ed3b4ee62709ef7ce19ec395ce25e6ecc0cae929554acee7e83"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/BombPepperPlant2.json",
+        "length": 1252,
+        "sha256": "be41ce011d7f4edee3db50b24a937faa4c760e4443b5e6e39a7592269509bb5b"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/CopperOreBoulder.json",
+        "length": 1111,
+        "sha256": "4d311d7142eb31a0b5d1798a479a63c4d206872c978c231223b700280ebcf4ac"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/DiggingSpot.json",
+        "length": 1061,
+        "sha256": "d213e46ec236c9e758379637a417145b737da0a8dc6b3753e0e1f8ffe57d04ab"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/FungalGrowth.json",
+        "length": 1090,
+        "sha256": "11e671a031166bb9f958d7193603d47db2071e51eaba91ca0badee12537e2d2c"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/GiantMushroom.json",
+        "length": 1557,
+        "sha256": "9a94bb16921a9fdf92662774b4e6938c363ec46ade910a352b04b93f16d882cb"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/GlowingTulipPlant.json",
+        "length": 1083,
+        "sha256": "88a78cdc0ba9810e99d0204a8876c5676a1af001adc1353d691b0c82c7566aad"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/GlowingTulipPlant2.json",
+        "length": 1253,
+        "sha256": "1752050c4659ba747b4a80ba77bcc181ffa4cb1da8b6dbe2b861d4c35c629b52"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/HeartBerryPlant.json",
+        "length": 1081,
+        "sha256": "af00eab228b85131e98f949711bd23e409f5a0ab551b8471472c0d8417491b3f"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/HeartBerryPlant2.json",
+        "length": 1252,
+        "sha256": "497cab53764d67b7ebdf9791b7510f2bc651211d1872f25552614c82baa6d6e9"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/Mushroom.json",
+        "length": 1258,
+        "sha256": "9aaf880cd652a98a4371bbd6f034e0ab7475858d0ffc195edcf2b0ee78a9923d"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/MushroomBrute.json",
+        "length": 1042,
+        "sha256": "bf754ed1967c9873bb77e962a7a13a96267b06e36b6062f5e849682dc8048a97"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/MushroomEnemy.json",
+        "length": 1040,
+        "sha256": "5a1c75fb4741fbdc1f41ec0016f9d17040c9f2af5af12a0cb61d418b29880d21"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/SmallGrass.json",
+        "length": 1060,
+        "sha256": "8a5e3fdd91ca8d562d0f22741cbec4da2d938d438528acc2af66ae15a6e23774"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/SmallGrass2.json",
+        "length": 1371,
+        "sha256": "42d82f75f9bbcd51def78023ffbbdd27ef6815d248d24edbdc7d2b0d2c0bb580"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/SmallStones.json",
+        "length": 1059,
+        "sha256": "dafca326ab3124bdce27485323cfa0d705adf6ef98bdc9836dc4b807ef08f380"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/SmallStones2.json",
+        "length": 1213,
+        "sha256": "41f7c8672993d5e386ca7dcf5532e8fee6c35af9ae97734f88bcc046c80d6b61"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/Stalagmite.json",
+        "length": 1035,
+        "sha256": "ac57c449822f5bb17a0b328bcf5d69460fbbe2e95a0c8f4583af5c5c6dc23912"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/WallGrass.json",
+        "length": 1087,
+        "sha256": "02cfa2ff1bfadc807c1a99c2635bc4f675870db5e3e6c42899ab6336a0d376fb"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/WallGrass2.json",
+        "length": 1257,
+        "sha256": "807464ee803891f35fb97fa7f3a1693f388a2666b39d7fca7a9809ad157d76e0"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/WoodenDestructible.json",
+        "length": 1229,
+        "sha256": "8ea96c8aeb108b6c67404d9bf877d12283760f909d3bf4a80d8f9ad03584d434"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/WoodenDestructible2.json",
+        "length": 1678,
+        "sha256": "10a9f3369b5a716fbb0b2fe2ebe3bbe53c5b4c1a22f3215546ae820d16b9909e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Slime/YellowFirefly.json",
+        "length": 1039,
+        "sha256": "7834afa0ecdd22a268693080f881111e32e180da1c491a34733c76e08724746d"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Stone/AncientDestructible.json",
+        "length": 1266,
+        "sha256": "65140fb7de2cf0c0afc64096cf11bc77b196524a10c2b29886b5ff00b246168e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Stone/BlueFireFly.json",
+        "length": 1038,
+        "sha256": "31f9090ada9f56a15489091a4ec39833ef089e18154a14ab013b83e0c4f0c3e9"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Stone/CarrockPlant.json",
+        "length": 1062,
+        "sha256": "e6442146de6d862ae190dd802de0929d7244f63fc8e63262afa8a45c75a55143"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Stone/Caveling.json",
+        "length": 1058,
+        "sha256": "c38f8d74c3ccb051b1e14f06a306fb64d78934a98639b34adc3ff2166cecae32"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Stone/CavelingBrute.json",
+        "length": 1064,
+        "sha256": "136b6af3be970e0e30761a9b6b35d9c8ec85dca0bb29f936bebbf9d825e311b4"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Stone/CavelingPot.json",
+        "length": 1260,
+        "sha256": "beb9c95360a909f5be0757d340429882dbb6b40827c6d01a85f90e55c2cfb8aa"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Stone/CavelingShaman.json",
+        "length": 1064,
+        "sha256": "cd9320d4ace8beef3c43f35c7676df0472dd6ca688c3230259664a78f4bd08b9"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Stone/CopperOreBoulder.json",
+        "length": 1113,
+        "sha256": "f28778477a467f653f4f9ead739853d23135c5a31734317dfed8f02cfdbb609f"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Stone/GoldOreBoulder.json",
+        "length": 1111,
+        "sha256": "98f1788f4e45bec45248ddf8c6b66bef4811c17086066eacc9012c15b9e39c82"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Stone/IronOreBoulder.json",
+        "length": 1108,
+        "sha256": "2acbeb3d1c8351c150ae4d5b1ed5d8ffeadc2528e5027201c8a6303258bb6be1"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Stone/LargeAncientDestructible.json",
+        "length": 1552,
+        "sha256": "d9f8cc1f77d716e66b7d1b4635081723807272896a5980027c1ee084f7ab9e4c"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Stone/RolyPoly.json",
+        "length": 1644,
+        "sha256": "14ab91a69f4e165eb07dd67065eba5b0d7eac0fcf8a2a44b031c66175bb63761"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Stone/SmallStones.json",
+        "length": 1090,
+        "sha256": "ad37c623c978e35d56d75d2d30b7ad33d46fdd8b500a6cc6198a97d661cfa818"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Stone/SmallStones2.json",
+        "length": 1213,
+        "sha256": "f5a5faf002e994c6edaa18598bafd2c87151d53d291e70142c8c795f5b8aed19"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Stone/Stalagmite.json",
+        "length": 1035,
+        "sha256": "2ba7b204a4b7d8fa75619686bc21135c95f2f1aca1407b67b6fdb73443ffc1a6"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Initial/Stone/StoneCavelingMoss.json",
+        "length": 1081,
+        "sha256": "d4940bf97d1c6e33d970f1b866584b17665ec218de56111e501dfc303da86b12"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/AggressiveSlimeBlob.json",
+        "length": 1144,
+        "sha256": "87a73c2636cd642d4b0741de5be442dfdcd70c4000b3a626169f16cb65469cfe"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/AncientGolem.json",
+        "length": 1139,
+        "sha256": "4cabd91f228ee7fcc70d6cbcbd5c2ac68ed9aaa0953c30e3933906b66d94d382"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/BigLarva.json",
+        "length": 1134,
+        "sha256": "5fb8b34722d023c73e0ead2c59f49e2d900d8ecacd4ab679b8eab6f57f17473f"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/BlueFireFly.json",
+        "length": 1099,
+        "sha256": "f00f83feb2fb507bbe1fa1a8773f0a0f5e22886f09c3fe1d7e1b72e9d0a32741"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/BombScarab.json",
+        "length": 1137,
+        "sha256": "ddee0c03b4f06393a8a32f49e0c630bd4cf229f5d2a0b480212373904f85d914"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/Caveling.json",
+        "length": 1133,
+        "sha256": "9263dcb49c02b3b60b8a918f729fd00a47dd9319193b5db365f757cfd9ff4922"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/CavelingAssassin.json",
+        "length": 1141,
+        "sha256": "6b9987a78b2094f8a5a28d77769df6599cd4348e307650e1f1022cef14e33d15"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/CavelingBrute.json",
+        "length": 1139,
+        "sha256": "9c99a387d214d8e11f4794036c15326f1db1c343ded6f83d2a8ec30b1f78473f"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/CavelingGardener.json",
+        "length": 1140,
+        "sha256": "95a9a7b5086ae203c7b05cc4f120668fc6f84340068635a7f82c5f7452c072a1"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/CavelingHunter.json",
+        "length": 1138,
+        "sha256": "1f719fe997f8f4250469c5995cfa5de37a4237461bd68f56167356b427cd4ef2"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/CavelingScholar.json",
+        "length": 1140,
+        "sha256": "20b8035c137d2f12b284f77676f5e55c017369e66af770dacb25d08d2bf5a5d6"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/CavelingShaman.json",
+        "length": 1139,
+        "sha256": "1f02a11db91df3b1378a0fa368b3c2b404e2a832f38eaf9f5345c2228c063a07"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/CavelingSkirmisher.json",
+        "length": 1144,
+        "sha256": "82ac757bdc078c12dcfb9072df352c38d24793ace76fac9c5719aa64dfbe9bce"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/CavelingSpearman.json",
+        "length": 1142,
+        "sha256": "b2392d129a89ec09229a1f3693855ce91cec24afbd1a0a382de8556416a81c08"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/Cocoon.json",
+        "length": 1131,
+        "sha256": "2c72659911c6b2da36adffc088bfb118fa460ea855f1119a9870171ef285f471"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/CrabEnemy.json",
+        "length": 1135,
+        "sha256": "a9f0a61ae81e96849b1c66930e282afe2b173031aac4d089e8fdeda00270606e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/CritterPassageFly.json",
+        "length": 1108,
+        "sha256": "cee751648837cf8220d8726e566bb1eda96b8d1052b3ea549fadc065b32e78ee"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/FishShoal.json",
+        "length": 1167,
+        "sha256": "1a731197e9fee316734db1eeb207577a36cb9c466c856b1193921bd78f3d0d05"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/FishShoal2.json",
+        "length": 1125,
+        "sha256": "c75d85d3b876efca3cdad70fc0af587bc4f27aa63a114955ce9a2ab2d7a29b9e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/GlowingMushroom.json",
+        "length": 1141,
+        "sha256": "ba6ef318c4ecb1b965f3802261b74af254d2be75d86eda480ee4938eb2f2b895"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/GreenFireFly.json",
+        "length": 1124,
+        "sha256": "3888bb15620a28b564c1e17e1135ae2d5b79b1712ce320c83169043efd9ffd0a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/InfectedCaveling.json",
+        "length": 1125,
+        "sha256": "a25174f25d1158694a8088e37607aff719b56d3a11b1ff0253546bfc18cf3c79"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/JellyFish.json",
+        "length": 1122,
+        "sha256": "84a5cb5f2df237e7ee8f5a52d0c6d35d811c97e23f10b56d58006037a5ea7fcf"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/Larva.json",
+        "length": 1129,
+        "sha256": "6d8256a7df951d00b028dc6e700428a8cbcad9bb317bf6e4a652b102234e870a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/LavaButterfly.json",
+        "length": 1137,
+        "sha256": "4405882e2c65f68d4ed839ef43a58880dcc81f0a35b322c7be42cc33e7f8dcd0"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/LavaSlimeBlob.json",
+        "length": 1137,
+        "sha256": "3a0f97cb0dd02b2bceb67d7a7750d2d4a1df912790bc3bbb0ebafa49102ea3ba"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/Mimite.json",
+        "length": 1131,
+        "sha256": "a7e5833a50b9921cbbcd0fef5546b809620914f7e6b45cba3a744a967fcd3e9f"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/MoldTentacle.json",
+        "length": 1122,
+        "sha256": "85c02f4ea2f7d1b17e26ff8049f80c04f4a1750ed80a419f38b3c753e2ee96ef"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/Mushroom.json",
+        "length": 1134,
+        "sha256": "fd234f9fa5582efe05b8c0985192fdf6f7abd3725e67eb58b6b7f8bbed33a230"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/MushroomBrute.json",
+        "length": 1140,
+        "sha256": "dcafc4be629a6cb3afa4b82ec8da91100adb26d2027fede29550476e3c34fa1a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/MushroomEnemy.json",
+        "length": 1138,
+        "sha256": "0ac1c101e4fb60f92c37b1dc696f22876e60b18dbd04674573338dbe0b70b00b"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/OrbitalTurret.json",
+        "length": 1138,
+        "sha256": "0866fe2c55eb09339f401777d4c9b5cdbcc6491d16b523f488c27e1ec8b7699a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/PoisonSlimeBlob.json",
+        "length": 1139,
+        "sha256": "1e3c4e37100b97acd8f05114ba6a0a40ad3b3d708a6532e3e152f1f5197cec8c"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/RedFireFly.json",
+        "length": 1098,
+        "sha256": "3e5742faeda847892a807130919ff457bcb28e923e76cc027ccd2876299c35f7"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/RobotMiner.json",
+        "length": 1137,
+        "sha256": "bf9a1c76e225844303be323c876f527b1de57365a64edb7c9df84c149d2bdd53"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/RobotPatroller.json",
+        "length": 1141,
+        "sha256": "da2b00c06fba3b38dd52bd1f9cf26c1dc89bf1802b3395d0c753f2134746461e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/RobotSwarmer.json",
+        "length": 1138,
+        "sha256": "d0f168f404e694368983db9dc0638c438f8bdc3b0e67250df2a18be30c168c3a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/SlimeBlob.json",
+        "length": 1133,
+        "sha256": "14c2a633402dea2b704655cd3742dc25119bd460076e6e3a03b5edb0dfbb7a31"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/SlipperySlimeBlob.json",
+        "length": 1142,
+        "sha256": "16afc5b2d51e8919c3dafe0fddf0418d0d2ddb86c04c7d5654bf76f1bd7a1268"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/SmallGrass.json",
+        "length": 1902,
+        "sha256": "ae1a4a2d4f1719ba37a5261327a730943376fb4e1ebda6cedfea5fb884e7e557"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/SmallTentacle.json",
+        "length": 1141,
+        "sha256": "96b62f6510c7aea6edc06d54cfdf04683e4705047c01337122671ccabda63a12"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/SmallTentacle2.json",
+        "length": 1309,
+        "sha256": "e3ea3bc46f222cfa544386bff16365c91e8bfe15d81b6fb091a301c32c96ebb4"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/VoidCaveling.json",
+        "length": 1139,
+        "sha256": "62caec3a277e71435d5f42908b3eee2fd6c6a67473d65694a9b5b8638f1f6ef9"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/VoidCavelingBrute.json",
+        "length": 1144,
+        "sha256": "85d25ec615685782a5f496f613b6cc378aa5ed5b879fa3fd213156236916ae23"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/VoidCavelingShaman.json",
+        "length": 1145,
+        "sha256": "d63dbab991364a77548eb5840977f64192f606dcf2c300a763d7250de8dd8709"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/VoidLarva.json",
+        "length": 1134,
+        "sha256": "aa8932e21e76f7e707abdeb06de59088aec15b92e6c3b8eb2b9e0686ece143c6"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/VoidLarvaCocoon.json",
+        "length": 1142,
+        "sha256": "8e0252b4690817e4348938bc6c8bf4a62e247ab6c65c3f0d40f4817999a7e09e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/WallGrass.json",
+        "length": 1300,
+        "sha256": "ab7c6679792098a4a46f5940cb7948f6e4bf664b0bc5d0c2e03e999faf9da7da"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/WallGrass2.json",
+        "length": 1302,
+        "sha256": "989e592411c9508d125606731e6796ddd4ea4a33ba74d0127bf10c8db52cac43"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/WallGrass3.json",
+        "length": 1120,
+        "sha256": "77db3e6bb433e1816befdaaea52224d67fcd6aaa9e7c4aa86de9bf958dda3d65"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/WallGrass4.json",
+        "length": 1121,
+        "sha256": "6020aaa763535d132f02b6a5153e0f721044c9c55b3f2e29e35977cc4f164712"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/WaterKelp.json",
+        "length": 1120,
+        "sha256": "444ced1caf83b035b0c6f73392ca81ed05d37f6b6b10f9c032c63227221b5646"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/WaterLily.json",
+        "length": 1120,
+        "sha256": "e37524a1c1fc4f6f61ddcc179e6a20b046422738fef432d8254f7eb234fea21f"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/YellowFirefly.json",
+        "length": 1139,
+        "sha256": "4a163120efa608e869566c0aa467846dc09d4b6f1a8797fd11e953827831345e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Spawn/Respawn/YellowFirefly2.json",
+        "length": 1129,
+        "sha256": "c3a89eadfe139003047b92494eb52e8e726cb96f96cb73cc465dd2562a632b4e"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Talents/Cooking.json",
+        "length": 1237,
+        "sha256": "ed5d3ca526c53650313585e94fa2c449fe8eacaf08d514dd76872af8e653d982"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Talents/Crafting.json",
+        "length": 1231,
+        "sha256": "c6605b118e882085a5361d3cad3967554db4aabb671ad9480cb31139f3f3ef2f"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Talents/Explosives.json",
+        "length": 1225,
+        "sha256": "f36f3794c5008484f3a263410b6ba29087a13ba2145759c6e8bcf3a0cdc64b14"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Talents/Fishing.json",
+        "length": 1182,
+        "sha256": "7e4342f7e954067adecd1bf325058084314b11bf2e8ee29aacb64966d9d3e7c5"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Talents/Gardening.json",
+        "length": 1185,
+        "sha256": "1b0f2e94585536104eac47afbc0e2207b064295a01c0baeb79204c9319bd4c19"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Talents/Magic.json",
+        "length": 1162,
+        "sha256": "d78d46ab97a1e0e7e4dc1460753c78f8db602246e7ee04b323fbfcadd817032a"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Talents/Melee.json",
+        "length": 1224,
+        "sha256": "944ae8492cd338da93071084b251ac1a84d6d1e234b821e96ba909c1ca7b7593"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Talents/Mining.json",
+        "length": 1179,
+        "sha256": "fe060a09fb1603556a3fa3385da178d82b8f316f8cec19cdf8117f2dd7db732c"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Talents/Range.json",
+        "length": 1207,
+        "sha256": "c82ae88a173d686a8adb1f7380f5bf278ddf8dbe3456db96f2248ca1d84c664c"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Talents/Running.json",
+        "length": 1210,
+        "sha256": "6c9730af52d2c6b6a80970e1d0d3c81081dec3ce1f4575361e636c906fd72826"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Talents/Summoning.json",
+        "length": 1180,
+        "sha256": "2f0eefb19c2e4d933e0efeda46cb8222cdd10ce8bb6deb700495f2430b0933ed"
+      },
+      {
+        "path": "CoreKeeper_Data/StreamingAssets/Conf/Talents/Vitality.json",
+        "length": 1235,
+        "sha256": "a8f90c48eff89d6b9f82f7514506bd71e12c5e4576025ac4cc88ede9ac975005"
+      }
+    ],
+    "assembly_manifest": [
+      {
+        "path": "CoreKeeper_Data/Managed/0Harmony.dll",
+        "length": 264704,
+        "sha256": "01fc6fcb6408811b72e25bfc3628cca08b27473758966777254500d07d170b4e"
+      },
+      {
+        "path": "CoreKeeper_Data/Managed/Assembly-CSharp.dll",
+        "length": 11264,
+        "sha256": "5a74019048ccfd1cdcf6458bb43bcdd7191aa61e92d83d4a5a59f0bda40a279c"
+      },
+      {
+        "path": "CoreKeeper_Data/Managed/Interaction.CoreKeeper.dll",
+        "length": 40448,
+        "sha256": "6a0dd66af06e001a8fbab1f8f54071a6561f7e6232e8f7ddffd103f753f2de56"
+      },
+      {
+        "path": "CoreKeeper_Data/Managed/Interaction.CoreKeeper.Components.dll",
+        "length": 4608,
+        "sha256": "5aaf8ed6db8ee2687f0116a6b6c5a55a92d6d4821810e58c49700ba17b33dc78"
+      },
+      {
+        "path": "CoreKeeper_Data/Managed/Newtonsoft.Json.dll",
+        "length": 691712,
+        "sha256": "a56146202232958f46bd6a28b5a7da166aea123ee0d646735a46e5c341dfbf1f"
+      },
+      {
+        "path": "CoreKeeper_Data/Managed/ObjectLookup.dll",
+        "length": 29696,
+        "sha256": "9bc68e9ece2b6d50b8f50e3dc71767b35192939a3ff409fe007ff41cab9e35fe"
+      },
+      {
+        "path": "CoreKeeper_Data/Managed/ObjectLookup.Components.dll",
+        "length": 10240,
+        "sha256": "753dfa31192b4cd05033ea1016806c6328bf3e77b0dbacbf6ac9fdbe4136d2ce"
+      },
+      {
+        "path": "CoreKeeper_Data/Managed/Pug.Automation.dll",
+        "length": 233984,
+        "sha256": "ba4b3435109e4ad63df134eaaecb0ac9f5c86b56a3870b070d1be9772c293bb0"
+      },
+      {
+        "path": "CoreKeeper_Data/Managed/Pug.Base.dll",
+        "length": 493568,
+        "sha256": "2e588a4f7b0331cbdcb2e4dc9986bacde04c994693b53846098e38c5ebb9bd2b"
+      },
+      {
+        "path": "CoreKeeper_Data/Managed/Pug.ECS.Components.dll",
+        "length": 1307136,
+        "sha256": "3a2244c327109fcc7f675fcdd887012a12444c45aa42edae4cf7df5f703a72a8"
+      },
+      {
+        "path": "CoreKeeper_Data/Managed/Pug.ECS.Conversion.dll",
+        "length": 230400,
+        "sha256": "a4d5fb26eb708e77d5a5cc1813f837ee9b3acc666ed6504f1738ced01ec3177f"
+      },
+      {
+        "path": "CoreKeeper_Data/Managed/Pug.Objects.dll",
+        "length": 508928,
+        "sha256": "dc407ad01403a747af41bb44c217f9fc4f4bc2f7b88512962de222859e080b9a"
+      },
+      {
+        "path": "CoreKeeper_Data/Managed/Pug.Other.dll",
+        "length": 6078464,
+        "sha256": "cc2c3f2b43f50343f7502db24255de9ce982a4ce5b128daa2ee7ce3f46857906"
+      },
+      {
+        "path": "CoreKeeper_Data/Managed/PugMod.Integration.dll",
+        "length": 6144,
+        "sha256": "3da01f8715586655d00069c578de76af3e9680187afcf42fa4e6e89ac7c1e39e"
+      },
+      {
+        "path": "CoreKeeper_Data/Managed/PugMod.Loader.dll",
+        "length": 59392,
+        "sha256": "3211f040610712a4ca85c385055af0ad69053b1bb2b5502047e677123fc4ea01"
+      },
+      {
+        "path": "CoreKeeper_Data/Managed/PugMod.SDK.dll",
+        "length": 5632,
+        "sha256": "841e4b2adab89f99d0a12ed51e54f48cae508ee5fb49d443a0dff1c74da801d4"
+      },
+      {
+        "path": "CoreKeeper_Data/Managed/PugMod.SDK.Runtime.dll",
+        "length": 25600,
+        "sha256": "4abafa7306fb607cad21994a94562831b092856950fa15717ad9d57fd66fa71c"
+      },
+      {
+        "path": "CoreKeeper_Data/Managed/Unity.Collections.dll",
+        "length": 451072,
+        "sha256": "093b2a45cd4c3e022f775e5963b350713e3a6b0954b680b0c0c48131f2659779"
+      },
+      {
+        "path": "CoreKeeper_Data/Managed/Unity.Entities.dll",
+        "length": 1281024,
+        "sha256": "38fda1d3c2c21be263a022166ced3801b12af33828c85d16b2fed58c23a5e531"
+      },
+      {
+        "path": "CoreKeeper_Data/Managed/Unity.Mathematics.dll",
+        "length": 752640,
+        "sha256": "62edb2c9538144eed97d8332819e2b44aab58f02658ede79cb4251030a880e86"
+      },
+      {
+        "path": "CoreKeeper_Data/Managed/Unity.NetCode.dll",
+        "length": 613376,
+        "sha256": "9d7e5d640aeeff97046f832fa8697a00b291c8f1ec7e70c29ef63df480b7402b"
+      },
+      {
+        "path": "CoreKeeper_Data/Managed/Unity.Transforms.dll",
+        "length": 33280,
+        "sha256": "bf01fd06c6389dd060bff8689e2c909cc7aa7a06f48b07ca3ecd0b671ea10377"
+      },
+      {
+        "path": "CoreKeeper_Data/Managed/UnityEngine.CoreModule.dll",
+        "length": 1796520,
+        "sha256": "d184eb633e67cd97d5a0eb0faf3a8f05bdfe17e56c3cef5595cf15c685030aa6"
+      }
+    ]
+  },
+  "archipelago": {
+    "version": "0.6.8",
+    "source_path": "Archipelago-main",
+    "revision": null
+  },
+  "poptracker": {
+    "installed_version": "0.35.3",
+    "reference_version": "0.35.4-rc2",
+    "reference_revision": "407506c72ebf08f419f85b2f844ec8ca6c452ed7"
+  }
+}

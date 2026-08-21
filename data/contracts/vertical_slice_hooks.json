@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "core_keeper_steam_build_id": 23543556,
+  "hooks": [
+    {
+      "purpose": "deferred connection UI activation",
+      "assembly": "Pug.Other.dll",
+      "type": "TitleScreenAnimator",
+      "method": "OpenMenu()",
+      "evidence": "The shipped title-screen animator calls OpenMenu only after the logo sequence hands control to the main menu. The hook is bound explicitly during EarlyInit and does not infer readiness from elapsed time."
+    },
+    {
+      "purpose": "natural object receipt",
+      "assembly": "Pug.Other.dll",
+      "type": "Inventory.InventoryUpdateSystem",
+      "method": "ProcessInventoryChange(InventoryChangeData, in InventoryHandlerShared, bool, NativeParallelHashSet<Entity>, in CollisionWorld, ComponentLookup<InventoryAutoTransferEnabledCD>)",
+      "evidence": "The shipped server command resolves pickup identity before processing and returns success only after the authoritative inventory mutation. CreateObject and AddAmount cover craft/output receipt. AP reward commands alone carry the otherwise-unused bool2 provenance marker."
+    },
+    {
+      "purpose": "locked copper chest completion",
+      "assembly": "Pug.Other.dll",
+      "type": "EffectEventExtensions",
+      "method": "PlayEffect(EffectEventCD, Entity, World)",
+      "evidence": "Core Keeper emits EffectID.OpenChest only for the successful locked-chest transition. The hook additionally resolves the affected entity or the converted chest at the event position and accepts only LockedCopperChest/CopperChest."
+    },
+    {
+      "purpose": "enemy and boss death",
+      "assembly": "Pug.ECS.Components.dll",
+      "query": ["EntityDestroyedCD", "KilledByPlayerCD", "ObjectDataCD"],
+      "evidence": "Server-only transient death components identify player kills and their exact ObjectID."
+    },
+    {
+      "purpose": "skill threshold",
+      "assembly": "Pug.ECS.Components.dll",
+      "buffer": "SkillBuffer",
+      "evidence": "The local player's authoritative skill XP buffer is compared with SkillExtensions.GetSkillFromLevel."
+    }
+  ]
+}

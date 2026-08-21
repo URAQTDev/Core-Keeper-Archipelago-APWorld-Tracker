@@ -1,0 +1,555 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "license": "Progressive Workbench License",
+      "output": "images/license-stages/progressive_workbench_license/0.png",
+      "object_id": 4003,
+      "internal_name": "WoodenWorkBench",
+      "sprite_name": "lootsprites_32",
+      "source": "local_game_object_icon/WoodenWorkBench:0",
+      "source_sha256": "3637629a5dbcc7cd22205e31c98aea99bcd0c769adb7cdb365646fe31884f48a",
+      "output_sha256": "161fa926c83ddaa19f417dd7e73e98a7d32be7e9f5b38c72283b37973429e330"
+    },
+    {
+      "license": "Progressive Workbench License",
+      "output": "images/license-stages/progressive_workbench_license/1.png",
+      "object_id": 4043,
+      "internal_name": "CopperWorkbench",
+      "sprite_name": "lootspritesAnimalUpdate_36",
+      "source": "local_game_object_icon/CopperWorkbench:0",
+      "source_sha256": "ccfb9b7a41f6d0d1cc789519f5790491e04ca790b2218708422aa04c06e20457",
+      "output_sha256": "34faac141d9fae8bff0cb9ac1aafafcc54d111f19db385bdf85472ac44d87299"
+    },
+    {
+      "license": "Progressive Workbench License",
+      "output": "images/license-stages/progressive_workbench_license/2.png",
+      "object_id": 4019,
+      "internal_name": "TinWorkbench",
+      "sprite_name": "lootsprites_304",
+      "source": "local_game_object_icon/TinWorkbench:0",
+      "source_sha256": "ff3614dbfa5cdd95daef976f98d52a4eecca606775943c4c67f137a1a1a6238a",
+      "output_sha256": "dfc20db0babea855ad61cf9e1223b5b4176a59874c43c7eeabcb49b2ffa14dfa"
+    },
+    {
+      "license": "Progressive Workbench License",
+      "output": "images/license-stages/progressive_workbench_license/3.png",
+      "object_id": 4010,
+      "internal_name": "IronWorkBench",
+      "sprite_name": "lootsprites_110",
+      "source": "local_game_object_icon/IronWorkBench:0",
+      "source_sha256": "b3c5878949d6cf106b2328e42aca63e5c389cd852019a1ca763c397e441e6eda",
+      "output_sha256": "aec58d10b6f0557358047f453d96a2e607499a2486c5670936fe59360d806af5"
+    },
+    {
+      "license": "Progressive Workbench License",
+      "output": "images/license-stages/progressive_workbench_license/4.png",
+      "object_id": 4016,
+      "internal_name": "ScarletWorkBench",
+      "sprite_name": "lootsprites_226",
+      "source": "local_game_object_icon/ScarletWorkBench:0",
+      "source_sha256": "e4f7ebe741fb21ed780b217347a1738cbb0919c26276ecb92bb181236ffea1d6",
+      "output_sha256": "dab101d3ae27ca2b4591b2bfe6a230cbd3d1b475e8519011c1a6526b4cf31930"
+    },
+    {
+      "license": "Progressive Workbench License",
+      "output": "images/license-stages/progressive_workbench_license/5.png",
+      "object_id": 4027,
+      "internal_name": "OctarineWorkbench",
+      "sprite_name": "lootsprites_663",
+      "source": "local_game_object_icon/OctarineWorkbench:0",
+      "source_sha256": "81048b48d314718aa9bca1f7758c2319e13d0f9b92d3637067b3e108ead941c6",
+      "output_sha256": "a90ac1aafa1ce05810ef1571b2bf6589088632a192b2032ed9091e5967131142"
+    },
+    {
+      "license": "Progressive Workbench License",
+      "output": "images/license-stages/progressive_workbench_license/6.png",
+      "object_id": 4033,
+      "internal_name": "GalaxiteWorkbench",
+      "sprite_name": "lootsprites_717",
+      "source": "local_game_object_icon/GalaxiteWorkbench:0",
+      "source_sha256": "6816206f61c644b0a5b20ff1e48074903dd7df237c54562694b54046525db587",
+      "output_sha256": "9a9663115b54cdbe31e9572e26f183d04782884679eea531e35edce9019f9694"
+    },
+    {
+      "license": "Progressive Workbench License",
+      "output": "images/license-stages/progressive_workbench_license/7.png",
+      "object_id": 4049,
+      "internal_name": "SolariteWorkbench",
+      "sprite_name": "lootsprites_crystal_120",
+      "source": "local_game_object_icon/SolariteWorkbench:0",
+      "source_sha256": "5877aa1416b4ecf289749c71804442b8731877936047d30c54798c8bcd4bad22",
+      "output_sha256": "2526c635de72a6c09424b9b36235c822f960f8409d3046276ca3d3718bed3d04"
+    },
+    {
+      "license": "Progressive Workbench License",
+      "output": "images/license-icons/progressiveworkbenchlicense.png",
+      "object_id": 4003,
+      "internal_name": "WoodenWorkBench",
+      "sprite_name": "lootsprites_32",
+      "source": "local_game_object_icon/WoodenWorkBench:0",
+      "source_sha256": "3637629a5dbcc7cd22205e31c98aea99bcd0c769adb7cdb365646fe31884f48a",
+      "output_sha256": "161fa926c83ddaa19f417dd7e73e98a7d32be7e9f5b38c72283b37973429e330"
+    },
+    {
+      "license": "Progressive Anvil License",
+      "output": "images/license-stages/progressive_anvil_license/0.png",
+      "object_id": 4011,
+      "internal_name": "CopperAnvil",
+      "sprite_name": "lootsprites_114",
+      "source": "local_game_object_icon/CopperAnvil:0",
+      "source_sha256": "174de37faa16928d4293efa96f01dd996e104666209f588c29fdba0dc2f71961",
+      "output_sha256": "c7fb4750e21facae83acd654f9becf3acc16ad1b74840de570ae84379c3e5292"
+    },
+    {
+      "license": "Progressive Anvil License",
+      "output": "images/license-stages/progressive_anvil_license/1.png",
+      "object_id": 4020,
+      "internal_name": "TinAnvil",
+      "sprite_name": "lootsprites_302",
+      "source": "local_game_object_icon/TinAnvil:0",
+      "source_sha256": "17349fbcb95abde1df2caf8fe8b6b6f37dd9ef199f6bae6fc586b41622925b17",
+      "output_sha256": "3ab6517bff8ddbeb399827aa339b73850c6eb37961bed01017841d9835a48cba"
+    },
+    {
+      "license": "Progressive Anvil License",
+      "output": "images/license-stages/progressive_anvil_license/2.png",
+      "object_id": 4014,
+      "internal_name": "IronAnvil",
+      "sprite_name": "lootsprites_126",
+      "source": "local_game_object_icon/IronAnvil:0",
+      "source_sha256": "54cf501dd620936df0db2bdbce6caf54e25c29ff74c9afe8991c8408e0014bcd",
+      "output_sha256": "7f23a93aed79c623d72fc14c5dbdf8b7aa608c0c177ffa30e8872c2ae5449dfb"
+    },
+    {
+      "license": "Progressive Anvil License",
+      "output": "images/license-stages/progressive_anvil_license/3.png",
+      "object_id": 4021,
+      "internal_name": "ScarletAnvil",
+      "sprite_name": "lootsprites_392",
+      "source": "local_game_object_icon/ScarletAnvil:0",
+      "source_sha256": "a7199a7f7c0932df8201c9a5d60b170e089bd58b1aed5e61bd8e5ae35f2e4236",
+      "output_sha256": "6bf29fe6ac09a024d79c0599ba83598f12518f5a38f5194ff7a618449ff119b2"
+    },
+    {
+      "license": "Progressive Anvil License",
+      "output": "images/license-stages/progressive_anvil_license/4.png",
+      "object_id": 4024,
+      "internal_name": "OctarineAnvil",
+      "sprite_name": "lootsprites_483",
+      "source": "local_game_object_icon/OctarineAnvil:0",
+      "source_sha256": "59f6205e94b9a3989684f9b200ac6e1c1e3a8abf8321227a3ad15c6e67a0539c",
+      "output_sha256": "b97fd867c69e867fa39d52cb13ffc83d566120304742b71aa4ac7992c5ee2ad1"
+    },
+    {
+      "license": "Progressive Anvil License",
+      "output": "images/license-stages/progressive_anvil_license/5.png",
+      "object_id": 4034,
+      "internal_name": "GalaxiteAnvil",
+      "sprite_name": "lootsprites_727",
+      "source": "local_game_object_icon/GalaxiteAnvil:0",
+      "source_sha256": "665a1c03e6554c2049b801cc5503d6e204a5ffb93657a385d2ef4c712b157fec",
+      "output_sha256": "6aa1b0554351d9898e927686d18bcc5c06fde4a295ea46de3f25a67888c541d3"
+    },
+    {
+      "license": "Progressive Anvil License",
+      "output": "images/license-stages/progressive_anvil_license/6.png",
+      "object_id": 4047,
+      "internal_name": "SolariteAnvil",
+      "sprite_name": "lootsprites_crystal_79",
+      "source": "local_game_object_icon/SolariteAnvil:0",
+      "source_sha256": "02934610c43e8bd466c225026256c55b577285b401c7d50f0ba682d41adabd16",
+      "output_sha256": "d529cf471f8292b60935b35ee6d167be279f7f6f73a9e27fdfb4a25e383db6eb"
+    },
+    {
+      "license": "Progressive Anvil License",
+      "output": "images/license-icons/progressiveanvillicense.png",
+      "object_id": 4011,
+      "internal_name": "CopperAnvil",
+      "sprite_name": "lootsprites_114",
+      "source": "local_game_object_icon/CopperAnvil:0",
+      "source_sha256": "174de37faa16928d4293efa96f01dd996e104666209f588c29fdba0dc2f71961",
+      "output_sha256": "c7fb4750e21facae83acd654f9becf3acc16ad1b74840de570ae84379c3e5292"
+    },
+    {
+      "license": "Progressive Furnace License",
+      "output": "images/license-stages/progressive_furnace_license/0.png",
+      "object_id": 4004,
+      "internal_name": "Furnace",
+      "sprite_name": "lootsprite_furnace",
+      "source": "local_game_object_icon/Furnace:0",
+      "source_sha256": "5cb53524b82d997a3836efc4bbe6dbd4c68508d4bb285076bdd8bf2a30c6e1dd",
+      "output_sha256": "aeb4adbb92cc44a5e4930c5164f6501e73b1793280458e623de97356670c7ee3"
+    },
+    {
+      "license": "Progressive Furnace License",
+      "output": "images/license-stages/progressive_furnace_license/1.png",
+      "object_id": 4015,
+      "internal_name": "SmelterKiln",
+      "sprite_name": "lootsprites_220",
+      "source": "local_game_object_icon/SmelterKiln:0",
+      "source_sha256": "063ca849a0487a49a3b28edcc4200db7e46e6d7e0f501397760d20aa4c8c4994",
+      "output_sha256": "3eb20583328434733c069dbfd077ae4d934494daf1d6673946617c35421360cf"
+    },
+    {
+      "license": "Progressive Furnace License",
+      "output": "images/license-stages/progressive_furnace_license/2.png",
+      "object_id": 4032,
+      "internal_name": "FuryForge",
+      "sprite_name": "lootsprites_767",
+      "source": "local_game_object_icon/FuryForge:0",
+      "source_sha256": "152b8ca20e94c23b35f26b87834634e1c36a2c52e30f1a3789be25d51335ab4c",
+      "output_sha256": "cde13f8ed4f340c0bda5545470c898751837555aec28e45a15c03287ad5552f9"
+    },
+    {
+      "license": "Progressive Furnace License",
+      "output": "images/license-icons/progressivefurnacelicense.png",
+      "object_id": 4004,
+      "internal_name": "Furnace",
+      "sprite_name": "lootsprite_furnace",
+      "source": "local_game_object_icon/Furnace:0",
+      "source_sha256": "5cb53524b82d997a3836efc4bbe6dbd4c68508d4bb285076bdd8bf2a30c6e1dd",
+      "output_sha256": "aeb4adbb92cc44a5e4930c5164f6501e73b1793280458e623de97356670c7ee3"
+    },
+    {
+      "license": "Salvage and Repair Station License",
+      "output": "images/license-icons/salvageandrepairstationlicense.png",
+      "object_id": 4025,
+      "internal_name": "SalvageAndRepairStation",
+      "sprite_name": "lootsprites_510",
+      "source": "local_game_object_icon/SalvageAndRepairStation:0",
+      "source_sha256": "874e6ad758e496a71c37440ee5d86262f012f0c39489a539af17b404a66f5286",
+      "output_sha256": "b9b8004bc2d9dd8c91a1cc6d10d0e2809a9d7b325a41e00ed8de81a073b16f1e"
+    },
+    {
+      "license": "Cooking Pot License",
+      "output": "images/license-icons/cookingpotlicense.png",
+      "object_id": 4013,
+      "internal_name": "CookingPot",
+      "sprite_name": "lootsprites_92",
+      "source": "local_game_object_icon/CookingPot:0",
+      "source_sha256": "d3466994246d7236dd5e59be846b1b0ab7986b9afa310978695a783a3a79b72b",
+      "output_sha256": "f00808e3a98df353eaa682c6773da67618ef62ba13a029d898fd7a5a9d4401a3"
+    },
+    {
+      "license": "Ancient Hologram Pod License",
+      "output": "images/license-icons/ancienthologrampodlicense.png",
+      "object_id": 3901,
+      "internal_name": "AncientHologramPod",
+      "sprite_name": "lootsprites_212",
+      "source": "local_game_object_icon/AncientHologramPod:0",
+      "source_sha256": "3692fc5aa674f16511c01e65f1e0a5511fc1bca3749d3f73f0323cfb4a57e666",
+      "output_sha256": "8640b32d29b308fc259ac5568a31079cde0ba73841589a7ac997cec350b7861e"
+    },
+    {
+      "license": "Table Saw License",
+      "output": "images/license-icons/tablesawlicense.png",
+      "object_id": 4009,
+      "internal_name": "TableSaw",
+      "sprite_name": "lootsprites_100",
+      "source": "local_game_object_icon/TableSaw:0",
+      "source_sha256": "2b1b5a8d10aef49aacc95a3e6c381c36de6132e7a84b1db1a7c195eaef124162",
+      "output_sha256": "6bb5b68e3ebfcec7080e3a68fa747beca9ec2e8493996199ef3ccb2269aabbc1"
+    },
+    {
+      "license": "Fishing Workbench License",
+      "output": "images/license-icons/fishingworkbenchlicense.png",
+      "object_id": 4028,
+      "internal_name": "FishingWorkBench",
+      "sprite_name": "lootsprites_599",
+      "source": "local_game_object_icon/FishingWorkBench:0",
+      "source_sha256": "7bf9d8ede081ccead8f1f7643fea9e979053e435fa4c963d67fb20b227fd4afe",
+      "output_sha256": "3bd1db6e7d61e49fa1422e65728673bd929ed764222927f4a7612e7f8bd823d9"
+    },
+    {
+      "license": "Egg Incubator License",
+      "output": "images/license-icons/eggincubatorlicense.png",
+      "object_id": 1200,
+      "internal_name": "EggIncubator",
+      "sprite_name": "lootspritesAnimalUpdate_48",
+      "source": "local_game_object_icon/EggIncubator:0",
+      "source_sha256": "b92fba3a906edf5566b44b2ce478d1e73c10150dcc3a338c8a7e6c4df42413fe",
+      "output_sha256": "20b08ea8c09d5dbaf65c4e2905a56da4d9f639cfbc4c74f47e1e0a7edfa8c4e8"
+    },
+    {
+      "license": "Key Casting Table License",
+      "output": "images/license-icons/keycastingtablelicense.png",
+      "object_id": 4035,
+      "internal_name": "KeyCraftingTable",
+      "sprite_name": "lootsprites_855",
+      "source": "local_game_object_icon/KeyCraftingTable:0",
+      "source_sha256": "40a226ec063887e32331bfd4f02daedb34cda981f4c60a3c136b1b0c64e9af7f",
+      "output_sha256": "28c3e0beae6c68ae864a3f37797d7954f983342d9b7306b1a82e3866030977db"
+    },
+    {
+      "license": "Progressive Alchemy Table License",
+      "output": "images/license-stages/progressive_alchemy_table_license/0.png",
+      "object_id": 4008,
+      "internal_name": "AlchemyTable",
+      "sprite_name": "lootsprites_308",
+      "source": "local_game_object_icon/AlchemyTable:0",
+      "source_sha256": "8f4a108e1bccd1aee6ddc282b0567f59b3d95e109c2125d91514a2d9240a3f38",
+      "output_sha256": "7c7b33f316567616f86e99231973e1e2f6910c57704804560529f2766796a9dd"
+    },
+    {
+      "license": "Progressive Alchemy Table License",
+      "output": "images/license-stages/progressive_alchemy_table_license/1.png",
+      "object_id": 4053,
+      "internal_name": "LaboratoryWorkbench",
+      "sprite_name": "lootsprite_workbenchLaboratory",
+      "source": "local_game_object_icon/LaboratoryWorkbench:0",
+      "source_sha256": "df0b440ea5b9230e24a3aed310d08a20988e6470542411adc62f023ebce5c3e6",
+      "output_sha256": "b83d09535885f89d426dbab14dea043c2a240714ad8ea4d4f4c8818ad2780115"
+    },
+    {
+      "license": "Progressive Alchemy Table License",
+      "output": "images/license-icons/progressivealchemytablelicense.png",
+      "object_id": 4008,
+      "internal_name": "AlchemyTable",
+      "sprite_name": "lootsprites_308",
+      "source": "local_game_object_icon/AlchemyTable:0",
+      "source_sha256": "8f4a108e1bccd1aee6ddc282b0567f59b3d95e109c2125d91514a2d9240a3f38",
+      "output_sha256": "7c7b33f316567616f86e99231973e1e2f6910c57704804560529f2766796a9dd"
+    },
+    {
+      "license": "Progressive Jewelry Workbench License",
+      "output": "images/license-stages/progressive_jewelry_workbench_license/0.png",
+      "object_id": 4012,
+      "internal_name": "JewelryWorkBench",
+      "sprite_name": "lootsprites_124",
+      "source": "local_game_object_icon/JewelryWorkBench:0",
+      "source_sha256": "802049629f9a36958cbca95a6a151aac5f2bc032dbebda81efd6878549b2f9af",
+      "output_sha256": "61b10b1d9b966a77371d4334af27f1a158bf6c65ed69c853560056d6606a87db"
+    },
+    {
+      "license": "Progressive Jewelry Workbench License",
+      "output": "images/license-stages/progressive_jewelry_workbench_license/1.png",
+      "object_id": 4030,
+      "internal_name": "AdvancedJewelryWorkBench",
+      "sprite_name": "lootsprites_671",
+      "source": "local_game_object_icon/AdvancedJewelryWorkBench:0",
+      "source_sha256": "8529ba730f2f10d442be0c57fa867a163c1ec406f49f32c6cc14605cd0aa83f2",
+      "output_sha256": "3b70bc51b7618ef5429a36399f98ff1ded090bee91ac2cc71bcb1d3edc645796"
+    },
+    {
+      "license": "Progressive Jewelry Workbench License",
+      "output": "images/license-icons/progressivejewelryworkbenchlicense.png",
+      "object_id": 4012,
+      "internal_name": "JewelryWorkBench",
+      "sprite_name": "lootsprites_124",
+      "source": "local_game_object_icon/JewelryWorkBench:0",
+      "source_sha256": "802049629f9a36958cbca95a6a151aac5f2bc032dbebda81efd6878549b2f9af",
+      "output_sha256": "61b10b1d9b966a77371d4334af27f1a158bf6c65ed69c853560056d6606a87db"
+    },
+    {
+      "license": "Progressive Automation Table License",
+      "output": "images/license-stages/progressive_automation_table_license/0.png",
+      "object_id": 4022,
+      "internal_name": "AutomationTable",
+      "sprite_name": "lootsprites_430",
+      "source": "local_game_object_icon/AutomationTable:0",
+      "source_sha256": "35433a8dffb34774ed13ac5ac7b5a3439b5caad00fbd97cb2d6683bcc30aa376",
+      "output_sha256": "03f981488102776048e7d8d13bfc65ad4fb5cb1d56236b767b796ec6d22e42fb"
+    },
+    {
+      "license": "Progressive Automation Table License",
+      "output": "images/license-stages/progressive_automation_table_license/1.png",
+      "object_id": 4055,
+      "internal_name": "AdvancedAutomationTable",
+      "sprite_name": "lootsprite_automation_table",
+      "source": "local_game_object_icon/AdvancedAutomationTable:0",
+      "source_sha256": "cf2daadab1ae22e190c78fa308a0c49c48ed0e27b9928336b017b580ca1b184e",
+      "output_sha256": "acfca6da078214043152bf58c2a5f34a5eb713059ec721571d25db201ffa57c8"
+    },
+    {
+      "license": "Progressive Automation Table License",
+      "output": "images/license-icons/progressiveautomationtablelicense.png",
+      "object_id": 4022,
+      "internal_name": "AutomationTable",
+      "sprite_name": "lootsprites_430",
+      "source": "local_game_object_icon/AutomationTable:0",
+      "source_sha256": "35433a8dffb34774ed13ac5ac7b5a3439b5caad00fbd97cb2d6683bcc30aa376",
+      "output_sha256": "03f981488102776048e7d8d13bfc65ad4fb5cb1d56236b767b796ec6d22e42fb"
+    },
+    {
+      "license": "Progressive Smithing Table License",
+      "output": "images/license-stages/progressive_smithing_table_license/0.png",
+      "object_id": 4060,
+      "internal_name": "ExcavationWorkbench",
+      "sprite_name": "lootsprite_excavationWorkbench",
+      "source": "local_game_object_icon/ExcavationWorkbench:0",
+      "source_sha256": "d4ee908646129ef0bb57399e5500059b311a0d119e5423518aff32451ef90075",
+      "output_sha256": "100f1f35a07c6bfcfd495b0ff66f6a251bea2707e2d5ea04ab4d915cedbb3741"
+    },
+    {
+      "license": "Progressive Smithing Table License",
+      "output": "images/license-stages/progressive_smithing_table_license/1.png",
+      "object_id": 4056,
+      "internal_name": "VoidAltarWorkbench",
+      "sprite_name": "lootsprite_voidAltarWorkbench",
+      "source": "local_game_object_icon/VoidAltarWorkbench:0",
+      "source_sha256": "f2d288cfb2caeaca508ca2e86d771edee193f13ef30f4c95a137d1c350a66680",
+      "output_sha256": "ea84405f7ae9c770a49dec58975cac0b66ab3bc3adee6b98ac08c5311d9a4f90"
+    },
+    {
+      "license": "Progressive Smithing Table License",
+      "output": "images/license-icons/progressivesmithingtablelicense.png",
+      "object_id": 4060,
+      "internal_name": "ExcavationWorkbench",
+      "sprite_name": "lootsprite_excavationWorkbench",
+      "source": "local_game_object_icon/ExcavationWorkbench:0",
+      "source_sha256": "d4ee908646129ef0bb57399e5500059b311a0d119e5423518aff32451ef90075",
+      "output_sha256": "100f1f35a07c6bfcfd495b0ff66f6a251bea2707e2d5ea04ab4d915cedbb3741"
+    },
+    {
+      "license": "Boat Workbench License",
+      "output": "images/license-icons/boatworkbenchlicense.png",
+      "object_id": 4031,
+      "internal_name": "BoatWorkbench",
+      "sprite_name": "lootsprites_705",
+      "source": "local_game_object_icon/BoatWorkbench:0",
+      "source_sha256": "6c5eb82db5299757356d2ab79408ad947ca52908bb906c9fe9e8463c2a0e06cd",
+      "output_sha256": "1902d1a873f2c7d740ccfe27d16686468d116dec9ef4c21b7d5f8e0b882878ac"
+    },
+    {
+      "license": "Electronics Table License",
+      "output": "images/license-icons/electronicstablelicense.png",
+      "object_id": 4005,
+      "internal_name": "ElectronicsTable",
+      "sprite_name": "lootsprites_58",
+      "source": "local_game_object_icon/ElectronicsTable:0",
+      "source_sha256": "a12341b198be5e20db405737cdb3e7c15ff450b025237998134f72db9370e2bb",
+      "output_sha256": "467fd328a942b6cbd9151b25658b005abb575a4522239029338eaf4835c966f4"
+    },
+    {
+      "license": "Pouch Workbench License",
+      "output": "images/license-icons/pouchworkbenchlicense.png",
+      "object_id": 4052,
+      "internal_name": "PouchWorkbench",
+      "sprite_name": "lootsprite_workbenchPouch",
+      "source": "local_game_object_icon/PouchWorkbench:0",
+      "source_sha256": "5dae9eaa32388ceb9092726c3b707f46d6e4e7f1ccbf9ddda07115ccdd44e90a",
+      "output_sha256": "b3b9a200fb41515ae07b886c7a63a38fb280584219deea07540de857a0a00ac1"
+    },
+    {
+      "license": "Glass Smelter License",
+      "output": "images/license-icons/glasssmelterlicense.png",
+      "object_id": 4044,
+      "internal_name": "GlassSmelter",
+      "sprite_name": "lootspritesAnimalUpdate_58",
+      "source": "local_game_object_icon/GlassSmelter:0",
+      "source_sha256": "49828db26af207b1125aadcd4d331b4cf11db1ece88b555db2eb7726e740781a",
+      "output_sha256": "cb16ce8c5d8473f31a02316b56b3d2307fe179b717b3933dbf45d14ef763b001"
+    },
+    {
+      "license": "Distillery Table License",
+      "output": "images/license-icons/distillerytablelicense.png",
+      "object_id": 4026,
+      "internal_name": "DistilleryTable",
+      "sprite_name": "lootsprites_518",
+      "source": "local_game_object_icon/DistilleryTable:0",
+      "source_sha256": "dd23c8fbd973548cf4e1655e94e92331aebd9a1b98e27a4d2432c9416d1ee893",
+      "output_sha256": "be493286a642737da525d3eea9b62ea2cbe7ff9d995f139e6137012085a4a402"
+    },
+    {
+      "license": "Rift Statue License",
+      "output": "images/license-icons/riftstatuelicense.png",
+      "object_id": 5983,
+      "internal_name": "PassageCraftingStatue",
+      "sprite_name": "lootsprite_passageCraftingStatue",
+      "source": "local_game_object_icon/PassageCraftingStatue:0",
+      "source_sha256": "69ef2b14e315f13aca65bff45dab61c1469e75f66d49cbdbd5806bcb9eb9a30d",
+      "output_sha256": "682b2adf12f240803d93956dd69ad1ad227d1b244267e852cd14892b88f2c7e0"
+    },
+    {
+      "license": "Upgrade Station License",
+      "output": "images/license-icons/upgradestationlicense.png",
+      "object_id": 4046,
+      "internal_name": "UpgradeForge",
+      "sprite_name": "lootsprites_crystal_72",
+      "source": "local_game_object_icon/UpgradeForge:0",
+      "source_sha256": "540590fc85de9022ff897d2506309affda04b5c1c1305afc2249b34ad3935e05",
+      "output_sha256": "994b64fdffff856818a1d70c47b3e39c93a8607fd0ae6d6e5f2ae794f8b93e47"
+    },
+    {
+      "license": "Glass Workbench License",
+      "output": "images/license-icons/glassworkbenchlicense.png",
+      "object_id": 4045,
+      "internal_name": "GlassWorkbench",
+      "sprite_name": "lootspritesAnimalUpdate_56",
+      "source": "local_game_object_icon/GlassWorkbench:0",
+      "source_sha256": "341e7d76a2ebc091d9db2c88e40aaaa86d751defdddff8d4139a431d20593a01",
+      "output_sha256": "6a8e88a1ad3bff832f8270222ee5a3f5a6159cc5dd23846ea684054eccecd687"
+    },
+    {
+      "license": "Railway Forge License",
+      "output": "images/license-icons/railwayforgelicense.png",
+      "object_id": 4017,
+      "internal_name": "RailwayForge",
+      "sprite_name": "lootsprites_240",
+      "source": "local_game_object_icon/RailwayForge:0",
+      "source_sha256": "acdad208ca4c76976ab1003058dfbdadb5fb6edce96f734ad72010a3daa5f211",
+      "output_sha256": "769035c3ad92cb6b9e65db74af65607834a61514103b2da0849991f51b928655"
+    },
+    {
+      "license": "Loom License",
+      "output": "images/license-icons/loomlicense.png",
+      "object_id": 4041,
+      "internal_name": "LoomSpinningWheel",
+      "sprite_name": "lootsprites_1038",
+      "source": "local_game_object_icon/LoomSpinningWheel:0",
+      "source_sha256": "dad6e439a3cdf87e26039457a2648fd9ee6ccf44a120d97014656e8c821b58e5",
+      "output_sha256": "4bbdc55f481a4376650b9a4faac05a4b2cddc94ad5be7937444fc9e05594e559"
+    },
+    {
+      "license": "Go-Kart Workbench License",
+      "output": "images/license-icons/gokartworkbenchlicense.png",
+      "object_id": 4036,
+      "internal_name": "GoKartWorkbench",
+      "sprite_name": "lootsprites_997",
+      "source": "local_game_object_icon/GoKartWorkbench:0",
+      "source_sha256": "0b5069a64cfae7573ea6c825b120b129f9749154275cc5334529d781956a22e3",
+      "output_sha256": "b6bc0f5fb586a89f069f4d8e0e1948b9b2bb83cde0137cc9ae864138aef8f467"
+    },
+    {
+      "license": "Carpenter's Table License",
+      "output": "images/license-icons/carpenterstablelicense.png",
+      "object_id": 4007,
+      "internal_name": "Carpenter",
+      "sprite_name": "lootsprites_74",
+      "source": "local_game_object_icon/Carpenter:0",
+      "source_sha256": "c6ab8988740f05c0ec09b26dd54a21520528c7f5c1be627d50b0fb2afb860e12",
+      "output_sha256": "fe31d55d08934719b546a8d0064c7b84863fa30fd58393ffcd8258ffc30d1133"
+    },
+    {
+      "license": "Livestock Workbench License",
+      "output": "images/license-icons/livestockworkbenchlicense.png",
+      "object_id": 4048,
+      "internal_name": "CattleWorkbench",
+      "sprite_name": "lootsprites_crystal_227",
+      "source": "local_game_object_icon/CattleWorkbench:0",
+      "source_sha256": "1f8a1f947ee39c0fff05e57c6902141037ebb75e229329417907b3dd1cb2d10b",
+      "output_sha256": "8e9cff509c555f6ede5556cc25a7f5c5c2ad0ec2ee449344fa9b37564e608a80"
+    },
+    {
+      "license": "Painter's Table License",
+      "output": "images/license-icons/painterstablelicense.png",
+      "object_id": 4018,
+      "internal_name": "PaintersTable",
+      "sprite_name": "lootsprites_254",
+      "source": "local_game_object_icon/PaintersTable:0",
+      "source_sha256": "3adde05654a6921ed3fc65f91975b2c6dd27beec3a73dbf81d8a902531cfee03",
+      "output_sha256": "c34be41269be2b49f6935bf201f5bae7949c5daaa1aa72145070656c3b029b4c"
+    },
+    {
+      "license": "Music Workbench License",
+      "output": "images/license-icons/musicworkbenchlicense.png",
+      "object_id": 4042,
+      "internal_name": "MusicWorkbench",
+      "sprite_name": "lootsprites_valentine_38",
+      "source": "local_game_object_icon/MusicWorkbench:0",
+      "source_sha256": "8e4696a9969047a641a0bf0cb5c1591495a35624d39b1a85b927ef06ea56ba46",
+      "output_sha256": "ecdf8ee565c50c78b4001bd0a7888258e1b820a238f07162cdaf6186b62c288b"
+    }
+  ]
+}

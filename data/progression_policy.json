@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "core_keeper_steam_build_id": 23543556,
+  "source": "Explicit design requirements, with boss identities verified against runtime_database.raw.json",
+  "milestones": [
+    {"key":"lower_wall","display_name":"Lower Wall","requires_all":["defeat_glurch","defeat_ghorm","defeat_malugaz"]},
+    {"key":"defeat_first_titans","display_name":"Defeat First Titans","requires_all":["defeat_azeos","defeat_omoroth","defeat_ra_akar"]},
+    {"key":"defeat_second_titans","display_name":"Defeat Second Titans","requires_all":["defeat_druidra","defeat_crydra","defeat_pyrdra"]}
+  ],
+  "spheres": [
+    {"sphere":1,"display_name":"Lower Wall","bosses":["defeat_glurch","defeat_ghorm","defeat_malugaz","defeat_hive_mother","defeat_king_slime"]},
+    {"sphere":2,"display_name":"First Titans","bosses":["defeat_azeos","defeat_omoroth","defeat_ra_akar","defeat_ivy","defeat_morpha","defeat_igneous"]},
+    {"sphere":3,"display_name":"Second Titans and Core Commander","bosses":["defeat_druidra","defeat_crydra","defeat_pyrdra","defeat_atlantean_worm","defeat_core_commander"]},
+    {"sphere":4,"display_name":"Post-Commander","bosses":["defeat_urschleim","defeat_nimruza","defeat_oblidra","defeat_sahabar"]}
+  ],
+  "bosses": [
+    {"key":"defeat_glurch","object_id":3020,"internal_name":"SlimeBoss","display_name":"Defeat Glurch the Abominous Mass","requires_all":[],"sequence_break_all":[]},
+    {"key":"defeat_ghorm","object_id":3003,"internal_name":"BossLarva","display_name":"Defeat Ghorm the Devourer","requires_all":[],"sequence_break_all":[]},
+    {"key":"defeat_malugaz","object_id":3058,"internal_name":"ShamanBoss","display_name":"Defeat Malugaz the Corrupted","requires_all":["defeat_glurch"],"sequence_break_all":[]},
+    {"key":"defeat_hive_mother","object_id":3005,"internal_name":"LarvaHiveBoss","display_name":"Defeat The Hive Mother","requires_all":["ancient_hologram_pod_license"],"sequence_break_all":[]},
+    {"key":"defeat_king_slime","object_id":3025,"internal_name":"KingSlime","display_name":"Defeat King Slime","requires_all":["defeat_glurch"],"sequence_break_all":[]},
+    {"key":"defeat_azeos","object_id":3090,"internal_name":"BirdBoss","display_name":"Defeat Azeos the Sky Titan","requires_all":["lower_wall"],"sequence_break_all":["lower_wall"]},
+    {"key":"defeat_ivy","object_id":3023,"internal_name":"PoisonSlimeBoss","display_name":"Defeat Ivy the Poisonous Mass","requires_all":["ancient_hologram_pod_license"],"sequence_break_all":["lower_wall"]},
+    {"key":"defeat_omoroth","object_id":3110,"internal_name":"OctopusBoss","display_name":"Defeat Omoroth the Sea Titan","requires_all":["defeat_azeos","fishing_workbench_license"],"sequence_break_all":["lower_wall","fishing_workbench_license"]},
+    {"key":"defeat_morpha","object_id":3024,"internal_name":"SlipperySlimeBoss","display_name":"Defeat Morpha the Aquatic Mass","requires_all":["ancient_hologram_pod_license"],"sequence_break_all":["lower_wall"]},
+    {"key":"defeat_ra_akar","object_id":3131,"internal_name":"ScarabBoss","display_name":"Defeat Ra-Akar the Sand Titan","requires_all":["defeat_omoroth"],"sequence_break_all":["lower_wall"]},
+    {"key":"defeat_igneous","object_id":3028,"internal_name":"LavaSlimeBoss","display_name":"Defeat Igneous the Molten Mass","requires_all":["ancient_hologram_pod_license"],"sequence_break_all":["lower_wall"]},
+    {"key":"defeat_druidra","object_id":3145,"internal_name":"HydraBossNature","display_name":"Defeat Druidra the Wild Titan","requires_all":["defeat_first_titans"],"sequence_break_all":[]},
+    {"key":"defeat_crydra","object_id":3146,"internal_name":"HydraBossSea","display_name":"Defeat Crydra the Ice Titan","requires_all":["defeat_druidra"],"sequence_break_all":[]},
+    {"key":"defeat_pyrdra","object_id":3147,"internal_name":"HydraBossDesert","display_name":"Defeat Pyrdra the Fire Titan","requires_all":["defeat_crydra"],"sequence_break_all":[]},
+    {"key":"defeat_atlantean_worm","object_id":3148,"internal_name":"SnakeBossSegment","display_name":"Defeat Atlantean Worm","requires_all":["defeat_first_titans","talk_to_brave_merchant"],"sequence_break_all":["lower_wall","talk_to_brave_merchant"]},
+    {"key":"defeat_core_commander","object_id":3157,"internal_name":"CoreBoss","display_name":"Defeat Core Commander","requires_all":["defeat_second_titans"],"sequence_break_all":[]},
+    {"key":"defeat_urschleim","object_id":3168,"internal_name":"WallBoss","display_name":"Defeat Urschleim","requires_all":["defeat_core_commander"],"sequence_break_all":[]},
+    {"key":"defeat_nimruza","object_id":3183,"internal_name":"GiantCicadaBoss","display_name":"Defeat Nimruza, Queen of the Burrowed Sands","requires_all":["defeat_core_commander"],"sequence_break_all":["lower_wall"]},
+    {"key":"defeat_oblidra","object_id":3149,"internal_name":"HydraBossVoid","display_name":"Defeat Oblidra the Void Titan","requires_all":["defeat_nimruza"],"sequence_break_all":[]},
+    {"key":"defeat_sahabar","object_id":3190,"internal_name":"RobotBoss","display_name":"Defeat S.A.H.A.B.A.R","requires_all":["defeat_nimruza"],"sequence_break_all":[]}
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "core_keeper_steam_build_id": 23543556,
+  "world": {
+    "save_index": 7,
+    "name": "Legacy World",
+    "seed": 708737657,
+    "world_guid": "a7319cfea4b5d4f851ae94b84a459283"
+  },
+  "archipelago": {
+    "room_identity": "43522438200883732801:0:1",
+    "slot": "arin"
+  },
+  "observations": [
+    {
+      "feature": "natural_acquisition_wood",
+      "setup": "Connected client, existing character and test world, Collect Wood unchecked.",
+      "action": "Naturally collect Wood in Core Keeper.",
+      "expected": "Queue and confirm Collect Wood exactly once.",
+      "result": "verified",
+      "reported_at": "2026-08-01",
+      "installed_client_sha256": "cc8a2141f423eee5047401d298520ab59aaf4517dd32c470651c531d4e3c3c2f"
+    },
+    {
+      "feature": "unlock_locked_copper_chest",
+      "setup": "Connected client, Copper Key available, Unlock Locked Copper Chest unchecked.",
+      "action": "Unlock a placed Locked Copper Chest with a Copper Key.",
+      "expected": "Queue and confirm Unlock Locked Copper Chest exactly once.",
+      "result": "verified",
+      "reported_at": "2026-08-01",
+      "installed_client_sha256": "b9d84a7244a4e726f6594d6e577fcb50bb3a6d1cc514a4b4850b6f9411ffc924"
+    },
+    {
+      "feature": "vertical_slice_kill_skill_boss",
+      "setup": "Connected client with Slay Shrooman, Level 10 Mining, and Defeat Glurch unchecked.",
+      "action": "Kill Shrooman, load qualifying Mining level, and defeat Glurch.",
+      "expected": "Each corresponding location is confirmed exactly once.",
+      "result": "verified",
+      "reported_at": "2026-08-01",
+      "source_revision": "152d8e84"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+CK_LOCAL_TEXTURES_ACTIVE = false

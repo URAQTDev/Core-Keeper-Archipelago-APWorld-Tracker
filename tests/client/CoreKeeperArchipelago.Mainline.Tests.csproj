@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\client\State\PendingLocationChecks.cs" Link="PendingLocationChecks.cs" />
+    <Compile Include="..\..\client\State\ReceivedItemCursor.cs" Link="ReceivedItemCursor.cs" />
+    <Compile Include="..\..\client\State\ReconnectBackoff.cs" Link="ReconnectBackoff.cs" />
+    <Compile Include="..\..\client\State\GoalLocationPolicy.cs" Link="GoalLocationPolicy.cs" />
+    <Compile Include="..\..\client\State\LicenseLedger.cs" Link="LicenseLedger.cs" />
+    <Compile Include="..\..\client\State\LicenseMode.cs" Link="LicenseMode.cs" />
+    <Compile Include="..\..\client\State\SkillPointLedger.cs" Link="SkillPointLedger.cs" />
+    <Compile Include="..\..\client\State\LegendaryLedger.cs" Link="LegendaryLedger.cs" />
+    <Compile Include="..\..\client\State\RewardProvenanceLedger.cs" Link="RewardProvenanceLedger.cs" />
+    <Compile Include="..\..\client\ConnectionSettings.cs" Link="ConnectionSettings.cs" />
+  </ItemGroup>
+</Project>

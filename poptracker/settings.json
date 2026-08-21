@@ -1,0 +1,5 @@
+{
+  "smooth_scaling": false,
+  "allow_deferred_logic_update": true,
+  "disabled_image_filter": "grey"
+}

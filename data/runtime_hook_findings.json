@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "core_keeper_steam_build_id": 23543556,
+  "findings": [
+    {
+      "feature": "locked_chest_tier_identity",
+      "status": "blocked",
+      "verified_hook": "EffectEventExtensions.PlayEffect(EffectEventCD, Entity, World)",
+      "evidence": ["Pug.Other.dll:EffectEventExtensions.PlayEffect:EffectID.OpenChest", "Pug.ECS.Components.dll:EffectEventCD"],
+      "finding": "The successful OpenChest playback event contains a position but does not encode the locked chest ObjectID or key tier. The copper-only vertical slice is verified, but this hook cannot be generalized to seven tiers by assumption.",
+      "next_evidence_needed": "Identify the server unlock system before it replaces the locked chest, or prove a stable position-to-server-entity lookup at the event boundary."
+    },
+    {
+      "feature": "reward_item_provenance_after_drop_and_repickup",
+      "status": "blocked",
+      "verified_hook": "Inventory.InventoryChangeBuffer command plus bounded local inventory delta observer",
+      "evidence": ["Pug.Other.dll:Inventory.InventoryUpdateSystem.ProcessInventoryChange", "Pug.Other.dll:Inventory.InventoryUtility.DropItem", "Pug.Other.dll:Inventory.InventoryUtility.PickUpObject", "mainline playtest:natural_acquisition_wood"],
+      "finding": "Command-count suppression distinguishes initial AP delivery from a natural gain, but inventory counts alone cannot prove provenance after an AP item is dropped and later picked up. DropItem copies auxDataIndex to the world entity, but the shipped PickUpObject path reconstructs the inventory entry from only ObjectDataCD.objectID and does not restore that auxiliary data. An auxiliary marker therefore does not survive the complete round trip without replacing or patching the authoritative pickup path.",
+      "next_evidence_needed": "Identify a supported persistent component that survives InventoryUtility.PickUpObject, or implement and multiplayer-test an authoritative pickup patch that transports provenance without guessing from object ID, position, or timing."
+    },
+    {
+      "feature": "inventory_acquisition_from_pouches",
+      "status": "observed",
+      "verified_hook": "Full ContainedObjectsBuffer on the authoritative local-player server entity",
+      "evidence": ["Pug.Other.dll:EquipmentHandler.pouchInventorySlotsHandlers", "Pug.Other.dll:InventoryHandler(EntityMonoBehaviour,World,inventoryIndex)", "Pug.Other.dll:PlayerController.GetInventorySlot", "mainline client:NaturalInventoryObserver.Snapshot"],
+      "finding": "The shipped game constructs all four pouch slot handlers from the same player entity using InventoryBuffer indices 1 through 4. Their start positions index the player's single ContainedObjectsBuffer. NaturalInventoryObserver enumerates that full buffer rather than only InventoryBuffer index 0, so pouch slots are structurally covered without a second scan.",
+      "next_evidence_needed": "Run one direct main-version playtest where a target item routes immediately into a pouch; static assembly evidence proves coverage, but the runtime path should still be observed before release sign-off."
+    }
+  ]
+}

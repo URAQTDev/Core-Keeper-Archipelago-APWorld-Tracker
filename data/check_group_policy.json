@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "groups": [
+    {"key":"raw_materials","display_name":"Raw Materials","default_enabled":true},
+    {"key":"refined_materials","display_name":"Refined Materials","default_enabled":true},
+    {"key":"locked_chests","display_name":"Locked Chests","default_enabled":true},
+    {"key":"seeds","display_name":"Seeds","default_enabled":true},
+    {"key":"food","display_name":"Food","default_enabled":true},
+    {"key":"enemies","display_name":"Enemies","default_enabled":true},
+    {"key":"unique_materials","display_name":"Unique Materials","default_enabled":false},
+    {"key":"key_items","display_name":"Key Items","default_enabled":false},
+    {"key":"bosses","display_name":"Bosses","default_enabled":false},
+    {"key":"merchantsanity","display_name":"Merchants","default_enabled":false},
+    {"key":"petsanity","display_name":"Pets","default_enabled":false},
+    {"key":"blocksanity","display_name":"Blocks","default_enabled":false},
+    {"key":"goldensanity","display_name":"Golden Food","default_enabled":false},
+    {"key":"critters","display_name":"Critters","default_enabled":false},
+    {"key":"cattle_mutilation","display_name":"Cattle Mutilation","default_enabled":false},
+    {"key":"skillsanity","display_name":"Skillsanity","default_enabled":false},
+    {"key":"fishsanity","display_name":"Fishsanity","default_enabled":false},
+    {"key":"figurinesanity","display_name":"Figurinesanity","default_enabled":false},
+    {"key":"cardsanity","display_name":"Cardsanity","default_enabled":false},
+    {"key":"valuablesanity","display_name":"Valuablesanity","default_enabled":false},
+    {"key":"toolsanity","display_name":"Toolsanity","default_enabled":false},
+    {"key":"weaponsanity","display_name":"Weaponsanity","default_enabled":false},
+    {"key":"jewelrysanity","display_name":"Jewelrysanity","default_enabled":false},
+    {"key":"accessanity","display_name":"Accessanity","default_enabled":false},
+    {"key":"armorsanity","display_name":"Armorsanity","default_enabled":false}
+  ]
+}

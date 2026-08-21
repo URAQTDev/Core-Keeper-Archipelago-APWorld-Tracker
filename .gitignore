@@ -1,0 +1,15 @@
+__pycache__/
+.pytest_cache/
+bin/
+obj/
+build/
+dist/
+.deps/
+.tools/
+.icon-tooldeps/
+*.apworld
+*.apsave
+AP_*.zip
+Player.log
+Player-prev.log
+

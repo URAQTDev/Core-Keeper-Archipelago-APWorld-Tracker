@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "default_goal": "defeat_core_commander",
+  "goals": [
+    {"key":"defeat_all_bosses","display_name":"Defeat All Bosses","terminal":"all_bosses","description":"Find and defeat all bosses including optional bosses."},
+    {"key":"defeat_sahabar","display_name":"Defeat S.A.H.A.B.A.R","terminal":"defeat_sahabar","description":"Find and defeat S.A.H.A.B.A.R."},
+    {"key":"defeat_core_commander","display_name":"Defeat Core Commander","terminal":"defeat_core_commander","description":"Find and defeat Core Commander."},
+    {"key":"lower_wall","display_name":"Lower Wall","terminal":"lower_wall","description":"Insert all boss gems into the Core and lower the wall."}
+  ]
+}

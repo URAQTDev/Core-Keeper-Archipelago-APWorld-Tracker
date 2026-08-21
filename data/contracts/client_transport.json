@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "archipelago_multiclient_net": {
+    "version": "6.7.1",
+    "target": "netstandard2.0",
+    "source_commit": "0c57591db30f2497b0b4fef87164aa2bbe2e51b2",
+    "runtime_files": [
+      {"name": "Archipelago.MultiClient.Net.dll", "bytes": 131584}
+    ],
+    "runtime_binding": "Recompiled without source changes against Core Keeper's shipped signed Newtonsoft.Json 13 assembly; no duplicate JSON DLL is packaged.",
+    "verified_apis": [
+      "ArchipelagoSessionFactory.CreateSession(Uri)",
+      "ArchipelagoSession.ConnectAsync()",
+      "ArchipelagoSession.LoginAsync(...) ",
+      "IReceivedItemsHelper.AllItemsReceived",
+      "IReceivedItemsHelper.Index",
+      "ILocationCheckHelper.CompleteLocationChecksAsync(long[])",
+      "IArchipelagoSocketHelper.SocketClosed",
+      "IArchipelagoSocketHelper.ErrorReceived",
+      "ArchipelagoSession.SetGoalAchieved()"
+    ]
+  },
+  "core_keeper_loader": {
+    "assembly": "PugMod.Loader.dll",
+    "type": "PugMod.Loader",
+    "verified_behavior": [
+      "Manifest .dll files are loaded before .cs files.",
+      "DLL loading requires accessesExtraAssemblies=true.",
+      "All loaded DLLs become metadata references for compiled scripts.",
+      "Public PugMod.IMod implementations are instantiated by the loader.",
+      "Loaded ISystem implementations are registered by the loader."
+    ]
+  }
+}

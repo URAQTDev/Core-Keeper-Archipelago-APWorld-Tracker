@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "core_keeper_steam_build_id": 23543556,
+  "caches": [
+    {
+      "key": "raw_material_cache",
+      "item_name": "Raw Material Cache",
+      "minimum_amount": 5,
+      "maximum_amount": 10,
+      "objects": [
+        "AncientCoin", "CopperOre", "TinOre", "IronOre", "GoldOre",
+        "ScarletOre", "OctarineOre", "GalaxiteOre", "SolariteOre",
+        "PandoriumOre", "ReluciteOre", "Wood", "CoralWood", "GleamWood",
+        "AncientGemstone", "NatureGemstone", "SeaGemstone", "DesertGemstone",
+        "Slime", "PoisonSlime", "SlipperySlime", "LavaSlime", "Fiber", "Wool",
+        "RolyPolyPlate", "MechanicalPart", "ScrapPart", "AncientFeather",
+        "SeaShell", "CalcifiedBone", "Cytoplasm", "CorruptedAlloy",
+        "ScarabWingcover", "BlastingDung"
+      ]
+    },
+    {
+      "key": "refined_material_cache",
+      "item_name": "Refined Material Cache",
+      "minimum_amount": 5,
+      "maximum_amount": 10,
+      "objects": [
+        "CopperBar", "TinBar", "IronBar", "GoldBar", "ScarletBar",
+        "OctarineBar", "GalaxiteBar", "SolariteBar", "PandoriumBar",
+        "ReluciteBar", "Plank", "CoralPlank", "GleamWoodPlank", "Glass"
+      ]
+    },
+    {
+      "key": "potions_cache",
+      "item_name": "Potions Cache",
+      "minimum_amount": 3,
+      "maximum_amount": 5,
+      "objects": [
+        "RecallIdol", "HealingPotion", "GreaterHealingPotion", "ManaPotion",
+        "GreaterManaPotion", "EnragePotion", "KeenPotion", "MagicPotion",
+        "MinionPotion", "StoneskinPotion", "PoisonAidPotion", "GuardiansPotion",
+        "CavelingCoffee", "HeartberrySoda", "CrystalWater", "UnusualPotion",
+        "BurnResistancePotion"
+      ]
+    },
+    {
+      "key": "pet_cache",
+      "item_name": "Pet Cache",
+      "minimum_amount": 1,
+      "maximum_amount": 3,
+      "objects": [
+        "PetCandy", "PetCandyRare", "PetCandyEpic", "PetDogEgg", "PetCatEgg",
+        "PetBirdEgg", "PetSlimeBlobEgg", "PetWarlockEgg", "PetElectricEgg",
+        "PetPrinceSlimeBlobEgg", "PetBunnyEgg", "PetPoisonSlimeBlobEgg",
+        "PetMothEgg", "PetSlipperySlimeBlobEgg", "PetLavaSlimeBlobEgg",
+        "PetTardigradeEgg", "PetMagicEgg"
+      ]
+    },
+    {
+      "key": "money_cache",
+      "item_name": "Money Cache",
+      "minimum_amount": 50,
+      "maximum_amount": 1000,
+      "amount_step": 50,
+      "objects": ["AncientCoin"]
+    },
+    {
+      "key": "automation_cache",
+      "item_name": "Automation Cache",
+      "choices": [
+        {"object": "ConveyorBelt", "amount": 50},
+        {"object": "CrudeDrill", "amount": 2},
+        {"object": "CrudeDrill", "amount": 4},
+        {"object": "Drill", "amount": 2},
+        {"object": "Drill", "amount": 4},
+        {"object": "Sprinkler", "amount": 2},
+        {"object": "Sprinkler", "amount": 4},
+        {"object": "ElectricityGenerator", "amount": 2},
+        {"object": "ElectricityGenerator", "amount": 4},
+        {"object": "UndergroundElectricityGenerator", "amount": 2},
+        {"object": "UndergroundElectricityGenerator", "amount": 4}
+      ]
+    }
+  ]
+}

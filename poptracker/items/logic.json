@@ -1,0 +1,569 @@
+[
+  {
+    "name": "Goal Scope",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": false,
+    "initial_stage_idx": 3,
+    "stages": [
+      {
+        "name": "Lower Wall",
+        "img": "images/collect_wood_unavailable.png",
+        "codes": "goal_stage_0",
+        "inherit_codes": true
+      },
+      {
+        "name": "Defeat Core Commander",
+        "img": "images/collect_wood_unavailable.png",
+        "codes": "goal_stage_1",
+        "inherit_codes": true
+      },
+      {
+        "name": "Defeat S.A.H.A.B.A.R",
+        "img": "images/collect_wood_unavailable.png",
+        "codes": "goal_stage_2",
+        "inherit_codes": true
+      },
+      {
+        "name": "Defeat All Bosses",
+        "img": "images/collect_wood_unavailable.png",
+        "codes": "goal_stage_3",
+        "inherit_codes": true
+      }
+    ],
+    "codes": "goal_scope"
+  },
+  {
+    "name": "Progressive Workbench License",
+    "img": "images/license-icons/progressiveworkbenchlicense.png",
+    "codes": "progressive_workbench_license",
+    "type": "progressive",
+    "allow_disabled": true,
+    "loop": false,
+    "stages": [
+      {
+        "name": "Basic Workbench",
+        "img": "images/license-stages/progressive_workbench_license/0.png",
+        "codes": "progressive_workbench_license,progressive_workbench_license_stage_0",
+        "inherit_codes": true
+      },
+      {
+        "name": "Copper Workbench",
+        "img": "images/license-stages/progressive_workbench_license/1.png",
+        "codes": "progressive_workbench_license,progressive_workbench_license_stage_1",
+        "inherit_codes": true
+      },
+      {
+        "name": "Tin Workbench",
+        "img": "images/license-stages/progressive_workbench_license/2.png",
+        "codes": "progressive_workbench_license,progressive_workbench_license_stage_2",
+        "inherit_codes": true
+      },
+      {
+        "name": "Iron Workbench",
+        "img": "images/license-stages/progressive_workbench_license/3.png",
+        "codes": "progressive_workbench_license,progressive_workbench_license_stage_3",
+        "inherit_codes": true
+      },
+      {
+        "name": "Scarlet Workbench",
+        "img": "images/license-stages/progressive_workbench_license/4.png",
+        "codes": "progressive_workbench_license,progressive_workbench_license_stage_4",
+        "inherit_codes": true
+      },
+      {
+        "name": "Octarine Workbench",
+        "img": "images/license-stages/progressive_workbench_license/5.png",
+        "codes": "progressive_workbench_license,progressive_workbench_license_stage_5",
+        "inherit_codes": true
+      },
+      {
+        "name": "Galaxite Workbench",
+        "img": "images/license-stages/progressive_workbench_license/6.png",
+        "codes": "progressive_workbench_license,progressive_workbench_license_stage_6",
+        "inherit_codes": true
+      },
+      {
+        "name": "Solarite Workbench",
+        "img": "images/license-stages/progressive_workbench_license/7.png",
+        "codes": "progressive_workbench_license,progressive_workbench_license_stage_7",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Anvil License",
+    "img": "images/license-icons/progressiveanvillicense.png",
+    "codes": "progressive_anvil_license",
+    "type": "progressive",
+    "allow_disabled": true,
+    "loop": false,
+    "stages": [
+      {
+        "name": "Copper Anvil",
+        "img": "images/license-stages/progressive_anvil_license/0.png",
+        "codes": "progressive_anvil_license,progressive_anvil_license_stage_0",
+        "inherit_codes": true
+      },
+      {
+        "name": "Tin Anvil",
+        "img": "images/license-stages/progressive_anvil_license/1.png",
+        "codes": "progressive_anvil_license,progressive_anvil_license_stage_1",
+        "inherit_codes": true
+      },
+      {
+        "name": "Iron Anvil",
+        "img": "images/license-stages/progressive_anvil_license/2.png",
+        "codes": "progressive_anvil_license,progressive_anvil_license_stage_2",
+        "inherit_codes": true
+      },
+      {
+        "name": "Scarlet Anvil",
+        "img": "images/license-stages/progressive_anvil_license/3.png",
+        "codes": "progressive_anvil_license,progressive_anvil_license_stage_3",
+        "inherit_codes": true
+      },
+      {
+        "name": "Octarine Anvil",
+        "img": "images/license-stages/progressive_anvil_license/4.png",
+        "codes": "progressive_anvil_license,progressive_anvil_license_stage_4",
+        "inherit_codes": true
+      },
+      {
+        "name": "Galaxite Anvil",
+        "img": "images/license-stages/progressive_anvil_license/5.png",
+        "codes": "progressive_anvil_license,progressive_anvil_license_stage_5",
+        "inherit_codes": true
+      },
+      {
+        "name": "Solarite Anvil",
+        "img": "images/license-stages/progressive_anvil_license/6.png",
+        "codes": "progressive_anvil_license,progressive_anvil_license_stage_6",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Furnace License",
+    "img": "images/license-icons/progressivefurnacelicense.png",
+    "codes": "progressive_furnace_license",
+    "type": "progressive",
+    "allow_disabled": true,
+    "loop": false,
+    "stages": [
+      {
+        "name": "Furnace",
+        "img": "images/license-stages/progressive_furnace_license/0.png",
+        "codes": "progressive_furnace_license,progressive_furnace_license_stage_0",
+        "inherit_codes": true
+      },
+      {
+        "name": "Smelter Kiln",
+        "img": "images/license-stages/progressive_furnace_license/1.png",
+        "codes": "progressive_furnace_license,progressive_furnace_license_stage_1",
+        "inherit_codes": true
+      },
+      {
+        "name": "Fury Forge",
+        "img": "images/license-stages/progressive_furnace_license/2.png",
+        "codes": "progressive_furnace_license,progressive_furnace_license_stage_2",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Salvage and Repair Station License",
+    "img": "images/license-icons/salvageandrepairstationlicense.png",
+    "codes": "salvage_and_repair_station_license",
+    "type": "toggle"
+  },
+  {
+    "name": "Cooking Pot License",
+    "img": "images/license-icons/cookingpotlicense.png",
+    "codes": "cooking_pot_license",
+    "type": "toggle"
+  },
+  {
+    "name": "Ancient Hologram Pod License",
+    "img": "images/license-icons/ancienthologrampodlicense.png",
+    "codes": "ancient_hologram_pod_license",
+    "type": "toggle"
+  },
+  {
+    "name": "Table Saw License",
+    "img": "images/license-icons/tablesawlicense.png",
+    "codes": "table_saw_license",
+    "type": "toggle"
+  },
+  {
+    "name": "Fishing Workbench License",
+    "img": "images/license-icons/fishingworkbenchlicense.png",
+    "codes": "fishing_workbench_license",
+    "type": "toggle"
+  },
+  {
+    "name": "Egg Incubator License",
+    "img": "images/license-icons/eggincubatorlicense.png",
+    "codes": "egg_incubator_license",
+    "type": "toggle"
+  },
+  {
+    "name": "Key Casting Table License",
+    "img": "images/license-icons/keycastingtablelicense.png",
+    "codes": "key_casting_table_license",
+    "type": "toggle"
+  },
+  {
+    "name": "Progressive Alchemy Table License",
+    "img": "images/license-icons/progressivealchemytablelicense.png",
+    "codes": "progressive_alchemy_table_license",
+    "type": "progressive",
+    "allow_disabled": true,
+    "loop": false,
+    "stages": [
+      {
+        "name": "Alchemy Table",
+        "img": "images/license-stages/progressive_alchemy_table_license/0.png",
+        "codes": "progressive_alchemy_table_license,progressive_alchemy_table_license_stage_0",
+        "inherit_codes": true
+      },
+      {
+        "name": "Laboratory Table",
+        "img": "images/license-stages/progressive_alchemy_table_license/1.png",
+        "codes": "progressive_alchemy_table_license,progressive_alchemy_table_license_stage_1",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Jewelry Workbench License",
+    "img": "images/license-icons/progressivejewelryworkbenchlicense.png",
+    "codes": "progressive_jewelry_workbench_license",
+    "type": "progressive",
+    "allow_disabled": true,
+    "loop": false,
+    "stages": [
+      {
+        "name": "Jewelry Workbench",
+        "img": "images/license-stages/progressive_jewelry_workbench_license/0.png",
+        "codes": "progressive_jewelry_workbench_license,progressive_jewelry_workbench_license_stage_0",
+        "inherit_codes": true
+      },
+      {
+        "name": "Proficient Jewelry Workbench",
+        "img": "images/license-stages/progressive_jewelry_workbench_license/1.png",
+        "codes": "progressive_jewelry_workbench_license,progressive_jewelry_workbench_license_stage_1",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Automation Table License",
+    "img": "images/license-icons/progressiveautomationtablelicense.png",
+    "codes": "progressive_automation_table_license",
+    "type": "progressive",
+    "allow_disabled": true,
+    "loop": false,
+    "stages": [
+      {
+        "name": "Automation Table",
+        "img": "images/license-stages/progressive_automation_table_license/0.png",
+        "codes": "progressive_automation_table_license,progressive_automation_table_license_stage_0",
+        "inherit_codes": true
+      },
+      {
+        "name": "Advanced Automation Table",
+        "img": "images/license-stages/progressive_automation_table_license/1.png",
+        "codes": "progressive_automation_table_license,progressive_automation_table_license_stage_1",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Smithing Table License",
+    "img": "images/license-icons/progressivesmithingtablelicense.png",
+    "codes": "progressive_smithing_table_license",
+    "type": "progressive",
+    "allow_disabled": true,
+    "loop": false,
+    "stages": [
+      {
+        "name": "Metalcrafter's Table",
+        "img": "images/license-stages/progressive_smithing_table_license/0.png",
+        "codes": "progressive_smithing_table_license,progressive_smithing_table_license_stage_0",
+        "inherit_codes": true
+      },
+      {
+        "name": "Relucite Smithing Table",
+        "img": "images/license-stages/progressive_smithing_table_license/1.png",
+        "codes": "progressive_smithing_table_license,progressive_smithing_table_license_stage_1",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Boat Workbench License",
+    "img": "images/license-icons/boatworkbenchlicense.png",
+    "codes": "boat_workbench_license",
+    "type": "toggle"
+  },
+  {
+    "name": "Electronics Table License",
+    "img": "images/license-icons/electronicstablelicense.png",
+    "codes": "electronics_table_license",
+    "type": "toggle"
+  },
+  {
+    "name": "Pouch Workbench License",
+    "img": "images/license-icons/pouchworkbenchlicense.png",
+    "codes": "pouch_workbench_license",
+    "type": "toggle"
+  },
+  {
+    "name": "Glass Smelter License",
+    "img": "images/license-icons/glasssmelterlicense.png",
+    "codes": "glass_smelter_license",
+    "type": "toggle"
+  },
+  {
+    "name": "Distillery Table License",
+    "img": "images/license-icons/distillerytablelicense.png",
+    "codes": "distillery_table_license",
+    "type": "toggle"
+  },
+  {
+    "name": "Rift Statue License",
+    "img": "images/license-icons/riftstatuelicense.png",
+    "codes": "rift_statue_license",
+    "type": "toggle"
+  },
+  {
+    "name": "Upgrade Station License",
+    "img": "images/license-icons/upgradestationlicense.png",
+    "codes": "upgrade_station_license",
+    "type": "toggle"
+  },
+  {
+    "name": "Glass Workbench License",
+    "img": "images/license-icons/glassworkbenchlicense.png",
+    "codes": "glass_workbench_license",
+    "type": "toggle"
+  },
+  {
+    "name": "Railway Forge License",
+    "img": "images/license-icons/railwayforgelicense.png",
+    "codes": "railway_forge_license",
+    "type": "toggle"
+  },
+  {
+    "name": "Loom License",
+    "img": "images/license-icons/loomlicense.png",
+    "codes": "loom_license",
+    "type": "toggle"
+  },
+  {
+    "name": "Go-Kart Workbench License",
+    "img": "images/license-icons/gokartworkbenchlicense.png",
+    "codes": "go_kart_workbench_license",
+    "type": "toggle"
+  },
+  {
+    "name": "Carpenter's Table License",
+    "img": "images/license-icons/carpenterstablelicense.png",
+    "codes": "carpenter_s_table_license",
+    "type": "toggle"
+  },
+  {
+    "name": "Livestock Workbench License",
+    "img": "images/license-icons/livestockworkbenchlicense.png",
+    "codes": "livestock_workbench_license",
+    "type": "toggle"
+  },
+  {
+    "name": "Painter's Table License",
+    "img": "images/license-icons/painterstablelicense.png",
+    "codes": "painter_s_table_license",
+    "type": "toggle"
+  },
+  {
+    "name": "Music Workbench License",
+    "img": "images/license-icons/musicworkbenchlicense.png",
+    "codes": "music_workbench_license",
+    "type": "toggle"
+  },
+  {
+    "name": "Enable Raw Materials",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_raw_materials",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Refined Materials",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_refined_materials",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Unique Materials",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_unique_materials",
+    "initial_active_state": false
+  },
+  {
+    "name": "Enable Key Items",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_key_items",
+    "initial_active_state": false
+  },
+  {
+    "name": "Enable Locked Chests",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_locked_chests",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Seeds",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_seeds",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Food",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_food",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Enemies",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_enemies",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Bosses",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_bosses",
+    "initial_active_state": false
+  },
+  {
+    "name": "Enable Cattle Mutilation",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_cattle_mutilation",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Goldensanity",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_golden_food",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Skillsanity",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_skill_levels",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Figurinesanity",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_figurines",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Cardsanity",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_oracle_cards",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Fishsanity",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_fish",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Valuablesanity",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_valuables",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Blocksanity",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_blocks",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Merchantsanity",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_merchantsanity",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Petsanity",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_petsanity",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Toolsanity",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_toolsanity",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Weaponsanity",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_weaponsanity",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Jewelrysanity",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_jewelrysanity",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Accessanity",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_accessanity",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Armorsanity",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_armorsanity",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Critters",
+    "type": "toggle",
+    "img": "images/collect_wood_unavailable.png",
+    "codes": "option_critters",
+    "initial_active_state": true
+  }
+]

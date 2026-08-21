@@ -1,0 +1,16 @@
+{
+  "name": "Core Keeper Archipelago Mainline",
+  "game_name": "Core Keeper",
+  "package_uid": "core-keeper-archipelago-mainline",
+  "package_version": "0.9.0-rc.8",
+  "author": "URAQTDev",
+  "platform": "PC",
+  "min_poptracker_version": "0.35.3",
+  "target_poptracker_version": "0.35.3",
+  "variants": {
+    "medium": {"display_name": "Core Keeper Mainline - Medium", "flags": ["ap"]},
+    "small": {"display_name": "Core Keeper Mainline - Small", "flags": ["ap"]},
+    "large": {"display_name": "Core Keeper Mainline - Large", "flags": ["ap"]},
+    "xl": {"display_name": "Core Keeper Mainline - XL", "flags": ["ap"]}
+  }
+}

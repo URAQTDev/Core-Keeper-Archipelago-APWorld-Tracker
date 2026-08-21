@@ -1,0 +1,14 @@
+{
+  "guid": "8ad5e9ba0e034ac9988d2428fe120203",
+  "name": "CoreKeeperArchipelagoExtractor",
+  "displayName": "Core Keeper Archipelago Data Extractor",
+  "skipSafetyChecks": true,
+  "disableScripts": false,
+  "accessesExtraAssemblies": true,
+  "disableHarmonyPatching": true,
+  "requiredOn": 0,
+  "files": [
+    {"path": "CoreKeeperArchipelagoExtractor.dll", "guid": ""}
+  ],
+  "dependencies": []
+}
