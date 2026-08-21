@@ -1,0 +1,25 @@
+name: Publish release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: >-
+          gh release create "$GITHUB_REF_NAME"
+          release-assets/*
+          --verify-tag
+          --title "Core Keeper Archipelago APWorld and Tracker ${GITHUB_REF_NAME#v}"
+          --notes "Includes the APWorld, texture-free PopTracker pack, and optional local textured-tracker setup. Install the matching in-game mod through Core Keeper's Mods menu."
+
