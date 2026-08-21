@@ -1121,1121 +1121,7577 @@ LOCATION_NAME_TO_ID = {
 }
 
 LOCATION_METADATA = {
-    "Collect Bone Creole": ("valuablesanity", "lower_wall", ()),
-    "Collect Geode": ("valuablesanity", "lower_wall", ()),
-    "Collect Ammonite": ("valuablesanity", "lower_wall", ()),
-    "Collect Triangle Trinket": ("valuablesanity", "lower_wall", ()),
-    "Collect Rusty Spoon": ("valuablesanity", "lower_wall", ()),
-    "Collect Caveling Skull": ("valuablesanity", "lower_wall", ()),
-    "Collect Twisted Agate": ("valuablesanity", "lower_wall", ()),
-    "Collect Old Amulet": ("valuablesanity", "lower_wall", ()),
-    "Collect Ear Plate": ("valuablesanity", "lower_wall", ()),
-    "Collect Amber Fish Egg": ("valuablesanity", "lower_wall", ()),
-    "Collect Golden Starfish": ("valuablesanity", "lower_wall", ()),
-    "Collect Grub Knot": ("valuablesanity", "lower_wall", ()),
-    "Collect Golden Cocoon": ("valuablesanity", "lower_wall", ()),
-    "Collect Grub Pearl": ("valuablesanity", "lower_wall", ()),
-    "Collect Mucus Amoeba": ("valuablesanity", "lower_wall", ()),
-    "Collect Blood Skull": ("valuablesanity", "lower_wall", ()),
-    "Collect Parasite Fossil": ("valuablesanity", "lower_wall", ()),
-    "Collect Petrified Egg": ("valuablesanity", "lower_wall", ()),
-    "Collect Soft Sponge": ("valuablesanity", "lower_wall", ()),
-    "Collect Caveling Perfume": ("valuablesanity", "lower_wall", ()),
-    "Collect Adder Stone": ("valuablesanity", "lower_wall", ()),
-    "Collect Broken Core Idol": ("valuablesanity", "lower_wall", ()),
-    "Collect Enhydro Crystal": ("valuablesanity", "lower_wall", ()),
-    "Collect Precious Urn": ("valuablesanity", "lower_wall", ()),
-    "Collect Amber Chunk": ("valuablesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Caveling Medal": ("valuablesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Lost Paddle": ("valuablesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Leaf Fossil": ("valuablesanity", "lower_wall", ()),
-    "Collect Petrified Coral": ("valuablesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Mechanical Arm": ("valuablesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Old Spore Mask": ("valuablesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Golden Feather": ("valuablesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Dry Butterfly": ("valuablesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Hard Thorn": ("valuablesanity", "lower_wall", ()),
-    "Collect Ceremonial Flute": ("valuablesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Feather Fish Scale": ("valuablesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Giant Mite": ("valuablesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Mold Dew": ("valuablesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Mildew Leaf": ("valuablesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Fungal Bone": ("valuablesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Data Slate": ("valuablesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Mold Shell": ("valuablesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Chipped Plate": ("valuablesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Balloon Spore": ("valuablesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Giant Germ": ("valuablesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Stone Cap": ("valuablesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Sealed Beverage": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Fish Fossil": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Rusty Fishing Hook": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Petrified Trilobite": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Bubble Pearl": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Forked Coral": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Golden Needle": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Opabinia Fossil": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Fizzy Crystal": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Giant Squid Eye": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Polished Shell": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Shark Tooth": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Black Bubble Pearl": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Blue Glass Kalimba": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Crystal Sphere": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Caveling Cup": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Timeless Hourglass": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Processor Chip": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Bent Fork": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Screen Device": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Luxurious Handmirror": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Incense Bowl": ("valuablesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Blue Glass Shard": ("valuablesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Caveling Sandal": ("valuablesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Plume Ball": ("valuablesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Broken Toy Ship": ("valuablesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Bag of Marbles": ("valuablesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Broken Gourd": ("valuablesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Kingfish Scale": ("valuablesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Ancient Makeup Set": ("valuablesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Ancient Golden Coin": ("valuablesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Black Desert Diamond": ("valuablesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Desert Diamond": ("valuablesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Crystal Spearhead": ("valuablesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Early Human Skull": ("valuablesanity", "lower_wall", ()),
-    "Collect Charred Caveling Skull": ("valuablesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Starlight Shards": ("valuablesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Melting Lava Wing": ("valuablesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Pickaxe Head": ("valuablesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Ancient Fishing Hook": ("valuablesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Fusion Alloy": ("valuablesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Worker Handcuff": ("valuablesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Offspring Capsule": ("valuablesanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Homeworld Reminiscence": ("valuablesanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Catalyst Gemstone": ("valuablesanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Chemical Ration": ("valuablesanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Deepspace Log": ("valuablesanity", "lower_wall", ()),
-    "Collect Triops Fossil": ("valuablesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Suspended Butterfly": ("valuablesanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Crystal Bone": ("valuablesanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Agartha Report": ("valuablesanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Sparkle Opal": ("valuablesanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Disabled Datapad": ("valuablesanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Geobot Leg": ("valuablesanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Sahabar Idol": ("valuablesanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Ancient Gem Plate": ("valuablesanity", "lower_wall", ()),
-    "Collect Antique Board Game": ("valuablesanity", "lower_wall", ()),
-    "Collect Mysterious Doll Set": ("valuablesanity", "lower_wall", ()),
-    "Collect Ritual Goblet": ("valuablesanity", "lower_wall", ('defeat_glurch',)),
-    "Collect Golden Whistle": ("valuablesanity", "lower_wall", ()),
-    "Collect Caveling Prophet Mask": ("valuablesanity", "lower_wall", ()),
-    "Collect Old Journal": ("valuablesanity", "lower_wall", ()),
-    "Collect Caveling Effigy": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Caveling Doll": ("valuablesanity", "lower_wall", ()),
-    "Collect Seismic Clock": ("valuablesanity", "lower_wall", ()),
-    "Collect Music Bowl": ("valuablesanity", "lower_wall", ()),
-    "Collect Golden Caveling Mask": ("valuablesanity", "lower_wall", ()),
-    "Collect Small Caveling Skull": ("valuablesanity", "lower_wall", ('defeat_glurch',)),
-    "Collect Playing Dice": ("valuablesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Pictographic Sketchbook": ("valuablesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Shrooman Figurine": ("figurinesanity", "lower_wall", ()),
-    "Collect Shrooman Brute Figurine": ("figurinesanity", "lower_wall", ()),
-    "Collect Slime Figurine": ("figurinesanity", "lower_wall", ()),
-    "Collect Red Slime Figurine": ("figurinesanity", "lower_wall", ()),
-    "Collect Caveling Skirmisher Figurine": ("figurinesanity", "lower_wall", ()),
-    "Collect Caveling Spearman Figurine": ("figurinesanity", "lower_wall", ()),
-    "Collect Clay Burrower Figurine": ("figurinesanity", "lower_wall", ()),
-    "Collect Larva Figurine": ("figurinesanity", "lower_wall", ()),
-    "Collect Hive Larva Figurine": ("figurinesanity", "lower_wall", ()),
-    "Collect Big Larva Figurine": ("figurinesanity", "lower_wall", ()),
-    "Collect Big Hive Larva Figurine": ("figurinesanity", "lower_wall", ()),
-    "Collect Acid Larva Figurine": ("figurinesanity", "lower_wall", ()),
-    "Collect Cocoon Figurine": ("figurinesanity", "lower_wall", ()),
-    "Collect Caveling Figurine": ("figurinesanity", "lower_wall", ()),
-    "Collect Caveling Shaman Figurine": ("figurinesanity", "lower_wall", ()),
-    "Collect Caveling Brute Figurine": ("figurinesanity", "lower_wall", ()),
-    "Collect Electro-Pest Figurine": ("figurinesanity", "lower_wall", ()),
-    "Collect Caveling Hunter Figurine": ("figurinesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Caveling Gardener Figurine": ("figurinesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Snare Plant Figurine": ("figurinesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Purple Slime Figurine": ("figurinesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Floracada Figurine": ("figurinesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Infected Caveling Figurine": ("figurinesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Mold Tentacle Figurine": ("figurinesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Bubble Crab Figurine": ("figurinesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Tentacle Figurine": ("figurinesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Blue Slime Figurine": ("figurinesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Caveling Scholar Figurine": ("figurinesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Core Sentry Figurine": ("figurinesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Bomb Scarab Figurine": ("figurinesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Caveling Assassin Figurine": ("figurinesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Caveling Mummy Figurine": ("figurinesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Lava Slime Figurine": ("figurinesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Lava Butterfly Figurine": ("figurinesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Mimite Figurine": ("figurinesanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Orbital Turret Figurine": ("figurinesanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Nilipede Figurine": ("figurinesanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Sulfur Worm Figurine": ("figurinesanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Collect Colossal Amoeba Figurine": ("figurinesanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Collect Gold Scarab Figurine": ("figurinesanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Collect Cicada Nymph Figurine": ("figurinesanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Collect Geobot Miner Figurine": ("figurinesanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Geobot Patroller Figurine": ("figurinesanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Geobot Scourer Figurine": ("figurinesanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Void Larva Cocoon Figurine": ("figurinesanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Void Larva Figurine": ("figurinesanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Void Caveling Figurine": ("figurinesanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Void Caveling Shaman Figurine": ("figurinesanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Void Caveling Brute Figurine": ("figurinesanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Core Figurine": ("figurinesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Glurch Figurine": ("figurinesanity", "lower_wall", ()),
-    "Collect Ghorm Figurine": ("figurinesanity", "lower_wall", ()),
-    "Collect Hive Mother Figurine": ("figurinesanity", "lower_wall", ()),
-    "Collect Malugaz Figurine": ("figurinesanity", "lower_wall", ('defeat_glurch',)),
-    "Collect King Slime Figurine": ("figurinesanity", "lower_wall", ('defeat_glurch',)),
-    "Collect Azeos Figurine": ("figurinesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Ivy Figurine": ("figurinesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Omoroth Figurine": ("figurinesanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Morpha Figurine": ("figurinesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Atlantean Worm Figurine": ("figurinesanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Ra-Akar Figurine": ("figurinesanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Igneous Figurine": ("figurinesanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Druidra Figurine": ("figurinesanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Crydra Figurine": ("figurinesanity", "defeat_core_commander", ('defeat_druidra',)),
-    "Collect Pyrdra Figurine": ("figurinesanity", "defeat_core_commander", ('defeat_crydra',)),
-    "Collect Core Commander Figurine": ("figurinesanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar', 'defeat_druidra', 'defeat_crydra', 'defeat_pyrdra')),
-    "Collect Unleashed Core Commander Figurine": ("figurinesanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar', 'defeat_druidra', 'defeat_crydra', 'defeat_pyrdra')),
-    "Collect Urschleim Figurine": ("figurinesanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Collect Nimruza Figurine": ("figurinesanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Collect S.A.H.A.B.A.R. Trophy": ("figurinesanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Oblidra Figurine": ("figurinesanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Orange Cave Guppy": ("fishsanity", "lower_wall", ()),
-    "Collect Blue Cave Guppy": ("fishsanity", "lower_wall", ()),
-    "Collect Rock Jaw": ("fishsanity", "lower_wall", ()),
-    "Collect Gem Crab": ("fishsanity", "lower_wall", ()),
-    "Collect Dagger Fin": ("fishsanity", "lower_wall", ()),
-    "Collect Pink Palace Fish": ("fishsanity", "lower_wall", ()),
-    "Collect Teal Palace Fish": ("fishsanity", "lower_wall", ()),
-    "Collect Crown Squid": ("fishsanity", "lower_wall", ()),
-    "Collect Yellow Blister Head": ("fishsanity", "lower_wall", ()),
-    "Collect Green Blister Head": ("fishsanity", "lower_wall", ()),
-    "Collect Devil Worm": ("fishsanity", "lower_wall", ()),
-    "Collect Vampire Eel": ("fishsanity", "lower_wall", ()),
-    "Collect Mold Shark": ("fishsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Rot Fish": ("fishsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Black Steel Urchin": ("fishsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Azure Feather Fish": ("fishsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Emerald Feather Fish": ("fishsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Spirit Veil": ("fishsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Astral Jelly": ("fishsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Bottom Tracer": ("fishsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Silver Dart": ("fishsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Golden Dart": ("fishsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Pink Coralotl": ("fishsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect White Coralotl": ("fishsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Solid Spikeback": ("fishsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Sandy Spikeback": ("fishsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Gray Dune Tail": ("fishsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Brown Dune Tail": ("fishsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Tornis Kingfish": ("fishsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Dark Lava Eater": ("fishsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Bright Lava Eater": ("fishsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Verdant Dragonfish": ("fishsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Elder Dragonfish": ("fishsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Starlight Nautilus": ("fishsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Beryll Angle Fish": ("fishsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Glistening Deepstalker": ("fishsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Cosmic Form": ("fishsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Jasper Angle Fish": ("fishsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Splendid Deepstalker": ("fishsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Terra Trilobite": ("fishsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Collect Litho Trilobite": ("fishsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Collect Greenhorn Pico": ("fishsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Collect Pinkhorn Pico": ("fishsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Collect Riftian Lampfish": ("fishsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Collect Dirt Block": ("blocksanity", "lower_wall", ()),
-    "Collect Turf Block": ("blocksanity", "lower_wall", ()),
-    "Collect Sand Block": ("blocksanity", "lower_wall", ()),
-    "Collect Meadow Block": ("blocksanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Clay Block": ("blocksanity", "lower_wall", ()),
-    "Collect Larva Hive Block": ("blocksanity", "lower_wall", ()),
-    "Collect Stone Block": ("blocksanity", "lower_wall", ()),
-    "Collect Grass Block": ("blocksanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Mold Block": ("blocksanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Beach Block": ("blocksanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Metropolis Block": ("blocksanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Desert Block": ("blocksanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Desert Temple Block": ("blocksanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Maze Block": ("blocksanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Lava Rock Block": ("blocksanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Crystal Block": ("blocksanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Alien Tech Block": ("blocksanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Fossil Block": ("blocksanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Collect Oasis Block": ("blocksanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Excavation Block": ("blocksanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Industrial Block": ("blocksanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Tuff Block": ("blocksanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Void Infused Tuff Block": ("blocksanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Wood": ("raw_materials", "lower_wall", ()),
-    "Collect Ancient Coin": ("raw_materials", "lower_wall", ()),
-    "Collect Copper Ore": ("raw_materials", "lower_wall", ()),
-    "Collect Tin Ore": ("raw_materials", "lower_wall", ()),
-    "Collect Iron Ore": ("raw_materials", "lower_wall", ()),
-    "Collect Gold Ore": ("raw_materials", "lower_wall", ()),
-    "Collect Scarlet Ore": ("raw_materials", "defeat_core_commander", ('lower_wall',)),
-    "Collect Octarine Ore": ("raw_materials", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Galaxite Ore": ("raw_materials", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Solarite Ore": ("raw_materials", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Pandorium Ore": ("raw_materials", "defeat_sahabar", ('defeat_core_commander',)),
-    "Collect Relucite Ore": ("raw_materials", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Coral Wood": ("raw_materials", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Gleam Wood": ("raw_materials", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Ancient Gemstone": ("raw_materials", "lower_wall", ()),
-    "Collect Jungle Emerald": ("raw_materials", "defeat_core_commander", ('defeat_druidra',)),
-    "Collect Ocean Sapphire": ("raw_materials", "defeat_core_commander", ('defeat_crydra',)),
-    "Collect Desert Ruby": ("raw_materials", "defeat_core_commander", ('defeat_pyrdra',)),
-    "Collect Slime": ("raw_materials", "lower_wall", ()),
-    "Collect Poison Slime": ("raw_materials", "defeat_core_commander", ('lower_wall',)),
-    "Collect Slippery Slime": ("raw_materials", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Magma Slime": ("raw_materials", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Fiber": ("raw_materials", "lower_wall", ()),
-    "Collect Wool": ("raw_materials", "lower_wall", ()),
-    "Collect Strolly Poly Plate": ("raw_materials", "lower_wall", ()),
-    "Collect Mechanical Part": ("raw_materials", "lower_wall", ()),
-    "Collect Scrap Parts": ("raw_materials", "lower_wall", ()),
-    "Collect Ancient Feather": ("raw_materials", "defeat_core_commander", ('lower_wall',)),
-    "Collect Sea Shell": ("raw_materials", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Calcified Shell": ("raw_materials", "defeat_sahabar", ('defeat_core_commander',)),
-    "Collect Cytoplasm": ("raw_materials", "defeat_sahabar", ('defeat_core_commander',)),
-    "Collect Corrupted Alloy": ("raw_materials", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Scarab Wingcover": ("raw_materials", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Blasting Dung": ("raw_materials", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Copper Bar": ("refined_materials", "lower_wall", ('progressive_furnace_license',)),
-    "Collect Tin Bar": ("refined_materials", "lower_wall", ('progressive_furnace_license',)),
-    "Collect Iron Bar": ("refined_materials", "lower_wall", ('progressive_furnace_license',)),
-    "Collect Gold Bar": ("refined_materials", "lower_wall", ('progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Scarlet Bar": ("refined_materials", "defeat_core_commander", ('lower_wall', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Octarine Bar": ("refined_materials", "defeat_core_commander", ('defeat_azeos', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Galaxite Bar": ("refined_materials", "defeat_core_commander", ('defeat_omoroth', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Solarite Bar": ("refined_materials", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Pandorium Bar": ("refined_materials", "defeat_sahabar", ('defeat_core_commander', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Relucite Bar": ("refined_materials", "defeat_sahabar", ('defeat_nimruza', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Plank": ("refined_materials", "lower_wall", ('table_saw_license',)),
-    "Collect Coral Wood Plank": ("refined_materials", "defeat_core_commander", ('defeat_azeos', 'table_saw_license')),
-    "Collect Gleam Wood Plank": ("refined_materials", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar', 'table_saw_license')),
-    "Collect Glass Piece": ("refined_materials", "lower_wall", ('glass_smelter_license',)),
-    "Collect Crystal Skull Shard": ("unique_materials", "lower_wall", ()),
-    "Collect Chipped Blade": ("unique_materials", "defeat_all_bosses", ('lower_wall',)),
-    "Collect Clear Gemstone": ("unique_materials", "defeat_core_commander", ('lower_wall',)),
-    "Collect Shutdown Protocol": ("unique_materials", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Anomaly Report": ("unique_materials", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Overwrite Transcript": ("unique_materials", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Channeling Gemstone": ("unique_materials", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Fractured Limbs": ("unique_materials", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Energy String": ("unique_materials", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Crystal Meteor Shard": ("unique_materials", "defeat_core_commander", ('defeat_druidra', 'defeat_crydra', 'defeat_pyrdra')),
-    "Collect Pink Hydra Eye": ("unique_materials", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect White Hydra Eye": ("unique_materials", "defeat_core_commander", ('defeat_druidra',)),
-    "Collect Oblivion Fragment": ("unique_materials", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Coiled Branch": ("unique_materials", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Magma Rod": ("unique_materials", "defeat_core_commander", ('defeat_crydra',)),
-    "Collect Frozen Orb": ("unique_materials", "defeat_core_commander", ('defeat_druidra',)),
-    "Collect Void-Forged Barrel": ("unique_materials", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Sanctified Firing Core": ("unique_materials", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect S.A.H.A.B.A.R's Mortar Housing": ("unique_materials", "defeat_all_bosses", ('defeat_sahabar',)),
-    "Collect Copper Key": ("locked_chests", "lower_wall", ('key_casting_table_license', 'progressive_furnace_license')),
-    "Collect Iron Key": ("locked_chests", "lower_wall", ('key_casting_table_license', 'progressive_furnace_license')),
-    "Collect Scarlet Key": ("locked_chests", "defeat_core_commander", ('lower_wall', 'key_casting_table_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Octarine Key": ("locked_chests", "defeat_core_commander", ('defeat_azeos', 'key_casting_table_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Galaxite Key": ("locked_chests", "defeat_core_commander", ('defeat_omoroth', 'key_casting_table_license', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Solarite Key": ("locked_chests", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar', 'key_casting_table_license', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Relucite Key": ("locked_chests", "defeat_sahabar", ('defeat_nimruza', 'key_casting_table_license', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Ghorm's Horn": ("key_items", "lower_wall", ()),
-    "Collect Glurch Eye": ("key_items", "lower_wall", ()),
-    "Collect Stolen Crystal Heart": ("key_items", "lower_wall", ('defeat_glurch',)),
-    "Collect Admin Key": ("key_items", "defeat_core_commander", ('defeat_azeos', 'defeat_ghorm')),
-    "Collect Azeos Feather Fan": ("key_items", "defeat_core_commander", ('lower_wall',)),
-    "Collect Omoroth Compass": ("key_items", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Ra-Akar Automaton": ("key_items", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Brood Void Neuron": ("key_items", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Herald Void Neuron": ("key_items", "defeat_all_bosses", ('defeat_sahabar',)),
-    "Collect Heart Berry Seed": ("seeds", "lower_wall", ()),
-    "Collect Glow Tulip Seed": ("seeds", "lower_wall", ()),
-    "Collect Bomb Pepper Seed": ("seeds", "lower_wall", ()),
-    "Collect Carrock Seed": ("seeds", "lower_wall", ()),
-    "Collect Puffungi Seed": ("seeds", "defeat_core_commander", ('lower_wall',)),
-    "Collect Root Seed": ("seeds", "lower_wall", ()),
-    "Collect Grub Kapok Seed": ("seeds", "lower_wall", ()),
-    "Collect Coral Wood Seed": ("seeds", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Bloat Oat Seed": ("seeds", "defeat_core_commander", ('lower_wall',)),
-    "Collect Pewpaya Seed": ("seeds", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Pinegrapple Seed": ("seeds", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Sunrice Seed": ("seeds", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Lunacorn Seed": ("seeds", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Gleam Wood Seed": ("seeds", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Oracle Card \"Aura\"": ("cardsanity", "lower_wall", ()),
-    "Collect Oracle Card \"Entity\"": ("cardsanity", "lower_wall", ('defeat_glurch',)),
-    "Collect Oracle Card \"Brilliance\"": ("cardsanity", "lower_wall", ()),
-    "Collect Oracle Card \"Wisdom\"": ("cardsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Oracle Card \"Metropolis\"": ("cardsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Oracle Card \"Inspiration\"": ("cardsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Oracle Card \"Radiance\"": ("cardsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Oracle Card \"Temperance\"": ("cardsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Oracle Card \"Endurance\"": ("cardsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Oracle Deck": ("cardsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Mushroom": ("food", "lower_wall", ()),
-    "Collect Giant Mushroom": ("food", "lower_wall", ()),
-    "Collect Glowing Mushroom": ("food", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Heart Berry": ("food", "lower_wall", ()),
-    "Collect Glow Tulip": ("food", "lower_wall", ()),
-    "Collect Bomb Pepper": ("food", "lower_wall", ()),
-    "Collect Carrock": ("food", "lower_wall", ()),
-    "Collect Puffungi": ("food", "defeat_core_commander", ('lower_wall',)),
-    "Collect Bloat Oat": ("food", "defeat_core_commander", ('lower_wall',)),
-    "Collect Pewpaya": ("food", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Pinegrapple": ("food", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Sunrice": ("food", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Lunacorn": ("food", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Larva Meat": ("food", "lower_wall", ()),
-    "Collect Dodo Egg": ("food", "defeat_core_commander", ('lower_wall',)),
-    "Collect Marbled Meat": ("food", "lower_wall", ()),
-    "Collect Meadow Milk": ("food", "defeat_core_commander", ('lower_wall',)),
-    "Collect Amber Larva": ("food", "lower_wall", ()),
-    "Collect Atlantean Worm Heart": ("food", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Oblidra's Heart": ("food", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Paradise Fruit Basket": ("food", "defeat_core_commander", ('lower_wall',)),
-    "Collect Splendid Amalgam": ("food", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Golden Heart Berry": ("goldensanity", "lower_wall", ()),
-    "Collect Golden Glow Tulip": ("goldensanity", "lower_wall", ()),
-    "Collect Golden Bomb Pepper": ("goldensanity", "lower_wall", ()),
-    "Collect Golden Carrock": ("goldensanity", "lower_wall", ()),
-    "Collect Golden Puffungi": ("goldensanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Golden Bloat Oat": ("goldensanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Golden Pewpaya": ("goldensanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Golden Pinegrapple": ("goldensanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Golden Sunrice": ("goldensanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Golden Lunacorn": ("goldensanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Shiny Larva Meat": ("goldensanity", "lower_wall", ()),
-    "Slay Shrooman": ("enemies", "lower_wall", ()),
-    "Slay Shrooman Brute": ("enemies", "lower_wall", ()),
-    "Slay Orange Slime": ("enemies", "lower_wall", ()),
-    "Slay Red Slime": ("enemies", "lower_wall", ()),
-    "Slay Caveling Skirmisher": ("enemies", "lower_wall", ()),
-    "Slay Caveling Spearman": ("enemies", "lower_wall", ()),
-    "Slay Clay Burrower": ("enemies", "lower_wall", ()),
-    "Slay Larva": ("enemies", "lower_wall", ()),
-    "Slay Big Larva": ("enemies", "lower_wall", ()),
-    "Slay Hive Larva": ("enemies", "lower_wall", ()),
-    "Slay Big Hive Larva": ("enemies", "lower_wall", ()),
-    "Slay Acid Larva": ("enemies", "lower_wall", ()),
-    "Slay Cocoon": ("enemies", "lower_wall", ()),
-    "Slay Caveling": ("enemies", "lower_wall", ()),
-    "Slay Caveling Shaman": ("enemies", "lower_wall", ()),
-    "Slay Caveling Brute": ("enemies", "lower_wall", ()),
-    "Slay Electro-Pest": ("enemies", "lower_wall", ()),
-    "Slay Royal Slime": ("enemies", "lower_wall", ()),
-    "Slay Caveling Hunter": ("enemies", "defeat_core_commander", ('lower_wall',)),
-    "Slay Caveling Gardener": ("enemies", "defeat_core_commander", ('lower_wall',)),
-    "Slay Snare Plant": ("enemies", "defeat_core_commander", ('lower_wall',)),
-    "Slay Purple Slime": ("enemies", "defeat_core_commander", ('lower_wall',)),
-    "Slay Infected Caveling": ("enemies", "defeat_core_commander", ('lower_wall',)),
-    "Slay Mold Tentacle": ("enemies", "defeat_core_commander", ('lower_wall',)),
-    "Slay Bubble Crab": ("enemies", "defeat_core_commander", ('defeat_azeos',)),
-    "Slay Tentacle": ("enemies", "defeat_core_commander", ('defeat_azeos',)),
-    "Slay Blue Slime": ("enemies", "defeat_core_commander", ('defeat_azeos',)),
-    "Slay Caveling Scholar": ("enemies", "defeat_core_commander", ('defeat_azeos',)),
-    "Slay Core Sentry": ("enemies", "defeat_core_commander", ('defeat_azeos',)),
-    "Slay Bomb Scarab": ("enemies", "defeat_core_commander", ('defeat_omoroth',)),
-    "Slay Caveling Assassin": ("enemies", "defeat_core_commander", ('defeat_omoroth',)),
-    "Slay Caveling Mummy": ("enemies", "defeat_core_commander", ('defeat_omoroth',)),
-    "Slay Lava Slime": ("enemies", "defeat_core_commander", ('defeat_omoroth',)),
-    "Slay Lava Butterfly": ("enemies", "defeat_core_commander", ('defeat_omoroth',)),
-    "Slay Mimite": ("enemies", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Slay Orbital Turret": ("enemies", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Slay Nilipede": ("enemies", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Slay Crystal Snail": ("cattle_mutilation", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Slay Sulfur Worm": ("enemies", "defeat_sahabar", ('defeat_core_commander',)),
-    "Slay Colossal Amoeba": ("enemies", "defeat_sahabar", ('defeat_core_commander',)),
-    "Slay Cicada Nymph": ("enemies", "defeat_sahabar", ('defeat_core_commander',)),
-    "Slay Gold Scarab": ("enemies", "defeat_sahabar", ('defeat_core_commander',)),
-    "Slay Geobot Miner": ("enemies", "defeat_sahabar", ('defeat_nimruza',)),
-    "Slay Geobot Patroller": ("enemies", "defeat_sahabar", ('defeat_nimruza',)),
-    "Slay Geobot Scourer": ("enemies", "defeat_sahabar", ('defeat_nimruza',)),
-    "Slay Void Larva Cocoon": ("enemies", "defeat_sahabar", ('defeat_nimruza',)),
-    "Slay Void Larva": ("enemies", "defeat_sahabar", ('defeat_nimruza',)),
-    "Slay Void Caveling": ("enemies", "defeat_sahabar", ('defeat_nimruza',)),
-    "Slay Void Caveling Shaman": ("enemies", "defeat_sahabar", ('defeat_nimruza',)),
-    "Slay Void Caveling Brute": ("enemies", "defeat_sahabar", ('defeat_nimruza',)),
-    "Defeat Glurch the Abominous Mass": ("bosses", "lower_wall", ()),
-    "Defeat Ghorm the Devourer": ("bosses", "lower_wall", ()),
-    "Defeat Malugaz the Corrupted": ("bosses", "lower_wall", ('defeat_glurch',)),
-    "Defeat Azeos the Sky Titan": ("bosses", "defeat_core_commander", ('lower_wall', 'ancient_hologram_pod_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Defeat Omoroth the Sea Titan": ("bosses", "defeat_core_commander", ('defeat_azeos', 'ancient_hologram_pod_license', 'fishing_workbench_license', 'progressive_workbench_license', 'progressive_workbench_license', 'progressive_workbench_license', 'progressive_workbench_license', 'progressive_workbench_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Defeat Ra-Akar the Sand Titan": ("bosses", "defeat_core_commander", ('defeat_omoroth', 'ancient_hologram_pod_license', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license', 'table_saw_license')),
-    "Defeat Druidra the Wild Titan": ("bosses", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license', 'table_saw_license')),
-    "Defeat Crydra the Ice Titan": ("bosses", "defeat_core_commander", ('defeat_druidra', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license', 'table_saw_license')),
-    "Defeat Pyrdra the Fire Titan": ("bosses", "defeat_core_commander", ('defeat_crydra', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license', 'table_saw_license')),
-    "Defeat Core Commander": ("bosses", "defeat_core_commander", ('defeat_druidra', 'defeat_crydra', 'defeat_pyrdra')),
-    "Defeat Nimruza, Queen of the Burrowed Sands": ("bosses", "defeat_sahabar", ('defeat_core_commander', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Defeat S.A.H.A.B.A.R": ("bosses", "defeat_sahabar", ('defeat_nimruza',)),
-    "Defeat The Hive Mother": ("bosses", "defeat_all_bosses", ('ancient_hologram_pod_license',)),
-    "Defeat Ivy the Poisonous Mass": ("bosses", "defeat_all_bosses", ('lower_wall', 'ancient_hologram_pod_license')),
-    "Defeat Morpha the Aquatic Mass": ("bosses", "defeat_all_bosses", ('lower_wall', 'defeat_azeos', 'ancient_hologram_pod_license')),
-    "Defeat Igneous the Molten Mass": ("bosses", "defeat_all_bosses", ('lower_wall', 'defeat_omoroth', 'ancient_hologram_pod_license')),
-    "Defeat Atlantean Worm": ("bosses", "defeat_all_bosses", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar', 'ancient_hologram_pod_license')),
-    "Defeat Urschleim": ("bosses", "defeat_all_bosses", ('defeat_core_commander',)),
-    "Defeat Oblidra the Void Titan": ("bosses", "defeat_all_bosses", ('defeat_nimruza',)),
-    "Level 10 Melee Combat": ("skillsanity", "lower_wall", ()),
-    "Level 20 Melee Combat": ("skillsanity", "lower_wall", ()),
-    "Level 30 Melee Combat": ("skillsanity", "lower_wall", ()),
-    "Level 40 Melee Combat": ("skillsanity", "defeat_core_commander", ('lower_wall',)),
-    "Level 50 Melee Combat": ("skillsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Level 60 Melee Combat": ("skillsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Level 70 Melee Combat": ("skillsanity", "defeat_sahabar", ('defeat_druidra',)),
-    "Level 80 Melee Combat": ("skillsanity", "defeat_sahabar", ('defeat_pyrdra',)),
-    "Level 90 Melee Combat": ("skillsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Level 100 Melee Combat": ("skillsanity", "defeat_all_bosses", ('defeat_nimruza',)),
-    "Level 10 Vitality": ("skillsanity", "lower_wall", ()),
-    "Level 20 Vitality": ("skillsanity", "lower_wall", ()),
-    "Level 30 Vitality": ("skillsanity", "lower_wall", ()),
-    "Level 40 Vitality": ("skillsanity", "defeat_core_commander", ('lower_wall',)),
-    "Level 50 Vitality": ("skillsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Level 60 Vitality": ("skillsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Level 70 Vitality": ("skillsanity", "defeat_sahabar", ('defeat_druidra',)),
-    "Level 80 Vitality": ("skillsanity", "defeat_sahabar", ('defeat_pyrdra',)),
-    "Level 90 Vitality": ("skillsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Level 100 Vitality": ("skillsanity", "defeat_all_bosses", ('defeat_nimruza',)),
-    "Level 10 Crafting": ("skillsanity", "lower_wall", ()),
-    "Level 20 Crafting": ("skillsanity", "lower_wall", ()),
-    "Level 30 Crafting": ("skillsanity", "lower_wall", ()),
-    "Level 40 Crafting": ("skillsanity", "defeat_core_commander", ('lower_wall',)),
-    "Level 50 Crafting": ("skillsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Level 60 Crafting": ("skillsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Level 70 Crafting": ("skillsanity", "defeat_sahabar", ('defeat_druidra',)),
-    "Level 80 Crafting": ("skillsanity", "defeat_sahabar", ('defeat_pyrdra',)),
-    "Level 90 Crafting": ("skillsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Level 100 Crafting": ("skillsanity", "defeat_all_bosses", ('defeat_nimruza',)),
-    "Level 10 Range Combat": ("skillsanity", "lower_wall", ()),
-    "Level 20 Range Combat": ("skillsanity", "lower_wall", ()),
-    "Level 30 Range Combat": ("skillsanity", "lower_wall", ()),
-    "Level 40 Range Combat": ("skillsanity", "defeat_core_commander", ('lower_wall',)),
-    "Level 50 Range Combat": ("skillsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Level 60 Range Combat": ("skillsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Level 70 Range Combat": ("skillsanity", "defeat_sahabar", ('defeat_druidra',)),
-    "Level 80 Range Combat": ("skillsanity", "defeat_sahabar", ('defeat_pyrdra',)),
-    "Level 90 Range Combat": ("skillsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Level 100 Range Combat": ("skillsanity", "defeat_all_bosses", ('defeat_nimruza',)),
-    "Level 10 Gardening": ("skillsanity", "lower_wall", ()),
-    "Level 20 Gardening": ("skillsanity", "lower_wall", ()),
-    "Level 30 Gardening": ("skillsanity", "lower_wall", ()),
-    "Level 40 Gardening": ("skillsanity", "defeat_core_commander", ('lower_wall',)),
-    "Level 50 Gardening": ("skillsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Level 60 Gardening": ("skillsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Level 70 Gardening": ("skillsanity", "defeat_sahabar", ('defeat_druidra',)),
-    "Level 80 Gardening": ("skillsanity", "defeat_sahabar", ('defeat_pyrdra',)),
-    "Level 90 Gardening": ("skillsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Level 100 Gardening": ("skillsanity", "defeat_all_bosses", ('defeat_nimruza',)),
-    "Level 10 Fishing": ("skillsanity", "lower_wall", ()),
-    "Level 20 Fishing": ("skillsanity", "lower_wall", ()),
-    "Level 30 Fishing": ("skillsanity", "lower_wall", ()),
-    "Level 40 Fishing": ("skillsanity", "defeat_core_commander", ('lower_wall',)),
-    "Level 50 Fishing": ("skillsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Level 60 Fishing": ("skillsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Level 70 Fishing": ("skillsanity", "defeat_sahabar", ('defeat_druidra',)),
-    "Level 80 Fishing": ("skillsanity", "defeat_sahabar", ('defeat_pyrdra',)),
-    "Level 90 Fishing": ("skillsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Level 100 Fishing": ("skillsanity", "defeat_all_bosses", ('defeat_nimruza',)),
-    "Level 10 Cooking": ("skillsanity", "lower_wall", ()),
-    "Level 20 Cooking": ("skillsanity", "lower_wall", ()),
-    "Level 30 Cooking": ("skillsanity", "lower_wall", ()),
-    "Level 40 Cooking": ("skillsanity", "defeat_core_commander", ('lower_wall',)),
-    "Level 50 Cooking": ("skillsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Level 60 Cooking": ("skillsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Level 70 Cooking": ("skillsanity", "defeat_sahabar", ('defeat_druidra',)),
-    "Level 80 Cooking": ("skillsanity", "defeat_sahabar", ('defeat_pyrdra',)),
-    "Level 90 Cooking": ("skillsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Level 100 Cooking": ("skillsanity", "defeat_all_bosses", ('defeat_nimruza',)),
-    "Level 10 Magic": ("skillsanity", "lower_wall", ()),
-    "Level 20 Magic": ("skillsanity", "lower_wall", ()),
-    "Level 30 Magic": ("skillsanity", "lower_wall", ()),
-    "Level 40 Magic": ("skillsanity", "defeat_core_commander", ('lower_wall',)),
-    "Level 50 Magic": ("skillsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Level 60 Magic": ("skillsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Level 70 Magic": ("skillsanity", "defeat_sahabar", ('defeat_druidra',)),
-    "Level 80 Magic": ("skillsanity", "defeat_sahabar", ('defeat_pyrdra',)),
-    "Level 90 Magic": ("skillsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Level 100 Magic": ("skillsanity", "defeat_all_bosses", ('defeat_nimruza',)),
-    "Level 10 Summoning": ("skillsanity", "lower_wall", ()),
-    "Level 20 Summoning": ("skillsanity", "lower_wall", ()),
-    "Level 30 Summoning": ("skillsanity", "lower_wall", ()),
-    "Level 40 Summoning": ("skillsanity", "defeat_core_commander", ('lower_wall',)),
-    "Level 50 Summoning": ("skillsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Level 60 Summoning": ("skillsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Level 70 Summoning": ("skillsanity", "defeat_sahabar", ('defeat_druidra',)),
-    "Level 80 Summoning": ("skillsanity", "defeat_sahabar", ('defeat_pyrdra',)),
-    "Level 90 Summoning": ("skillsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Level 100 Summoning": ("skillsanity", "defeat_all_bosses", ('defeat_nimruza',)),
-    "Level 10 Explosives": ("skillsanity", "lower_wall", ()),
-    "Level 20 Explosives": ("skillsanity", "lower_wall", ()),
-    "Level 30 Explosives": ("skillsanity", "lower_wall", ()),
-    "Level 40 Explosives": ("skillsanity", "defeat_core_commander", ('lower_wall',)),
-    "Level 50 Explosives": ("skillsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Level 60 Explosives": ("skillsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Level 70 Explosives": ("skillsanity", "defeat_sahabar", ('defeat_druidra',)),
-    "Level 80 Explosives": ("skillsanity", "defeat_sahabar", ('defeat_pyrdra',)),
-    "Level 90 Explosives": ("skillsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Level 100 Explosives": ("skillsanity", "defeat_all_bosses", ('defeat_nimruza',)),
-    "Level 10 Mining": ("skillsanity", "lower_wall", ()),
-    "Level 20 Mining": ("skillsanity", "lower_wall", ()),
-    "Level 30 Mining": ("skillsanity", "lower_wall", ()),
-    "Level 40 Mining": ("skillsanity", "defeat_core_commander", ('lower_wall',)),
-    "Level 50 Mining": ("skillsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Level 60 Mining": ("skillsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Level 70 Mining": ("skillsanity", "defeat_sahabar", ('defeat_druidra',)),
-    "Level 80 Mining": ("skillsanity", "defeat_sahabar", ('defeat_pyrdra',)),
-    "Level 90 Mining": ("skillsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Level 100 Mining": ("skillsanity", "defeat_all_bosses", ('defeat_nimruza',)),
-    "Level 10 Running": ("skillsanity", "lower_wall", ()),
-    "Level 20 Running": ("skillsanity", "lower_wall", ()),
-    "Level 30 Running": ("skillsanity", "lower_wall", ()),
-    "Level 40 Running": ("skillsanity", "defeat_core_commander", ('lower_wall',)),
-    "Level 50 Running": ("skillsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Level 60 Running": ("skillsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Level 70 Running": ("skillsanity", "defeat_sahabar", ('defeat_druidra',)),
-    "Level 80 Running": ("skillsanity", "defeat_sahabar", ('defeat_pyrdra',)),
-    "Level 90 Running": ("skillsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Level 100 Running": ("skillsanity", "defeat_all_bosses", ('defeat_nimruza',)),
-    "Unlock Locked Copper Chest": ("locked_chests", "lower_wall", ('key_casting_table_license', 'progressive_furnace_license')),
-    "Unlock Locked Iron Chest": ("locked_chests", "lower_wall", ('key_casting_table_license', 'progressive_furnace_license')),
-    "Unlock Locked Scarlet Chest": ("locked_chests", "defeat_core_commander", ('lower_wall', 'key_casting_table_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Unlock Locked Octarine Chest": ("locked_chests", "defeat_core_commander", ('defeat_azeos', 'key_casting_table_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Unlock Locked Galaxite Chest": ("locked_chests", "defeat_core_commander", ('defeat_omoroth', 'key_casting_table_license', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Unlock Locked Solarite Chest": ("locked_chests", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar', 'key_casting_table_license', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Unlock Locked Relucite Chest": ("locked_chests", "defeat_sahabar", ('defeat_nimruza', 'key_casting_table_license', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Slay Moolin": ("cattle_mutilation", "defeat_core_commander", ('lower_wall',)),
-    "Slay Bambuck": ("cattle_mutilation", "defeat_core_commander", ('lower_wall',)),
-    "Slay Strolly Poly": ("cattle_mutilation", "lower_wall", ()),
-    "Slay Kelple": ("cattle_mutilation", "defeat_core_commander", ('defeat_azeos',)),
-    "Slay Dodo": ("cattle_mutilation", "defeat_core_commander", ('lower_wall',)),
-    "Slay Drohmble": ("cattle_mutilation", "defeat_core_commander", ('defeat_omoroth',)),
-    "Defeat King Slime": ("bosses", "defeat_all_bosses", ('defeat_glurch',)),
-    "Collect Wood Pickaxe": ("toolsanity", "lower_wall", ()),
-    "Collect Copper Pickaxe": ("toolsanity", "lower_wall", ()),
-    "Collect Tin Pickaxe": ("toolsanity", "lower_wall", ()),
-    "Collect Hand Drill": ("toolsanity", "lower_wall", ()),
-    "Collect Iron Pickaxe": ("toolsanity", "lower_wall", ()),
-    "Collect Scarlet Pickaxe": ("toolsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Scarlet Hand Drill": ("toolsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Ancient Pickaxe": ("toolsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Octarine Pickaxe": ("toolsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Galaxite Pickaxe": ("toolsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Solarite Pickaxe": ("toolsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Copper Sledge Hammer": ("toolsanity", "lower_wall", ()),
-    "Collect Tin Sledge Hammer": ("toolsanity", "lower_wall", ()),
-    "Collect Iron Sledge Hammer": ("toolsanity", "lower_wall", ()),
-    "Collect Scarlet Sledge Hammer": ("toolsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Octarine Sledge Hammer": ("toolsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Galaxite Sledge Hammer": ("toolsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Wood Shovel": ("toolsanity", "lower_wall", ()),
-    "Collect Copper Shovel": ("toolsanity", "lower_wall", ()),
-    "Collect Tin Shovel": ("toolsanity", "lower_wall", ()),
-    "Collect Iron Shovel": ("toolsanity", "lower_wall", ()),
-    "Collect Scarlet Shovel": ("toolsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Octarine Shovel": ("toolsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Galaxite Shovel": ("toolsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Wooden Hoe": ("toolsanity", "lower_wall", ()),
-    "Collect Watering Can": ("toolsanity", "lower_wall", ()),
-    "Collect Copper Hoe": ("toolsanity", "lower_wall", ()),
-    "Collect Garden Trowel": ("toolsanity", "lower_wall", ()),
-    "Collect Tin Hoe": ("toolsanity", "lower_wall", ()),
-    "Collect Iron Hoe": ("toolsanity", "lower_wall", ()),
-    "Collect Large Watering Can": ("toolsanity", "lower_wall", ()),
-    "Collect Octarine Garden Trowel": ("toolsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Wood Fishing Rod": ("toolsanity", "lower_wall", ()),
-    "Collect Tin Fishing Rod": ("toolsanity", "lower_wall", ()),
-    "Collect Iron Fishing Rod": ("toolsanity", "lower_wall", ()),
-    "Collect Scarlet Fishing Rod": ("toolsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Octarine Fishing Rod": ("toolsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Galaxite Fishing Rod": ("toolsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Solarite Fishing Rod": ("toolsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Scarlet Hoe": ("toolsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Bug Net": ("toolsanity", "lower_wall", ()),
-    "Collect Wooden Sword": ("weaponsanity", "lower_wall", ()),
-    "Collect Copper Sword": ("weaponsanity", "lower_wall", ()),
-    "Collect Tin Sword": ("weaponsanity", "lower_wall", ()),
-    "Collect Slime Sword": ("weaponsanity", "lower_wall", ()),
-    "Collect Iron Sword": ("weaponsanity", "lower_wall", ()),
-    "Collect Scarlet Sword": ("weaponsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Broken Handle": ("weaponsanity", "lower_wall", ()),
-    "Collect Poisonous Sickle": ("weaponsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Octarine Sword": ("weaponsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Slippery Slime Sword": ("weaponsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Galaxite Sword": ("weaponsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Solarite Sword": ("weaponsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Hydra Bone Sword": ("weaponsanity", "defeat_core_commander", ('defeat_crydra',)),
-    "Collect Atlantean Worm Sword": ("weaponsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Rusty Dagger": ("weaponsanity", "lower_wall", ()),
-    "Collect Tin Dagger": ("weaponsanity", "lower_wall", ()),
-    "Collect Scarlet Dagger": ("weaponsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Ritual Dagger": ("weaponsanity", "lower_wall", ()),
-    "Collect Galaxite Dagger": ("weaponsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Tin Axe": ("weaponsanity", "lower_wall", ()),
-    "Collect Battle Axe": ("weaponsanity", "lower_wall", ()),
-    "Collect Octarine Axe": ("weaponsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Anchor Axe": ("weaponsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Lava Battle Axe": ("weaponsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Pandorium Axe": ("weaponsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Collect Hunting Spear": ("weaponsanity", "lower_wall", ()),
-    "Collect Iron Halberd": ("weaponsanity", "lower_wall", ()),
-    "Collect Prehistoric Crystal Spear": ("weaponsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Larva Spike Club": ("weaponsanity", "lower_wall", ()),
-    "Collect Pipe Club": ("weaponsanity", "lower_wall", ()),
-    "Collect Crystal Shard Club": ("weaponsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Void Club": ("weaponsanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Tentacle Whip": ("weaponsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Obliteration Ray": ("weaponsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Splintered Wooden Sword": ("weaponsanity", "lower_wall", ()),
-    "Collect Wood Bow": ("weaponsanity", "lower_wall", ()),
-    "Collect Iron Bow": ("weaponsanity", "lower_wall", ()),
-    "Collect Octarine Bow": ("weaponsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Wood Crossbow": ("weaponsanity", "lower_wall", ()),
-    "Collect Scarlet Crossbow": ("weaponsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Solarite Crossbow": ("weaponsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Slingshot": ("weaponsanity", "lower_wall", ()),
-    "Collect Flintlock Musket": ("weaponsanity", "lower_wall", ()),
-    "Collect Blowpipe": ("weaponsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Bubble Gun": ("weaponsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Scrapzooka": ("weaponsanity", "lower_wall", ()),
-    "Collect Grubzooka": ("weaponsanity", "lower_wall", ()),
-    "Collect Shellzooka": ("weaponsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Burnzooka": ("weaponsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Stone Mortar": ("weaponsanity", "lower_wall", ()),
-    "Collect Volcano Mortar": ("weaponsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Throwing Daggers": ("weaponsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Galaxite Chakram": ("weaponsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Ricochet Shuriken": ("weaponsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Void Gun": ("weaponsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar', 'defeat_druidra', 'defeat_crydra', 'defeat_pyrdra')),
-    "Collect Quill Rifle": ("weaponsanity", "lower_wall", ()),
-    "Collect Scrap Minigun": ("weaponsanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Flamethrower": ("weaponsanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Simple Staff": ("weaponsanity", "lower_wall", ()),
-    "Collect Sticky Stick": ("weaponsanity", "lower_wall", ()),
-    "Collect Fireball Staff": ("weaponsanity", "lower_wall", ()),
-    "Collect Arcane Staff": ("weaponsanity", "lower_wall", ()),
-    "Collect Noxious Meteor Staff": ("weaponsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Scholar's Staff": ("weaponsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Sun Caller": ("weaponsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Chaos Staff": ("weaponsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Collect Corrupted Meteor Staff": ("weaponsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Collect Zealot's Scimitar": ("weaponsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Tome of the Dark": ("weaponsanity", "lower_wall", ()),
-    "Collect Tome of Breach": ("weaponsanity", "lower_wall", ()),
-    "Collect Tome of Ashes": ("weaponsanity", "lower_wall", ()),
-    "Collect Tome of the Dead": ("weaponsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Tome of Sprouts": ("weaponsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Tome of the Deep": ("weaponsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Tome of Decay": ("weaponsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Small Backpack": ("accessanity", "lower_wall", ()),
-    "Collect Miner Backpack": ("accessanity", "lower_wall", ()),
-    "Collect Explorer Backpack": ("accessanity", "lower_wall", ()),
-    "Collect Ghorm's Stomach Backpack": ("accessanity", "lower_wall", ()),
-    "Collect Scarlet Shell Backpack": ("accessanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Octarine Backpack": ("accessanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Morpha's Bubble Backpack": ("accessanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Scholar Backpack": ("accessanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Small Ore and Block Pouch": ("accessanity", "lower_wall", ()),
-    "Collect Medium Ore and Block Pouch": ("accessanity", "lower_wall", ()),
-    "Collect Large Ore and Block Pouch": ("accessanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Small Seed and Crop Pouch": ("accessanity", "lower_wall", ()),
-    "Collect Medium Seed and Crop Pouch": ("accessanity", "lower_wall", ()),
-    "Collect Large Seed and Crop Pouch": ("accessanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Small Fish Pouch": ("accessanity", "lower_wall", ()),
-    "Collect Medium Fish Pouch": ("accessanity", "lower_wall", ()),
-    "Collect Large Fish Pouch": ("accessanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Small Valuable Pouch": ("accessanity", "lower_wall", ()),
-    "Collect Medium Valuable Pouch": ("accessanity", "lower_wall", ()),
-    "Collect Large Valuable Pouch": ("accessanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Potion Pouch": ("accessanity", "defeat_core_commander", ()),
-    "Collect Medium Potion Pouch": ("accessanity", "lower_wall", ()),
-    "Collect Large Potion Pouch": ("accessanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Critter Pouch": ("accessanity", "lower_wall", ()),
-    "Collect Medium Critter Pouch": ("accessanity", "lower_wall", ()),
-    "Collect Large Critter Pouch": ("accessanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Small Lantern": ("accessanity", "lower_wall", ()),
-    "Collect Lantern": ("accessanity", "lower_wall", ()),
-    "Collect Orb Lantern": ("accessanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Pearl Lantern": ("accessanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Soul Lantern": ("accessanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Wooden Shield": ("accessanity", "lower_wall", ()),
-    "Collect Iron Shield": ("accessanity", "lower_wall", ()),
-    "Collect Toxic Defender": ("accessanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Octarine Shield": ("accessanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Sentry Shield": ("accessanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Scorching Aegis": ("accessanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Hydra Bone Shield": ("accessanity", "defeat_core_commander", ('defeat_druidra',)),
-    "Collect Swift Feather": ("accessanity", "lower_wall", ()),
-    "Collect Azeos' Dash Feather": ("accessanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Rift Lens": ("accessanity", "lower_wall", ()),
-    "Collect Blue Leather Tome": ("accessanity", "lower_wall", ()),
-    "Collect Royal Gel": ("accessanity", "lower_wall", ('defeat_glurch',)),
-    "Collect Golden Jellyfish": ("accessanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Caveling ID": ("accessanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Concealed Blade": ("accessanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Moonstone": ("accessanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Omoroth's Beak": ("accessanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Smithing Glove": ("accessanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Crystal Meteor Chunk": ("accessanity", "defeat_core_commander", ('defeat_druidra', 'defeat_crydra', 'defeat_pyrdra')),
-    "Collect Pet Rock": ("accessanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Core Iris": ("accessanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Hydra Tooth": ("accessanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Trinity Heart": ("accessanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar', 'defeat_druidra', 'defeat_crydra', 'defeat_pyrdra')),
-    "Collect Minion Kindler": ("accessanity", "lower_wall", ()),
-    "Collect Minion Detonator": ("accessanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Scratched Stone": ("accessanity", "lower_wall", ()),
-    "Collect Magnet": ("accessanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Remote Boom Clicker": ("accessanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Copper Cross Necklace": ("jewelrysanity", "lower_wall", ()),
-    "Collect Polished Copper Cross Necklace": ("jewelrysanity", "lower_wall", ()),
-    "Collect Iron Chunk Necklace": ("jewelrysanity", "lower_wall", ()),
-    "Collect Polished Iron Chunk Necklace": ("jewelrysanity", "lower_wall", ()),
-    "Collect Gold Crystal Necklace": ("jewelrysanity", "lower_wall", ()),
-    "Collect Polished Gold Crystal Necklace": ("jewelrysanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Octarine Necklace": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Polished Octarine Necklace": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Scarlet Chunk Necklace": ("jewelrysanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Polished Scarlet Chunk Necklace": ("jewelrysanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Coral Amulet": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Polished Coral Amulet": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Cave Guppy Necklace": ("jewelrysanity", "lower_wall", ()),
-    "Collect Fang Necklace": ("jewelrysanity", "lower_wall", ()),
-    "Collect Heart Berry Necklace": ("jewelrysanity", "lower_wall", ()),
-    "Collect Blob Rosary Necklace": ("jewelrysanity", "lower_wall", ()),
-    "Collect Grub Egg Necklace": ("jewelrysanity", "lower_wall", ()),
-    "Collect Neptune Necklace": ("jewelrysanity", "lower_wall", ()),
-    "Collect Bubble Pearl Necklace": ("jewelrysanity", "lower_wall", ()),
-    "Collect Skull Necklace": ("jewelrysanity", "lower_wall", ('defeat_glurch',)),
-    "Collect Bomb Necklace": ("jewelrysanity", "lower_wall", ()),
-    "Collect Crescent Necklace": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Rusted Necklace": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Wildwarden Necklace": ("jewelrysanity", "lower_wall", ()),
-    "Collect Mold Vein Necklace": ("jewelrysanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Ancient Gem Necklace": ("jewelrysanity", "lower_wall", ()),
-    "Collect Azeos Beak Necklace": ("jewelrysanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Remedaisy Necklace": ("jewelrysanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Torc Necklace": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Bone Necklace": ("jewelrysanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Omoroth's Necklace": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Black Necklace": ("jewelrysanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Nomad Necklace": ("jewelrysanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Flame Necklace": ("jewelrysanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Fusioned Chunk Necklace": ("jewelrysanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Ra-Akar's Necklace": ("jewelrysanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Pyrdra's Necklace": ("jewelrysanity", "defeat_core_commander", ('defeat_crydra',)),
-    "Collect Atlantean Worm Necklace": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Glass Bead Necklace": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Soul Medallion": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Black Charm Necklace": ("jewelrysanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Glow Tulip Ring": ("jewelrysanity", "lower_wall", ()),
-    "Collect Polished Glow Tulip Ring": ("jewelrysanity", "lower_wall", ()),
-    "Collect Swift Ring": ("jewelrysanity", "lower_wall", ()),
-    "Collect Polished Swift Ring": ("jewelrysanity", "lower_wall", ()),
-    "Collect Gold Crystal Ring": ("jewelrysanity", "lower_wall", ()),
-    "Collect Polished Gold Crystal Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Magnetic Ring": ("jewelrysanity", "lower_wall", ()),
-    "Collect Polished Magnetic Ring": ("jewelrysanity", "lower_wall", ()),
-    "Collect Golden Spike Ring": ("jewelrysanity", "lower_wall", ()),
-    "Collect Polished Golden Spike Ring": ("jewelrysanity", "lower_wall", ()),
-    "Collect Octarine Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Polished Octarine Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Ring of Stone": ("jewelrysanity", "lower_wall", ()),
-    "Collect Crescent Ring": ("jewelrysanity", "lower_wall", ()),
-    "Collect Rusted Ring": ("jewelrysanity", "lower_wall", ()),
-    "Collect Melting Crystal Ring": ("jewelrysanity", "lower_wall", ()),
-    "Collect Clot Ring": ("jewelrysanity", "lower_wall", ()),
-    "Collect Larva Ring": ("jewelrysanity", "lower_wall", ()),
-    "Collect Hourglass Ring": ("jewelrysanity", "lower_wall", ()),
-    "Collect Boundary Ring": ("jewelrysanity", "lower_wall", ()),
-    "Collect Ring of Rock": ("jewelrysanity", "lower_wall", ()),
-    "Collect Goldfish Ring": ("jewelrysanity", "lower_wall", ()),
-    "Collect Sea Foam Ring": ("jewelrysanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Skull Ring": ("jewelrysanity", "lower_wall", ('defeat_glurch',)),
-    "Collect Wooden Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Wooden Thorn Ring": ("jewelrysanity", "lower_wall", ()),
-    "Collect Wildwarden Ring": ("jewelrysanity", "lower_wall", ()),
-    "Collect Puppet Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Petal Ring": ("jewelrysanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Ivy's Ring": ("jewelrysanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect White Glass Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Topaz Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Mold Ring": ("jewelrysanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Vicious Ring": ("jewelrysanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Sky Ring": ("jewelrysanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Lucky Ring": ("jewelrysanity", "lower_wall", ()),
-    "Collect Septum Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Ancient Guardian Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Bone Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Noble Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Ancient Gem Ring": ("jewelrysanity", "lower_wall", ()),
-    "Collect Omoroth's Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Morpha's Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Coral Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Flame Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Double Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Nomad Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Black Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Bomb Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Ring of Sand": ("jewelrysanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Glass Bead Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Druidra's Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Crydra's Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_druidra',)),
-    "Collect Atlantean Worm Ring": ("jewelrysanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Helical Ring": ("jewelrysanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Aether Ring": ("jewelrysanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Peasant Hat": ("armorsanity", "lower_wall", ()),
-    "Collect Wood Helm": ("armorsanity", "lower_wall", ()),
-    "Collect Copper Helm": ("armorsanity", "lower_wall", ('progressive_anvil_license', 'progressive_furnace_license')),
-    "Collect Shrooman Cap": ("armorsanity", "lower_wall", ()),
-    "Collect Ranger Hood": ("armorsanity", "lower_wall", ()),
-    "Collect Apprentice Hat": ("armorsanity", "lower_wall", ()),
-    "Collect Witch Doctor Hat": ("armorsanity", "lower_wall", ()),
-    "Collect Adventurer's Hat": ("armorsanity", "lower_wall", ()),
-    "Collect Bronze Helm": ("armorsanity", "lower_wall", ('progressive_anvil_license', 'progressive_anvil_license', 'progressive_furnace_license')),
-    "Collect Pot Lid": ("armorsanity", "lower_wall", ()),
-    "Collect Chieftain Headdress": ("armorsanity", "lower_wall", ()),
-    "Collect Skirmisher Cap": ("armorsanity", "lower_wall", ()),
-    "Collect Cooking Pot Lid": ("armorsanity", "lower_wall", ()),
-    "Collect Caveling Hood": ("armorsanity", "lower_wall", ()),
-    "Collect Iron Helm": ("armorsanity", "lower_wall", ('progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Soaring Headgear": ("armorsanity", "lower_wall", ()),
-    "Collect Blast Helmet": ("armorsanity", "lower_wall", ()),
-    "Collect Makeshift Goggles": ("armorsanity", "lower_wall", ()),
-    "Collect Carapace Helm": ("armorsanity", "lower_wall", ()),
-    "Collect Larva Helm": ("armorsanity", "lower_wall", ()),
-    "Collect Farmer's Hat": ("armorsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Shaman Skull": ("armorsanity", "lower_wall", ()),
-    "Collect Hivebone Helm": ("armorsanity", "lower_wall", ()),
-    "Collect King Slime Crown": ("armorsanity", "lower_wall", ('defeat_glurch',)),
-    "Collect Sunglasses": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Moldweb Helm": ("armorsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Wildwarden Mask": ("armorsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Corrupt Warden Mask": ("armorsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Scarlet Helm": ("armorsanity", "defeat_core_commander", ('lower_wall', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Hunter Hood": ("armorsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Lily Pad Hat": ("armorsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Mercenary Headband": ("armorsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Octarine Helm": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Slime Helm": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Dreamer Headband": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Plague Mask": ("armorsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Paladin Mask": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Scholar's Hood": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Sorcerer Hood": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Diving Helm": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Omoroth's Helm": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Galaxite Helm": ("armorsanity", "defeat_core_commander", ('defeat_omoroth', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Assassin Hood": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Tassel Earrings": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Pajama Cap": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Sentry Helm": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Scarab Visor": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Solarite Barbute": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Cosmos Visor Helm": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Hazmat Helm": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Godsent King Mask": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Miner's Protective Helm": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Magma Horn Armor": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Grim Hood": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Inventor Goggles": ("armorsanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Pandorium Helm": ("armorsanity", "defeat_sahabar", ('defeat_core_commander', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license', 'rift_statue_license')),
-    "Collect Atlantean Worm Helmet": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Ninja Cowl": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Hydra Bone Helm": ("armorsanity", "defeat_core_commander", ('defeat_crydra',)),
-    "Collect Core Commander Helm": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar', 'defeat_druidra', 'defeat_crydra', 'defeat_pyrdra')),
-    "Collect Arcane Monk Blindfold": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Void-Fused Helmet": ("armorsanity", "defeat_sahabar", ('defeat_nimruza', 'progressive_smithing_table_license', 'progressive_smithing_table_license')),
-    "Collect Desert Guardian Mask": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Sulfossil Helmet": ("armorsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Collect Welder Helmet": ("armorsanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Shadow Helmet": ("armorsanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Peasant Chest": ("armorsanity", "lower_wall", ()),
-    "Collect Wood Chest": ("armorsanity", "lower_wall", ()),
-    "Collect Copper Breastplate": ("armorsanity", "lower_wall", ('progressive_anvil_license', 'progressive_furnace_license')),
-    "Collect Ranger Tunic": ("armorsanity", "lower_wall", ()),
-    "Collect Apprentice Robe": ("armorsanity", "lower_wall", ()),
-    "Collect Witch Doctor Vest": ("armorsanity", "lower_wall", ()),
-    "Collect Rain Coat": ("armorsanity", "lower_wall", ('progressive_anvil_license', 'progressive_furnace_license', 'distillery_table_license')),
-    "Collect Bronze Breastplate": ("armorsanity", "lower_wall", ('progressive_anvil_license', 'progressive_anvil_license', 'progressive_furnace_license')),
-    "Collect Pot Tub": ("armorsanity", "lower_wall", ()),
-    "Collect Chieftain Tunic": ("armorsanity", "lower_wall", ()),
-    "Collect Cooking Pot Tub": ("armorsanity", "lower_wall", ()),
-    "Collect Caveling Chest": ("armorsanity", "lower_wall", ()),
-    "Collect Iron Breastplate": ("armorsanity", "lower_wall", ('progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Trenchcoat": ("armorsanity", "lower_wall", ()),
-    "Collect Stone Chestplate": ("armorsanity", "lower_wall", ()),
-    "Collect Soaring Poncho": ("armorsanity", "lower_wall", ()),
-    "Collect Blast Plackart": ("armorsanity", "lower_wall", ()),
-    "Collect Researcher's Coat": ("armorsanity", "lower_wall", ()),
-    "Collect Carapace Breastplate": ("armorsanity", "lower_wall", ()),
-    "Collect Larva Chest": ("armorsanity", "lower_wall", ()),
-    "Collect Hivebone Breastplate": ("armorsanity", "lower_wall", ()),
-    "Collect Towel": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Red Bikini Top": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Green Bikini Top": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Blue Bikini Top": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Moldweb Breastplate": ("armorsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Wildwarden Pauldrons": ("armorsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Corrupt Warden Tunic": ("armorsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Scarlet Breastplate": ("armorsanity", "defeat_core_commander", ('lower_wall', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Hunter Cloak": ("armorsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Lily Pad Tunic": ("armorsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Mercenary Tank Top": ("armorsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Kelp Mantle": ("armorsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Ivy's Thorn Harness": ("armorsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Octarine Breastplate": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Slime Armor": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Dreamer Vest": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Paladin Harness": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Scholar's Cloak": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Sorcerer Robe": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Omoroth's Chestplate": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Galaxite Torso": ("armorsanity", "defeat_core_commander", ('defeat_omoroth', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Assassin Cloak": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Tassel Top": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Pajama Shirt": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Miner's Labor Suit": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Scarab Harness": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Solarite Cuirass": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Gemstone Garment": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Cosmos Torso": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Hazmat Suit Jacket": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Godsent King Breast Armor": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Magma Torso Armor": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Grim Breastplate": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Inventor Apron": ("armorsanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Pandorium Chestplate and Bracers": ("armorsanity", "defeat_sahabar", ('defeat_core_commander', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license', 'rift_statue_license')),
-    "Collect Ninja Garments": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Hydra Bone Breastplate": ("armorsanity", "defeat_core_commander", ('defeat_druidra',)),
-    "Collect Core Commander Brigandine": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar', 'defeat_druidra', 'defeat_crydra', 'defeat_pyrdra')),
-    "Collect Arcane Monk Cloak": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Void-Fused Chestpiece": ("armorsanity", "defeat_sahabar", ('defeat_nimruza', 'progressive_smithing_table_license', 'progressive_smithing_table_license')),
-    "Collect Desert Guardian Tunic": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Sulfossil Cuirass": ("armorsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Collect Welder Chestplate": ("armorsanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Shadow Chestplate": ("armorsanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Wood Pants": ("armorsanity", "lower_wall", ()),
-    "Collect Copper Pants": ("armorsanity", "lower_wall", ('progressive_anvil_license', 'progressive_furnace_license')),
-    "Collect Ranger Pants": ("armorsanity", "lower_wall", ()),
-    "Collect Apprentice Pants": ("armorsanity", "lower_wall", ()),
-    "Collect Witch Doctor Jeans": ("armorsanity", "lower_wall", ()),
-    "Collect Rubber Boots": ("armorsanity", "lower_wall", ('progressive_anvil_license', 'progressive_furnace_license', 'distillery_table_license')),
-    "Collect Scuba Fins": ("armorsanity", "lower_wall", ()),
-    "Collect Bronze Pants": ("armorsanity", "lower_wall", ('progressive_anvil_license', 'progressive_anvil_license', 'progressive_furnace_license')),
-    "Collect Chieftain Shorts": ("armorsanity", "lower_wall", ()),
-    "Collect Caveling Pants": ("armorsanity", "lower_wall", ()),
-    "Collect Iron Pants": ("armorsanity", "lower_wall", ('progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Stone Pants": ("armorsanity", "lower_wall", ()),
-    "Collect Soaring Pants": ("armorsanity", "lower_wall", ()),
-    "Collect Blast Pants": ("armorsanity", "lower_wall", ()),
-    "Collect Researcher's Pants": ("armorsanity", "lower_wall", ()),
-    "Collect Hivebone Pants": ("armorsanity", "lower_wall", ()),
-    "Collect Red Board Shorts": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Green Board Shorts": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Blue Board Shorts": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Red Bikini Bottom": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Green Bikini Bottom": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Blue Bikini Bottom": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Moldweb Pants": ("armorsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Wildwarden Pants": ("armorsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Corrupt Warden Shorts": ("armorsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Scarlet Pants": ("armorsanity", "defeat_core_commander", ('lower_wall', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Lily Pad Shorts": ("armorsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Mercenary Pants": ("armorsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Ivy's Pants": ("armorsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Octarine Pants": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Dreamer Shalvar": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Paladin Pants": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Sorcerer Pants": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Omoroth's Leg Armor": ("armorsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Galaxite Pants": ("armorsanity", "defeat_core_commander", ('defeat_omoroth', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Tassel Skirt": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Pajama Pants": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Miner's Worker Pants": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Scarab Legs": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Solarite Tassets": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_anvil_license', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license')),
-    "Collect Gemstone Harem Pants": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Cosmos Legwear": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Hazmat Suit Pants": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Godsent King Pants Armor": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Magma Shin Armor": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Grim Legwear": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Inventor Leggings": ("armorsanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Pandorium Pants": ("armorsanity", "defeat_sahabar", ('defeat_core_commander', 'progressive_furnace_license', 'progressive_furnace_license', 'progressive_furnace_license', 'rift_statue_license')),
-    "Collect Ninja Leggings": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Hydra Bone Shins": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Core Commander Greaves": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar', 'defeat_druidra', 'defeat_crydra', 'defeat_pyrdra')),
-    "Collect Arcane Monk Leggings": ("armorsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Void-Fused Leggings": ("armorsanity", "defeat_sahabar", ('defeat_nimruza', 'progressive_smithing_table_license', 'progressive_smithing_table_license')),
-    "Collect Desert Guardian Pants": ("armorsanity", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Sulfossil Boots": ("armorsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Collect Welder Leggings": ("armorsanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Shadow Leggings": ("armorsanity", "defeat_sahabar", ('defeat_nimruza',)),
-    "Collect Loyal Egg": ("petsanity", "lower_wall", ()),
-    "Hatch Subterrier": ("petsanity", "lower_wall", ('egg_incubator_license',)),
-    "Collect Curious Egg": ("petsanity", "lower_wall", ('defeat_glurch',)),
-    "Hatch Embertail": ("petsanity", "lower_wall", ('defeat_glurch', 'egg_incubator_license')),
-    "Collect Lively Egg": ("petsanity", "lower_wall", ()),
-    "Hatch Owlux": ("petsanity", "lower_wall", ('egg_incubator_license',)),
-    "Collect Oozy Egg": ("petsanity", "lower_wall", ()),
-    "Hatch Jr. Orange Slime": ("petsanity", "lower_wall", ('egg_incubator_license',)),
-    "Collect Nocturnal Egg": ("petsanity", "lower_wall", ()),
-    "Hatch Earie": ("petsanity", "lower_wall", ('egg_incubator_license',)),
-    "Collect Pest Egg": ("petsanity", "lower_wall", ()),
-    "Hatch Electro-Pet": ("petsanity", "lower_wall", ('egg_incubator_license',)),
-    "Collect Oozy Royal Egg": ("petsanity", "lower_wall", ('defeat_glurch',)),
-    "Hatch Prince Slime": ("petsanity", "lower_wall", ('defeat_glurch', 'egg_incubator_license')),
-    "Collect Nimble Egg": ("petsanity", "defeat_core_commander", ('lower_wall',)),
-    "Hatch Fanhare": ("petsanity", "defeat_core_commander", ('lower_wall', 'egg_incubator_license')),
-    "Collect Oozy Poison Egg": ("petsanity", "defeat_core_commander", ('lower_wall', 'ancient_hologram_pod_license')),
-    "Hatch Jr. Purple Slime": ("petsanity", "defeat_core_commander", ('lower_wall', 'ancient_hologram_pod_license', 'egg_incubator_license')),
-    "Collect Fuzzy Egg": ("petsanity", "defeat_core_commander", ('lower_wall',)),
-    "Hatch Pheromoth": ("petsanity", "defeat_core_commander", ('lower_wall',)),
-    "Collect Oozy Slippery Egg": ("petsanity", "defeat_core_commander", ('defeat_azeos', 'ancient_hologram_pod_license')),
-    "Hatch Jr. Blue Slime": ("petsanity", "defeat_core_commander", ('defeat_azeos', 'ancient_hologram_pod_license', 'egg_incubator_license')),
-    "Collect Oozy Lava Egg": ("petsanity", "defeat_core_commander", ('defeat_omoroth', 'ancient_hologram_pod_license')),
-    "Hatch Jr. Lava Slime": ("petsanity", "defeat_core_commander", ('defeat_omoroth', 'ancient_hologram_pod_license', 'egg_incubator_license')),
-    "Collect Squishy Egg": ("petsanity", "defeat_sahabar", ('defeat_core_commander',)),
-    "Hatch Snugglygrade": ("petsanity", "defeat_sahabar", ('defeat_core_commander', 'egg_incubator_license')),
-    "Collect Arcane Egg": ("petsanity", "defeat_core_commander", ('lower_wall',)),
-    "Hatch Arcane Symbiote": ("petsanity", "defeat_core_commander", ('lower_wall', 'egg_incubator_license')),
-    "Talk to Bearded Merchant": ("merchantsanity", "lower_wall", ('defeat_glurch',)),
-    "Talk to Cloaked Merchant": ("merchantsanity", "lower_wall", ('defeat_ghorm',)),
-    "Talk to Fishing Merchant": ("merchantsanity", "defeat_core_commander", ('defeat_azeos',)),
-    "Talk to Brave Merchant": ("merchantsanity", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Talk to Otherworldly Merchant": ("merchantsanity", "defeat_all_bosses", ('defeat_sahabar',)),
-    "Collect Yellow Glowbug": ("critters", "lower_wall", ()),
-    "Collect Blue Glowbug": ("critters", "lower_wall", ()),
-    "Collect Green Glowbug": ("critters", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Red Glowbug": ("critters", "defeat_core_commander", ('lower_wall',)),
-    "Collect Purple Glowbug": ("critters", "defeat_core_commander", ('defeat_nimruza',)),
-    "Collect Blackbug": ("critters", "lower_wall", ()),
-    "Collect Larvlet": ("critters", "lower_wall", ()),
-    "Collect Moon Pincher": ("critters", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Dusk Fairy": ("critters", "defeat_core_commander", ('lower_wall',)),
-    "Collect Dream Messenger": ("critters", "defeat_core_commander", ('lower_wall',)),
-    "Collect Citrus Pinion": ("critters", "defeat_core_commander", ('lower_wall',)),
-    "Collect Ice Wind": ("critters", "defeat_core_commander", ('defeat_azeos',)),
-    "Collect Crimson Wing": ("critters", "defeat_core_commander", ('lower_wall',)),
-    "Collect Little Death": ("critters", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Leaf Hopper": ("critters", "defeat_core_commander", ('lower_wall',)),
-    "Collect Earthworm": ("critters", "lower_wall", ()),
-    "Collect Manyleg": ("critters", "defeat_core_commander", ('defeat_omoroth',)),
-    "Collect Pest Bug": ("critters", "lower_wall", ()),
-    "Collect Sun Pincher": ("critters", "defeat_core_commander", ('lower_wall',)),
-    "Collect Gem Snail": ("critters", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Snoot Fly": ("critters", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Shadow Newt": ("critters", "defeat_core_commander", ('defeat_azeos', 'defeat_omoroth', 'defeat_ra_akar')),
-    "Collect Drape Ray": ("critters", "defeat_sahabar", ('defeat_sahabar',)),
-    "Collect Sniffling": ("critters", "defeat_core_commander", ('lower_wall',)),
-    "Collect Void Larvlet": ("critters", "defeat_sahabar", ('defeat_sahabar',)),
+    "Collect Bone Creole": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Geode": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Ammonite": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Triangle Trinket": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Rusty Spoon": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Caveling Skull": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Twisted Agate": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Old Amulet": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Ear Plate": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Amber Fish Egg": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Golden Starfish": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Grub Knot": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Golden Cocoon": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Grub Pearl": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Mucus Amoeba": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Blood Skull": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Parasite Fossil": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Petrified Egg": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Soft Sponge": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Caveling Perfume": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Adder Stone": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Broken Core Idol": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Enhydro Crystal": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Precious Urn": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Amber Chunk": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Caveling Medal": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Lost Paddle": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Leaf Fossil": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Petrified Coral": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Mechanical Arm": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Old Spore Mask": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Golden Feather": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Dry Butterfly": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Hard Thorn": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Ceremonial Flute": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Feather Fish Scale": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Giant Mite": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Mold Dew": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Mildew Leaf": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Fungal Bone": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Data Slate": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Mold Shell": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Chipped Plate": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Balloon Spore": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Giant Germ": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Stone Cap": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Sealed Beverage": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Fish Fossil": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Rusty Fishing Hook": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Petrified Trilobite": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Bubble Pearl": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Forked Coral": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Golden Needle": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Opabinia Fossil": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Fizzy Crystal": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Giant Squid Eye": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Polished Shell": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Shark Tooth": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Black Bubble Pearl": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Blue Glass Kalimba": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Crystal Sphere": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Caveling Cup": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Timeless Hourglass": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Processor Chip": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Bent Fork": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Screen Device": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Luxurious Handmirror": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Incense Bowl": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Blue Glass Shard": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Caveling Sandal": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Plume Ball": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Broken Toy Ship": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Bag of Marbles": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Broken Gourd": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Kingfish Scale": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Ancient Makeup Set": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Ancient Golden Coin": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Black Desert Diamond": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Desert Diamond": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Crystal Spearhead": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Early Human Skull": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Charred Caveling Skull": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Starlight Shards": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Melting Lava Wing": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Pickaxe Head": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Ancient Fishing Hook": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Fusion Alloy": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Worker Handcuff": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Offspring Capsule": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Homeworld Reminiscence": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Catalyst Gemstone": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Chemical Ration": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Deepspace Log": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Triops Fossil": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Suspended Butterfly": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Crystal Bone": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Agartha Report": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Sparkle Opal": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Disabled Datapad": (
+        "valuablesanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Geobot Leg": (
+        "valuablesanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Sahabar Idol": (
+        "valuablesanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Ancient Gem Plate": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Antique Board Game": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Mysterious Doll Set": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Ritual Goblet": (
+        "valuablesanity",
+        "lower_wall",
+        (
+            "defeat_glurch",
+        ),
+    ),
+    "Collect Golden Whistle": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Caveling Prophet Mask": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Old Journal": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Caveling Effigy": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Caveling Doll": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Seismic Clock": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Music Bowl": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Golden Caveling Mask": (
+        "valuablesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Small Caveling Skull": (
+        "valuablesanity",
+        "lower_wall",
+        (
+            "defeat_glurch",
+        ),
+    ),
+    "Collect Playing Dice": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Pictographic Sketchbook": (
+        "valuablesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Shrooman Figurine": (
+        "figurinesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Shrooman Brute Figurine": (
+        "figurinesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Slime Figurine": (
+        "figurinesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Red Slime Figurine": (
+        "figurinesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Caveling Skirmisher Figurine": (
+        "figurinesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Caveling Spearman Figurine": (
+        "figurinesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Clay Burrower Figurine": (
+        "figurinesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Larva Figurine": (
+        "figurinesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Hive Larva Figurine": (
+        "figurinesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Big Larva Figurine": (
+        "figurinesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Big Hive Larva Figurine": (
+        "figurinesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Acid Larva Figurine": (
+        "figurinesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Cocoon Figurine": (
+        "figurinesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Caveling Figurine": (
+        "figurinesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Caveling Shaman Figurine": (
+        "figurinesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Caveling Brute Figurine": (
+        "figurinesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Electro-Pest Figurine": (
+        "figurinesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Caveling Hunter Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Caveling Gardener Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Snare Plant Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Purple Slime Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Floracada Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Infected Caveling Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Mold Tentacle Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Bubble Crab Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Tentacle Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Blue Slime Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Caveling Scholar Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Core Sentry Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Bomb Scarab Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Caveling Assassin Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Caveling Mummy Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Lava Slime Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Lava Butterfly Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Mimite Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Orbital Turret Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Nilipede Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Sulfur Worm Figurine": (
+        "figurinesanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Collect Colossal Amoeba Figurine": (
+        "figurinesanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Collect Gold Scarab Figurine": (
+        "figurinesanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Collect Cicada Nymph Figurine": (
+        "figurinesanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Collect Geobot Miner Figurine": (
+        "figurinesanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Geobot Patroller Figurine": (
+        "figurinesanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Geobot Scourer Figurine": (
+        "figurinesanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Void Larva Cocoon Figurine": (
+        "figurinesanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Void Larva Figurine": (
+        "figurinesanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Void Caveling Figurine": (
+        "figurinesanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Void Caveling Shaman Figurine": (
+        "figurinesanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Void Caveling Brute Figurine": (
+        "figurinesanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Core Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Glurch Figurine": (
+        "figurinesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Ghorm Figurine": (
+        "figurinesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Hive Mother Figurine": (
+        "figurinesanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Malugaz Figurine": (
+        "figurinesanity",
+        "lower_wall",
+        (
+            "defeat_glurch",
+        ),
+    ),
+    "Collect King Slime Figurine": (
+        "figurinesanity",
+        "lower_wall",
+        (
+            "defeat_glurch",
+        ),
+    ),
+    "Collect Azeos Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Ivy Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Omoroth Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Morpha Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Atlantean Worm Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Ra-Akar Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Igneous Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Druidra Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Crydra Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "defeat_druidra",
+        ),
+    ),
+    "Collect Pyrdra Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "defeat_crydra",
+        ),
+    ),
+    "Collect Core Commander Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+            "defeat_druidra",
+            "defeat_crydra",
+            "defeat_pyrdra",
+        ),
+    ),
+    "Collect Unleashed Core Commander Figurine": (
+        "figurinesanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+            "defeat_druidra",
+            "defeat_crydra",
+            "defeat_pyrdra",
+        ),
+    ),
+    "Collect Urschleim Figurine": (
+        "figurinesanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Collect Nimruza Figurine": (
+        "figurinesanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Collect S.A.H.A.B.A.R. Trophy": (
+        "figurinesanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Oblidra Figurine": (
+        "figurinesanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Orange Cave Guppy": (
+        "fishsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Blue Cave Guppy": (
+        "fishsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Rock Jaw": (
+        "fishsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Gem Crab": (
+        "fishsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Dagger Fin": (
+        "fishsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Pink Palace Fish": (
+        "fishsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Teal Palace Fish": (
+        "fishsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Crown Squid": (
+        "fishsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Yellow Blister Head": (
+        "fishsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Green Blister Head": (
+        "fishsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Devil Worm": (
+        "fishsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Vampire Eel": (
+        "fishsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Mold Shark": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Rot Fish": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Black Steel Urchin": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Azure Feather Fish": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Emerald Feather Fish": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Spirit Veil": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Astral Jelly": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Bottom Tracer": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Silver Dart": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Golden Dart": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Pink Coralotl": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect White Coralotl": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Solid Spikeback": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Sandy Spikeback": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Gray Dune Tail": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Brown Dune Tail": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Tornis Kingfish": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Dark Lava Eater": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Bright Lava Eater": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Verdant Dragonfish": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Elder Dragonfish": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Starlight Nautilus": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Beryll Angle Fish": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Glistening Deepstalker": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Cosmic Form": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Jasper Angle Fish": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Splendid Deepstalker": (
+        "fishsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Terra Trilobite": (
+        "fishsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Collect Litho Trilobite": (
+        "fishsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Collect Greenhorn Pico": (
+        "fishsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Collect Pinkhorn Pico": (
+        "fishsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Collect Riftian Lampfish": (
+        "fishsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Collect Dirt Block": (
+        "blocksanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Turf Block": (
+        "blocksanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Sand Block": (
+        "blocksanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Meadow Block": (
+        "blocksanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Clay Block": (
+        "blocksanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Larva Hive Block": (
+        "blocksanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Stone Block": (
+        "blocksanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Grass Block": (
+        "blocksanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Mold Block": (
+        "blocksanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Beach Block": (
+        "blocksanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Metropolis Block": (
+        "blocksanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Desert Block": (
+        "blocksanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Desert Temple Block": (
+        "blocksanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Maze Block": (
+        "blocksanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Lava Rock Block": (
+        "blocksanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Crystal Block": (
+        "blocksanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Alien Tech Block": (
+        "blocksanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Fossil Block": (
+        "blocksanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Collect Oasis Block": (
+        "blocksanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Excavation Block": (
+        "blocksanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Industrial Block": (
+        "blocksanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Tuff Block": (
+        "blocksanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Void Infused Tuff Block": (
+        "blocksanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Wood": (
+        "raw_materials",
+        "lower_wall",
+        (),
+    ),
+    "Collect Ancient Coin": (
+        "raw_materials",
+        "lower_wall",
+        (),
+    ),
+    "Collect Copper Ore": (
+        "raw_materials",
+        "lower_wall",
+        (),
+    ),
+    "Collect Tin Ore": (
+        "raw_materials",
+        "lower_wall",
+        (),
+    ),
+    "Collect Iron Ore": (
+        "raw_materials",
+        "lower_wall",
+        (),
+    ),
+    "Collect Gold Ore": (
+        "raw_materials",
+        "lower_wall",
+        (),
+    ),
+    "Collect Scarlet Ore": (
+        "raw_materials",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Octarine Ore": (
+        "raw_materials",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Galaxite Ore": (
+        "raw_materials",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Solarite Ore": (
+        "raw_materials",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Pandorium Ore": (
+        "raw_materials",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Collect Relucite Ore": (
+        "raw_materials",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Coral Wood": (
+        "raw_materials",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Gleam Wood": (
+        "raw_materials",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Ancient Gemstone": (
+        "raw_materials",
+        "lower_wall",
+        (),
+    ),
+    "Collect Jungle Emerald": (
+        "raw_materials",
+        "defeat_core_commander",
+        (
+            "defeat_druidra",
+        ),
+    ),
+    "Collect Ocean Sapphire": (
+        "raw_materials",
+        "defeat_core_commander",
+        (
+            "defeat_crydra",
+        ),
+    ),
+    "Collect Desert Ruby": (
+        "raw_materials",
+        "defeat_core_commander",
+        (
+            "defeat_pyrdra",
+        ),
+    ),
+    "Collect Slime": (
+        "raw_materials",
+        "lower_wall",
+        (),
+    ),
+    "Collect Poison Slime": (
+        "raw_materials",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Slippery Slime": (
+        "raw_materials",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Magma Slime": (
+        "raw_materials",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Fiber": (
+        "raw_materials",
+        "lower_wall",
+        (),
+    ),
+    "Collect Wool": (
+        "raw_materials",
+        "lower_wall",
+        (),
+    ),
+    "Collect Strolly Poly Plate": (
+        "raw_materials",
+        "lower_wall",
+        (),
+    ),
+    "Collect Mechanical Part": (
+        "raw_materials",
+        "lower_wall",
+        (),
+    ),
+    "Collect Scrap Parts": (
+        "raw_materials",
+        "lower_wall",
+        (),
+    ),
+    "Collect Ancient Feather": (
+        "raw_materials",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Sea Shell": (
+        "raw_materials",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Calcified Shell": (
+        "raw_materials",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Collect Cytoplasm": (
+        "raw_materials",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Collect Corrupted Alloy": (
+        "raw_materials",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Scarab Wingcover": (
+        "raw_materials",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Blasting Dung": (
+        "raw_materials",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Copper Bar": (
+        "refined_materials",
+        "lower_wall",
+        (
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Tin Bar": (
+        "refined_materials",
+        "lower_wall",
+        (
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Iron Bar": (
+        "refined_materials",
+        "lower_wall",
+        (
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Gold Bar": (
+        "refined_materials",
+        "lower_wall",
+        (
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Scarlet Bar": (
+        "refined_materials",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Octarine Bar": (
+        "refined_materials",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Galaxite Bar": (
+        "refined_materials",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Solarite Bar": (
+        "refined_materials",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Pandorium Bar": (
+        "refined_materials",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Relucite Bar": (
+        "refined_materials",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Plank": (
+        "refined_materials",
+        "lower_wall",
+        (
+            "table_saw_license",
+        ),
+    ),
+    "Collect Coral Wood Plank": (
+        "refined_materials",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "table_saw_license",
+        ),
+    ),
+    "Collect Gleam Wood Plank": (
+        "refined_materials",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+            "table_saw_license",
+        ),
+    ),
+    "Collect Glass Piece": (
+        "refined_materials",
+        "lower_wall",
+        (
+            "glass_smelter_license",
+        ),
+    ),
+    "Collect Crystal Skull Shard": (
+        "unique_materials",
+        "lower_wall",
+        (),
+    ),
+    "Collect Chipped Blade": (
+        "unique_materials",
+        "defeat_all_bosses",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Clear Gemstone": (
+        "unique_materials",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Shutdown Protocol": (
+        "unique_materials",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Anomaly Report": (
+        "unique_materials",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Overwrite Transcript": (
+        "unique_materials",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Channeling Gemstone": (
+        "unique_materials",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Fractured Limbs": (
+        "unique_materials",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Energy String": (
+        "unique_materials",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Crystal Meteor Shard": (
+        "unique_materials",
+        "defeat_core_commander",
+        (
+            "defeat_druidra",
+            "defeat_crydra",
+            "defeat_pyrdra",
+        ),
+    ),
+    "Collect Pink Hydra Eye": (
+        "unique_materials",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect White Hydra Eye": (
+        "unique_materials",
+        "defeat_core_commander",
+        (
+            "defeat_druidra",
+        ),
+    ),
+    "Collect Oblivion Fragment": (
+        "unique_materials",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Coiled Branch": (
+        "unique_materials",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Magma Rod": (
+        "unique_materials",
+        "defeat_core_commander",
+        (
+            "defeat_crydra",
+        ),
+    ),
+    "Collect Frozen Orb": (
+        "unique_materials",
+        "defeat_core_commander",
+        (
+            "defeat_druidra",
+        ),
+    ),
+    "Collect Void-Forged Barrel": (
+        "unique_materials",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Sanctified Firing Core": (
+        "unique_materials",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect S.A.H.A.B.A.R's Mortar Housing": (
+        "unique_materials",
+        "defeat_all_bosses",
+        (
+            "defeat_sahabar",
+        ),
+    ),
+    "Collect Copper Key": (
+        "locked_chests",
+        "lower_wall",
+        (
+            "key_casting_table_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Iron Key": (
+        "locked_chests",
+        "lower_wall",
+        (
+            "key_casting_table_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Scarlet Key": (
+        "locked_chests",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+            "key_casting_table_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Octarine Key": (
+        "locked_chests",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "key_casting_table_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Galaxite Key": (
+        "locked_chests",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+            "key_casting_table_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Solarite Key": (
+        "locked_chests",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+            "key_casting_table_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Relucite Key": (
+        "locked_chests",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+            "key_casting_table_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Ghorm's Horn": (
+        "key_items",
+        "lower_wall",
+        (),
+    ),
+    "Collect Glurch Eye": (
+        "key_items",
+        "lower_wall",
+        (),
+    ),
+    "Collect Stolen Crystal Heart": (
+        "key_items",
+        "lower_wall",
+        (
+            "defeat_glurch",
+        ),
+    ),
+    "Collect Admin Key": (
+        "key_items",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_ghorm",
+        ),
+    ),
+    "Collect Azeos Feather Fan": (
+        "key_items",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Omoroth Compass": (
+        "key_items",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Ra-Akar Automaton": (
+        "key_items",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Brood Void Neuron": (
+        "key_items",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Herald Void Neuron": (
+        "key_items",
+        "defeat_all_bosses",
+        (
+            "defeat_sahabar",
+        ),
+    ),
+    "Collect Heart Berry Seed": (
+        "seeds",
+        "lower_wall",
+        (),
+    ),
+    "Collect Glow Tulip Seed": (
+        "seeds",
+        "lower_wall",
+        (),
+    ),
+    "Collect Bomb Pepper Seed": (
+        "seeds",
+        "lower_wall",
+        (),
+    ),
+    "Collect Carrock Seed": (
+        "seeds",
+        "lower_wall",
+        (),
+    ),
+    "Collect Puffungi Seed": (
+        "seeds",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Root Seed": (
+        "seeds",
+        "lower_wall",
+        (),
+    ),
+    "Collect Grub Kapok Seed": (
+        "seeds",
+        "lower_wall",
+        (),
+    ),
+    "Collect Coral Wood Seed": (
+        "seeds",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Bloat Oat Seed": (
+        "seeds",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Pewpaya Seed": (
+        "seeds",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Pinegrapple Seed": (
+        "seeds",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Sunrice Seed": (
+        "seeds",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Lunacorn Seed": (
+        "seeds",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Gleam Wood Seed": (
+        "seeds",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Oracle Card \"Aura\"": (
+        "cardsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Oracle Card \"Entity\"": (
+        "cardsanity",
+        "lower_wall",
+        (
+            "defeat_glurch",
+        ),
+    ),
+    "Collect Oracle Card \"Brilliance\"": (
+        "cardsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Oracle Card \"Wisdom\"": (
+        "cardsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Oracle Card \"Metropolis\"": (
+        "cardsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Oracle Card \"Inspiration\"": (
+        "cardsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Oracle Card \"Radiance\"": (
+        "cardsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Oracle Card \"Temperance\"": (
+        "cardsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Oracle Card \"Endurance\"": (
+        "cardsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Oracle Deck": (
+        "cardsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Mushroom": (
+        "food",
+        "lower_wall",
+        (),
+    ),
+    "Collect Giant Mushroom": (
+        "food",
+        "lower_wall",
+        (),
+    ),
+    "Collect Glowing Mushroom": (
+        "food",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Heart Berry": (
+        "food",
+        "lower_wall",
+        (),
+    ),
+    "Collect Glow Tulip": (
+        "food",
+        "lower_wall",
+        (),
+    ),
+    "Collect Bomb Pepper": (
+        "food",
+        "lower_wall",
+        (),
+    ),
+    "Collect Carrock": (
+        "food",
+        "lower_wall",
+        (),
+    ),
+    "Collect Puffungi": (
+        "food",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Bloat Oat": (
+        "food",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Pewpaya": (
+        "food",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Pinegrapple": (
+        "food",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Sunrice": (
+        "food",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Lunacorn": (
+        "food",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Larva Meat": (
+        "food",
+        "lower_wall",
+        (),
+    ),
+    "Collect Dodo Egg": (
+        "food",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Marbled Meat": (
+        "food",
+        "lower_wall",
+        (),
+    ),
+    "Collect Meadow Milk": (
+        "food",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Amber Larva": (
+        "food",
+        "lower_wall",
+        (),
+    ),
+    "Collect Atlantean Worm Heart": (
+        "food",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Oblidra's Heart": (
+        "food",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Paradise Fruit Basket": (
+        "food",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Splendid Amalgam": (
+        "food",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Golden Heart Berry": (
+        "goldensanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Golden Glow Tulip": (
+        "goldensanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Golden Bomb Pepper": (
+        "goldensanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Golden Carrock": (
+        "goldensanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Golden Puffungi": (
+        "goldensanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Golden Bloat Oat": (
+        "goldensanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Golden Pewpaya": (
+        "goldensanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Golden Pinegrapple": (
+        "goldensanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Golden Sunrice": (
+        "goldensanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Golden Lunacorn": (
+        "goldensanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Shiny Larva Meat": (
+        "goldensanity",
+        "lower_wall",
+        (),
+    ),
+    "Slay Shrooman": (
+        "enemies",
+        "lower_wall",
+        (),
+    ),
+    "Slay Shrooman Brute": (
+        "enemies",
+        "lower_wall",
+        (),
+    ),
+    "Slay Orange Slime": (
+        "enemies",
+        "lower_wall",
+        (),
+    ),
+    "Slay Red Slime": (
+        "enemies",
+        "lower_wall",
+        (),
+    ),
+    "Slay Caveling Skirmisher": (
+        "enemies",
+        "lower_wall",
+        (),
+    ),
+    "Slay Caveling Spearman": (
+        "enemies",
+        "lower_wall",
+        (),
+    ),
+    "Slay Clay Burrower": (
+        "enemies",
+        "lower_wall",
+        (),
+    ),
+    "Slay Larva": (
+        "enemies",
+        "lower_wall",
+        (),
+    ),
+    "Slay Big Larva": (
+        "enemies",
+        "lower_wall",
+        (),
+    ),
+    "Slay Hive Larva": (
+        "enemies",
+        "lower_wall",
+        (),
+    ),
+    "Slay Big Hive Larva": (
+        "enemies",
+        "lower_wall",
+        (),
+    ),
+    "Slay Acid Larva": (
+        "enemies",
+        "lower_wall",
+        (),
+    ),
+    "Slay Cocoon": (
+        "enemies",
+        "lower_wall",
+        (),
+    ),
+    "Slay Caveling": (
+        "enemies",
+        "lower_wall",
+        (),
+    ),
+    "Slay Caveling Shaman": (
+        "enemies",
+        "lower_wall",
+        (),
+    ),
+    "Slay Caveling Brute": (
+        "enemies",
+        "lower_wall",
+        (),
+    ),
+    "Slay Electro-Pest": (
+        "enemies",
+        "lower_wall",
+        (),
+    ),
+    "Slay Royal Slime": (
+        "enemies",
+        "lower_wall",
+        (),
+    ),
+    "Slay Caveling Hunter": (
+        "enemies",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Slay Caveling Gardener": (
+        "enemies",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Slay Snare Plant": (
+        "enemies",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Slay Purple Slime": (
+        "enemies",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Slay Infected Caveling": (
+        "enemies",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Slay Mold Tentacle": (
+        "enemies",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Slay Bubble Crab": (
+        "enemies",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Slay Tentacle": (
+        "enemies",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Slay Blue Slime": (
+        "enemies",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Slay Caveling Scholar": (
+        "enemies",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Slay Core Sentry": (
+        "enemies",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Slay Bomb Scarab": (
+        "enemies",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Slay Caveling Assassin": (
+        "enemies",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Slay Caveling Mummy": (
+        "enemies",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Slay Lava Slime": (
+        "enemies",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Slay Lava Butterfly": (
+        "enemies",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Slay Mimite": (
+        "enemies",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Slay Orbital Turret": (
+        "enemies",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Slay Nilipede": (
+        "enemies",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Slay Crystal Snail": (
+        "cattle_mutilation",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Slay Sulfur Worm": (
+        "enemies",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Slay Colossal Amoeba": (
+        "enemies",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Slay Cicada Nymph": (
+        "enemies",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Slay Gold Scarab": (
+        "enemies",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Slay Geobot Miner": (
+        "enemies",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Slay Geobot Patroller": (
+        "enemies",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Slay Geobot Scourer": (
+        "enemies",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Slay Void Larva Cocoon": (
+        "enemies",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Slay Void Larva": (
+        "enemies",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Slay Void Caveling": (
+        "enemies",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Slay Void Caveling Shaman": (
+        "enemies",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Slay Void Caveling Brute": (
+        "enemies",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Defeat Glurch the Abominous Mass": (
+        "bosses",
+        "lower_wall",
+        (),
+    ),
+    "Defeat Ghorm the Devourer": (
+        "bosses",
+        "lower_wall",
+        (),
+    ),
+    "Defeat Malugaz the Corrupted": (
+        "bosses",
+        "lower_wall",
+        (
+            "defeat_glurch",
+        ),
+    ),
+    "Defeat Azeos the Sky Titan": (
+        "bosses",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+            "ancient_hologram_pod_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Defeat Omoroth the Sea Titan": (
+        "bosses",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "ancient_hologram_pod_license",
+            "fishing_workbench_license",
+            "progressive_workbench_license",
+            "progressive_workbench_license",
+            "progressive_workbench_license",
+            "progressive_workbench_license",
+            "progressive_workbench_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Defeat Ra-Akar the Sand Titan": (
+        "bosses",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+            "ancient_hologram_pod_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "table_saw_license",
+        ),
+    ),
+    "Defeat Druidra the Wild Titan": (
+        "bosses",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "table_saw_license",
+        ),
+    ),
+    "Defeat Crydra the Ice Titan": (
+        "bosses",
+        "defeat_core_commander",
+        (
+            "defeat_druidra",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "table_saw_license",
+        ),
+    ),
+    "Defeat Pyrdra the Fire Titan": (
+        "bosses",
+        "defeat_core_commander",
+        (
+            "defeat_crydra",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "table_saw_license",
+        ),
+    ),
+    "Defeat Core Commander": (
+        "bosses",
+        "defeat_core_commander",
+        (
+            "defeat_druidra",
+            "defeat_crydra",
+            "defeat_pyrdra",
+        ),
+    ),
+    "Defeat Nimruza, Queen of the Burrowed Sands": (
+        "bosses",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Defeat S.A.H.A.B.A.R": (
+        "bosses",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Defeat The Hive Mother": (
+        "bosses",
+        "defeat_all_bosses",
+        (
+            "ancient_hologram_pod_license",
+        ),
+    ),
+    "Defeat Ivy the Poisonous Mass": (
+        "bosses",
+        "defeat_all_bosses",
+        (
+            "lower_wall",
+            "ancient_hologram_pod_license",
+        ),
+    ),
+    "Defeat Morpha the Aquatic Mass": (
+        "bosses",
+        "defeat_all_bosses",
+        (
+            "lower_wall",
+            "defeat_azeos",
+            "ancient_hologram_pod_license",
+        ),
+    ),
+    "Defeat Igneous the Molten Mass": (
+        "bosses",
+        "defeat_all_bosses",
+        (
+            "lower_wall",
+            "defeat_omoroth",
+            "ancient_hologram_pod_license",
+        ),
+    ),
+    "Defeat Atlantean Worm": (
+        "bosses",
+        "defeat_all_bosses",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+            "ancient_hologram_pod_license",
+        ),
+    ),
+    "Defeat Urschleim": (
+        "bosses",
+        "defeat_all_bosses",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Defeat Oblidra the Void Titan": (
+        "bosses",
+        "defeat_all_bosses",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Level 10 Melee Combat": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 20 Melee Combat": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 30 Melee Combat": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 40 Melee Combat": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Level 50 Melee Combat": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Level 60 Melee Combat": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Level 70 Melee Combat": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_druidra",
+        ),
+    ),
+    "Level 80 Melee Combat": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_pyrdra",
+        ),
+    ),
+    "Level 90 Melee Combat": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Level 100 Melee Combat": (
+        "skillsanity",
+        "defeat_all_bosses",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Level 10 Vitality": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 20 Vitality": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 30 Vitality": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 40 Vitality": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Level 50 Vitality": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Level 60 Vitality": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Level 70 Vitality": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_druidra",
+        ),
+    ),
+    "Level 80 Vitality": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_pyrdra",
+        ),
+    ),
+    "Level 90 Vitality": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Level 100 Vitality": (
+        "skillsanity",
+        "defeat_all_bosses",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Level 10 Crafting": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 20 Crafting": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 30 Crafting": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 40 Crafting": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Level 50 Crafting": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Level 60 Crafting": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Level 70 Crafting": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_druidra",
+        ),
+    ),
+    "Level 80 Crafting": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_pyrdra",
+        ),
+    ),
+    "Level 90 Crafting": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Level 100 Crafting": (
+        "skillsanity",
+        "defeat_all_bosses",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Level 10 Range Combat": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 20 Range Combat": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 30 Range Combat": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 40 Range Combat": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Level 50 Range Combat": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Level 60 Range Combat": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Level 70 Range Combat": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_druidra",
+        ),
+    ),
+    "Level 80 Range Combat": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_pyrdra",
+        ),
+    ),
+    "Level 90 Range Combat": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Level 100 Range Combat": (
+        "skillsanity",
+        "defeat_all_bosses",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Level 10 Gardening": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 20 Gardening": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 30 Gardening": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 40 Gardening": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Level 50 Gardening": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Level 60 Gardening": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Level 70 Gardening": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_druidra",
+        ),
+    ),
+    "Level 80 Gardening": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_pyrdra",
+        ),
+    ),
+    "Level 90 Gardening": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Level 100 Gardening": (
+        "skillsanity",
+        "defeat_all_bosses",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Level 10 Fishing": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 20 Fishing": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 30 Fishing": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 40 Fishing": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Level 50 Fishing": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Level 60 Fishing": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Level 70 Fishing": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_druidra",
+        ),
+    ),
+    "Level 80 Fishing": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_pyrdra",
+        ),
+    ),
+    "Level 90 Fishing": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Level 100 Fishing": (
+        "skillsanity",
+        "defeat_all_bosses",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Level 10 Cooking": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 20 Cooking": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 30 Cooking": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 40 Cooking": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Level 50 Cooking": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Level 60 Cooking": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Level 70 Cooking": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_druidra",
+        ),
+    ),
+    "Level 80 Cooking": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_pyrdra",
+        ),
+    ),
+    "Level 90 Cooking": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Level 100 Cooking": (
+        "skillsanity",
+        "defeat_all_bosses",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Level 10 Magic": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 20 Magic": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 30 Magic": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 40 Magic": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Level 50 Magic": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Level 60 Magic": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Level 70 Magic": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_druidra",
+        ),
+    ),
+    "Level 80 Magic": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_pyrdra",
+        ),
+    ),
+    "Level 90 Magic": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Level 100 Magic": (
+        "skillsanity",
+        "defeat_all_bosses",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Level 10 Summoning": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 20 Summoning": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 30 Summoning": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 40 Summoning": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Level 50 Summoning": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Level 60 Summoning": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Level 70 Summoning": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_druidra",
+        ),
+    ),
+    "Level 80 Summoning": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_pyrdra",
+        ),
+    ),
+    "Level 90 Summoning": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Level 100 Summoning": (
+        "skillsanity",
+        "defeat_all_bosses",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Level 10 Explosives": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 20 Explosives": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 30 Explosives": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 40 Explosives": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Level 50 Explosives": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Level 60 Explosives": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Level 70 Explosives": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_druidra",
+        ),
+    ),
+    "Level 80 Explosives": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_pyrdra",
+        ),
+    ),
+    "Level 90 Explosives": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Level 100 Explosives": (
+        "skillsanity",
+        "defeat_all_bosses",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Level 10 Mining": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 20 Mining": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 30 Mining": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 40 Mining": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Level 50 Mining": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Level 60 Mining": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Level 70 Mining": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_druidra",
+        ),
+    ),
+    "Level 80 Mining": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_pyrdra",
+        ),
+    ),
+    "Level 90 Mining": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Level 100 Mining": (
+        "skillsanity",
+        "defeat_all_bosses",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Level 10 Running": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 20 Running": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 30 Running": (
+        "skillsanity",
+        "lower_wall",
+        (),
+    ),
+    "Level 40 Running": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Level 50 Running": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Level 60 Running": (
+        "skillsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Level 70 Running": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_druidra",
+        ),
+    ),
+    "Level 80 Running": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_pyrdra",
+        ),
+    ),
+    "Level 90 Running": (
+        "skillsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Level 100 Running": (
+        "skillsanity",
+        "defeat_all_bosses",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Unlock Locked Copper Chest": (
+        "locked_chests",
+        "lower_wall",
+        (
+            "key_casting_table_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Unlock Locked Iron Chest": (
+        "locked_chests",
+        "lower_wall",
+        (
+            "key_casting_table_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Unlock Locked Scarlet Chest": (
+        "locked_chests",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+            "key_casting_table_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Unlock Locked Octarine Chest": (
+        "locked_chests",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "key_casting_table_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Unlock Locked Galaxite Chest": (
+        "locked_chests",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+            "key_casting_table_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Unlock Locked Solarite Chest": (
+        "locked_chests",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+            "key_casting_table_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Unlock Locked Relucite Chest": (
+        "locked_chests",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+            "key_casting_table_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Slay Moolin": (
+        "cattle_mutilation",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Slay Bambuck": (
+        "cattle_mutilation",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Slay Strolly Poly": (
+        "cattle_mutilation",
+        "lower_wall",
+        (),
+    ),
+    "Slay Kelple": (
+        "cattle_mutilation",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Slay Dodo": (
+        "cattle_mutilation",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Slay Drohmble": (
+        "cattle_mutilation",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Defeat King Slime": (
+        "bosses",
+        "defeat_all_bosses",
+        (
+            "defeat_glurch",
+        ),
+    ),
+    "Collect Wood Pickaxe": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Copper Pickaxe": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Tin Pickaxe": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Hand Drill": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Iron Pickaxe": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Scarlet Pickaxe": (
+        "toolsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Scarlet Hand Drill": (
+        "toolsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Ancient Pickaxe": (
+        "toolsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Octarine Pickaxe": (
+        "toolsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Galaxite Pickaxe": (
+        "toolsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Solarite Pickaxe": (
+        "toolsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Copper Sledge Hammer": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Tin Sledge Hammer": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Iron Sledge Hammer": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Scarlet Sledge Hammer": (
+        "toolsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Octarine Sledge Hammer": (
+        "toolsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Galaxite Sledge Hammer": (
+        "toolsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Wood Shovel": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Copper Shovel": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Tin Shovel": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Iron Shovel": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Scarlet Shovel": (
+        "toolsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Octarine Shovel": (
+        "toolsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Galaxite Shovel": (
+        "toolsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Wooden Hoe": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Watering Can": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Copper Hoe": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Garden Trowel": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Tin Hoe": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Iron Hoe": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Large Watering Can": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Octarine Garden Trowel": (
+        "toolsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Wood Fishing Rod": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Tin Fishing Rod": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Iron Fishing Rod": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Scarlet Fishing Rod": (
+        "toolsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Octarine Fishing Rod": (
+        "toolsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Galaxite Fishing Rod": (
+        "toolsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Solarite Fishing Rod": (
+        "toolsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Scarlet Hoe": (
+        "toolsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Bug Net": (
+        "toolsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Wooden Sword": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Copper Sword": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Tin Sword": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Slime Sword": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Iron Sword": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Scarlet Sword": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Broken Handle": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Poisonous Sickle": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Octarine Sword": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Slippery Slime Sword": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Galaxite Sword": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Solarite Sword": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Hydra Bone Sword": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_crydra",
+        ),
+    ),
+    "Collect Atlantean Worm Sword": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Rusty Dagger": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Tin Dagger": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Scarlet Dagger": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Ritual Dagger": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Galaxite Dagger": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Tin Axe": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Battle Axe": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Octarine Axe": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Anchor Axe": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Lava Battle Axe": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Pandorium Axe": (
+        "weaponsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Collect Hunting Spear": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Iron Halberd": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Prehistoric Crystal Spear": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Larva Spike Club": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Pipe Club": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Crystal Shard Club": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Void Club": (
+        "weaponsanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Tentacle Whip": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Obliteration Ray": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Splintered Wooden Sword": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Wood Bow": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Iron Bow": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Octarine Bow": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Wood Crossbow": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Scarlet Crossbow": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Solarite Crossbow": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Slingshot": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Flintlock Musket": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Blowpipe": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Bubble Gun": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Scrapzooka": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Grubzooka": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Shellzooka": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Burnzooka": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Stone Mortar": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Volcano Mortar": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Throwing Daggers": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Galaxite Chakram": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Ricochet Shuriken": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Void Gun": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+            "defeat_druidra",
+            "defeat_crydra",
+            "defeat_pyrdra",
+        ),
+    ),
+    "Collect Quill Rifle": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Scrap Minigun": (
+        "weaponsanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Flamethrower": (
+        "weaponsanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Simple Staff": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Sticky Stick": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Fireball Staff": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Arcane Staff": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Noxious Meteor Staff": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Scholar's Staff": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Sun Caller": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Chaos Staff": (
+        "weaponsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Collect Corrupted Meteor Staff": (
+        "weaponsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Collect Zealot's Scimitar": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Tome of the Dark": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Tome of Breach": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Tome of Ashes": (
+        "weaponsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Tome of the Dead": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Tome of Sprouts": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Tome of the Deep": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Tome of Decay": (
+        "weaponsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Small Backpack": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Miner Backpack": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Explorer Backpack": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Ghorm's Stomach Backpack": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Scarlet Shell Backpack": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Octarine Backpack": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Morpha's Bubble Backpack": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Scholar Backpack": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Small Ore and Block Pouch": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Medium Ore and Block Pouch": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Large Ore and Block Pouch": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Small Seed and Crop Pouch": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Medium Seed and Crop Pouch": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Large Seed and Crop Pouch": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Small Fish Pouch": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Medium Fish Pouch": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Large Fish Pouch": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Small Valuable Pouch": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Medium Valuable Pouch": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Large Valuable Pouch": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Potion Pouch": (
+        "accessanity",
+        "defeat_core_commander",
+        (),
+    ),
+    "Collect Medium Potion Pouch": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Large Potion Pouch": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Critter Pouch": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Medium Critter Pouch": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Large Critter Pouch": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Small Lantern": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Lantern": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Orb Lantern": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Pearl Lantern": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Soul Lantern": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Wooden Shield": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Iron Shield": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Toxic Defender": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Octarine Shield": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Sentry Shield": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Scorching Aegis": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Hydra Bone Shield": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_druidra",
+        ),
+    ),
+    "Collect Swift Feather": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Azeos' Dash Feather": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Rift Lens": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Blue Leather Tome": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Royal Gel": (
+        "accessanity",
+        "lower_wall",
+        (
+            "defeat_glurch",
+        ),
+    ),
+    "Collect Golden Jellyfish": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Caveling ID": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Concealed Blade": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Moonstone": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Omoroth's Beak": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Smithing Glove": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Crystal Meteor Chunk": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_druidra",
+            "defeat_crydra",
+            "defeat_pyrdra",
+        ),
+    ),
+    "Collect Pet Rock": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Core Iris": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Hydra Tooth": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Trinity Heart": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+            "defeat_druidra",
+            "defeat_crydra",
+            "defeat_pyrdra",
+        ),
+    ),
+    "Collect Minion Kindler": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Minion Detonator": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Scratched Stone": (
+        "accessanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Magnet": (
+        "accessanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Remote Boom Clicker": (
+        "accessanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Copper Cross Necklace": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Polished Copper Cross Necklace": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Iron Chunk Necklace": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Polished Iron Chunk Necklace": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Gold Crystal Necklace": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Polished Gold Crystal Necklace": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Octarine Necklace": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Polished Octarine Necklace": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Scarlet Chunk Necklace": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Polished Scarlet Chunk Necklace": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Coral Amulet": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Polished Coral Amulet": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Cave Guppy Necklace": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Fang Necklace": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Heart Berry Necklace": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Blob Rosary Necklace": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Grub Egg Necklace": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Neptune Necklace": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Bubble Pearl Necklace": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Skull Necklace": (
+        "jewelrysanity",
+        "lower_wall",
+        (
+            "defeat_glurch",
+        ),
+    ),
+    "Collect Bomb Necklace": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Crescent Necklace": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Rusted Necklace": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Wildwarden Necklace": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Mold Vein Necklace": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Ancient Gem Necklace": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Azeos Beak Necklace": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Remedaisy Necklace": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Torc Necklace": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Bone Necklace": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Omoroth's Necklace": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Black Necklace": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Nomad Necklace": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Flame Necklace": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Fusioned Chunk Necklace": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Ra-Akar's Necklace": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Pyrdra's Necklace": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_crydra",
+        ),
+    ),
+    "Collect Atlantean Worm Necklace": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Glass Bead Necklace": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Soul Medallion": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Black Charm Necklace": (
+        "jewelrysanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Glow Tulip Ring": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Polished Glow Tulip Ring": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Swift Ring": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Polished Swift Ring": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Gold Crystal Ring": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Polished Gold Crystal Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Magnetic Ring": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Polished Magnetic Ring": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Golden Spike Ring": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Polished Golden Spike Ring": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Octarine Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Polished Octarine Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Ring of Stone": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Crescent Ring": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Rusted Ring": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Melting Crystal Ring": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Clot Ring": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Larva Ring": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Hourglass Ring": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Boundary Ring": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Ring of Rock": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Goldfish Ring": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Sea Foam Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Skull Ring": (
+        "jewelrysanity",
+        "lower_wall",
+        (
+            "defeat_glurch",
+        ),
+    ),
+    "Collect Wooden Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Wooden Thorn Ring": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Wildwarden Ring": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Puppet Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Petal Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Ivy's Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect White Glass Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Topaz Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Mold Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Vicious Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Sky Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Lucky Ring": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Septum Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Ancient Guardian Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Bone Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Noble Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Ancient Gem Ring": (
+        "jewelrysanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Omoroth's Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Morpha's Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Coral Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Flame Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Double Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Nomad Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Black Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Bomb Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Ring of Sand": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Glass Bead Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Druidra's Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Crydra's Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_druidra",
+        ),
+    ),
+    "Collect Atlantean Worm Ring": (
+        "jewelrysanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Helical Ring": (
+        "jewelrysanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Aether Ring": (
+        "jewelrysanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Peasant Hat": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Wood Helm": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Copper Helm": (
+        "armorsanity",
+        "lower_wall",
+        (
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Shrooman Cap": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Ranger Hood": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Apprentice Hat": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Witch Doctor Hat": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Adventurer's Hat": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Bronze Helm": (
+        "armorsanity",
+        "lower_wall",
+        (
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Pot Lid": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Chieftain Headdress": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Skirmisher Cap": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Cooking Pot Lid": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Caveling Hood": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Iron Helm": (
+        "armorsanity",
+        "lower_wall",
+        (
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Soaring Headgear": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Blast Helmet": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Makeshift Goggles": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Carapace Helm": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Larva Helm": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Farmer's Hat": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Shaman Skull": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Hivebone Helm": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect King Slime Crown": (
+        "armorsanity",
+        "lower_wall",
+        (
+            "defeat_glurch",
+        ),
+    ),
+    "Collect Sunglasses": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Moldweb Helm": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Wildwarden Mask": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Corrupt Warden Mask": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Scarlet Helm": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Hunter Hood": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Lily Pad Hat": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Mercenary Headband": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Octarine Helm": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Slime Helm": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Dreamer Headband": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Plague Mask": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Paladin Mask": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Scholar's Hood": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Sorcerer Hood": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Diving Helm": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Omoroth's Helm": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Galaxite Helm": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Assassin Hood": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Tassel Earrings": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Pajama Cap": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Sentry Helm": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Scarab Visor": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Solarite Barbute": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Cosmos Visor Helm": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Hazmat Helm": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Godsent King Mask": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Miner's Protective Helm": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Magma Horn Armor": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Grim Hood": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Inventor Goggles": (
+        "armorsanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Pandorium Helm": (
+        "armorsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "rift_statue_license",
+        ),
+    ),
+    "Collect Atlantean Worm Helmet": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Ninja Cowl": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Hydra Bone Helm": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_crydra",
+        ),
+    ),
+    "Collect Core Commander Helm": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+            "defeat_druidra",
+            "defeat_crydra",
+            "defeat_pyrdra",
+        ),
+    ),
+    "Collect Arcane Monk Blindfold": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Void-Fused Helmet": (
+        "armorsanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+            "progressive_smithing_table_license",
+            "progressive_smithing_table_license",
+        ),
+    ),
+    "Collect Desert Guardian Mask": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Sulfossil Helmet": (
+        "armorsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Collect Welder Helmet": (
+        "armorsanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Shadow Helmet": (
+        "armorsanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Peasant Chest": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Wood Chest": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Copper Breastplate": (
+        "armorsanity",
+        "lower_wall",
+        (
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Ranger Tunic": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Apprentice Robe": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Witch Doctor Vest": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Rain Coat": (
+        "armorsanity",
+        "lower_wall",
+        (
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+            "distillery_table_license",
+        ),
+    ),
+    "Collect Bronze Breastplate": (
+        "armorsanity",
+        "lower_wall",
+        (
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Pot Tub": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Chieftain Tunic": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Cooking Pot Tub": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Caveling Chest": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Iron Breastplate": (
+        "armorsanity",
+        "lower_wall",
+        (
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Trenchcoat": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Stone Chestplate": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Soaring Poncho": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Blast Plackart": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Researcher's Coat": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Carapace Breastplate": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Larva Chest": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Hivebone Breastplate": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Towel": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Red Bikini Top": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Green Bikini Top": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Blue Bikini Top": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Moldweb Breastplate": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Wildwarden Pauldrons": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Corrupt Warden Tunic": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Scarlet Breastplate": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Hunter Cloak": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Lily Pad Tunic": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Mercenary Tank Top": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Kelp Mantle": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Ivy's Thorn Harness": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Octarine Breastplate": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Slime Armor": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Dreamer Vest": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Paladin Harness": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Scholar's Cloak": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Sorcerer Robe": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Omoroth's Chestplate": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Galaxite Torso": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Assassin Cloak": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Tassel Top": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Pajama Shirt": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Miner's Labor Suit": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Scarab Harness": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Solarite Cuirass": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Gemstone Garment": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Cosmos Torso": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Hazmat Suit Jacket": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Godsent King Breast Armor": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Magma Torso Armor": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Grim Breastplate": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Inventor Apron": (
+        "armorsanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Pandorium Chestplate and Bracers": (
+        "armorsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "rift_statue_license",
+        ),
+    ),
+    "Collect Ninja Garments": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Hydra Bone Breastplate": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_druidra",
+        ),
+    ),
+    "Collect Core Commander Brigandine": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+            "defeat_druidra",
+            "defeat_crydra",
+            "defeat_pyrdra",
+        ),
+    ),
+    "Collect Arcane Monk Cloak": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Void-Fused Chestpiece": (
+        "armorsanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+            "progressive_smithing_table_license",
+            "progressive_smithing_table_license",
+        ),
+    ),
+    "Collect Desert Guardian Tunic": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Sulfossil Cuirass": (
+        "armorsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Collect Welder Chestplate": (
+        "armorsanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Shadow Chestplate": (
+        "armorsanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Wood Pants": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Copper Pants": (
+        "armorsanity",
+        "lower_wall",
+        (
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Ranger Pants": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Apprentice Pants": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Witch Doctor Jeans": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Rubber Boots": (
+        "armorsanity",
+        "lower_wall",
+        (
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+            "distillery_table_license",
+        ),
+    ),
+    "Collect Scuba Fins": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Bronze Pants": (
+        "armorsanity",
+        "lower_wall",
+        (
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Chieftain Shorts": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Caveling Pants": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Iron Pants": (
+        "armorsanity",
+        "lower_wall",
+        (
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Stone Pants": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Soaring Pants": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Blast Pants": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Researcher's Pants": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Hivebone Pants": (
+        "armorsanity",
+        "lower_wall",
+        (),
+    ),
+    "Collect Red Board Shorts": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Green Board Shorts": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Blue Board Shorts": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Red Bikini Bottom": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Green Bikini Bottom": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Blue Bikini Bottom": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Moldweb Pants": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Wildwarden Pants": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Corrupt Warden Shorts": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Scarlet Pants": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Lily Pad Shorts": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Mercenary Pants": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Ivy's Pants": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Octarine Pants": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Dreamer Shalvar": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Paladin Pants": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Sorcerer Pants": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Omoroth's Leg Armor": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Galaxite Pants": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Tassel Skirt": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Pajama Pants": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Miner's Worker Pants": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Scarab Legs": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Solarite Tassets": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_anvil_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+        ),
+    ),
+    "Collect Gemstone Harem Pants": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Cosmos Legwear": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Hazmat Suit Pants": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Godsent King Pants Armor": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Magma Shin Armor": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Grim Legwear": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Inventor Leggings": (
+        "armorsanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Pandorium Pants": (
+        "armorsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "progressive_furnace_license",
+            "rift_statue_license",
+        ),
+    ),
+    "Collect Ninja Leggings": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Hydra Bone Shins": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Core Commander Greaves": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+            "defeat_druidra",
+            "defeat_crydra",
+            "defeat_pyrdra",
+        ),
+    ),
+    "Collect Arcane Monk Leggings": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Void-Fused Leggings": (
+        "armorsanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+            "progressive_smithing_table_license",
+            "progressive_smithing_table_license",
+        ),
+    ),
+    "Collect Desert Guardian Pants": (
+        "armorsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Sulfossil Boots": (
+        "armorsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Collect Welder Leggings": (
+        "armorsanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Shadow Leggings": (
+        "armorsanity",
+        "defeat_sahabar",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Loyal Egg": (
+        "petsanity",
+        "lower_wall",
+        (),
+    ),
+    "Hatch Subterrier": (
+        "petsanity",
+        "lower_wall",
+        (
+            "egg_incubator_license",
+        ),
+    ),
+    "Collect Curious Egg": (
+        "petsanity",
+        "lower_wall",
+        (
+            "defeat_glurch",
+        ),
+    ),
+    "Hatch Embertail": (
+        "petsanity",
+        "lower_wall",
+        (
+            "defeat_glurch",
+            "egg_incubator_license",
+        ),
+    ),
+    "Collect Lively Egg": (
+        "petsanity",
+        "lower_wall",
+        (),
+    ),
+    "Hatch Owlux": (
+        "petsanity",
+        "lower_wall",
+        (
+            "egg_incubator_license",
+        ),
+    ),
+    "Collect Oozy Egg": (
+        "petsanity",
+        "lower_wall",
+        (),
+    ),
+    "Hatch Jr. Orange Slime": (
+        "petsanity",
+        "lower_wall",
+        (
+            "egg_incubator_license",
+        ),
+    ),
+    "Collect Nocturnal Egg": (
+        "petsanity",
+        "lower_wall",
+        (),
+    ),
+    "Hatch Earie": (
+        "petsanity",
+        "lower_wall",
+        (
+            "egg_incubator_license",
+        ),
+    ),
+    "Collect Pest Egg": (
+        "petsanity",
+        "lower_wall",
+        (),
+    ),
+    "Hatch Electro-Pet": (
+        "petsanity",
+        "lower_wall",
+        (
+            "egg_incubator_license",
+        ),
+    ),
+    "Collect Oozy Royal Egg": (
+        "petsanity",
+        "lower_wall",
+        (
+            "defeat_glurch",
+        ),
+    ),
+    "Hatch Prince Slime": (
+        "petsanity",
+        "lower_wall",
+        (
+            "defeat_glurch",
+            "egg_incubator_license",
+        ),
+    ),
+    "Collect Nimble Egg": (
+        "petsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Hatch Fanhare": (
+        "petsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+            "egg_incubator_license",
+        ),
+    ),
+    "Collect Oozy Poison Egg": (
+        "petsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+            "ancient_hologram_pod_license",
+        ),
+    ),
+    "Hatch Jr. Purple Slime": (
+        "petsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+            "ancient_hologram_pod_license",
+            "egg_incubator_license",
+        ),
+    ),
+    "Collect Fuzzy Egg": (
+        "petsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Hatch Pheromoth": (
+        "petsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Oozy Slippery Egg": (
+        "petsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "ancient_hologram_pod_license",
+        ),
+    ),
+    "Hatch Jr. Blue Slime": (
+        "petsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "ancient_hologram_pod_license",
+            "egg_incubator_license",
+        ),
+    ),
+    "Collect Oozy Lava Egg": (
+        "petsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+            "ancient_hologram_pod_license",
+        ),
+    ),
+    "Hatch Jr. Lava Slime": (
+        "petsanity",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+            "ancient_hologram_pod_license",
+            "egg_incubator_license",
+        ),
+    ),
+    "Collect Squishy Egg": (
+        "petsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+        ),
+    ),
+    "Hatch Snugglygrade": (
+        "petsanity",
+        "defeat_sahabar",
+        (
+            "defeat_core_commander",
+            "egg_incubator_license",
+        ),
+    ),
+    "Collect Arcane Egg": (
+        "petsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Hatch Arcane Symbiote": (
+        "petsanity",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+            "egg_incubator_license",
+        ),
+    ),
+    "Talk to Bearded Merchant": (
+        "merchantsanity",
+        "lower_wall",
+        (
+            "defeat_glurch",
+        ),
+    ),
+    "Talk to Cloaked Merchant": (
+        "merchantsanity",
+        "lower_wall",
+        (
+            "defeat_ghorm",
+        ),
+    ),
+    "Talk to Fishing Merchant": (
+        "merchantsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Talk to Brave Merchant": (
+        "merchantsanity",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Talk to Otherworldly Merchant": (
+        "merchantsanity",
+        "defeat_all_bosses",
+        (
+            "defeat_sahabar",
+        ),
+    ),
+    "Collect Yellow Glowbug": (
+        "critters",
+        "lower_wall",
+        (),
+    ),
+    "Collect Blue Glowbug": (
+        "critters",
+        "lower_wall",
+        (),
+    ),
+    "Collect Green Glowbug": (
+        "critters",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Red Glowbug": (
+        "critters",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Purple Glowbug": (
+        "critters",
+        "defeat_core_commander",
+        (
+            "defeat_nimruza",
+        ),
+    ),
+    "Collect Blackbug": (
+        "critters",
+        "lower_wall",
+        (),
+    ),
+    "Collect Larvlet": (
+        "critters",
+        "lower_wall",
+        (),
+    ),
+    "Collect Moon Pincher": (
+        "critters",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Dusk Fairy": (
+        "critters",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Dream Messenger": (
+        "critters",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Citrus Pinion": (
+        "critters",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Ice Wind": (
+        "critters",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+        ),
+    ),
+    "Collect Crimson Wing": (
+        "critters",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Little Death": (
+        "critters",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Leaf Hopper": (
+        "critters",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Earthworm": (
+        "critters",
+        "lower_wall",
+        (),
+    ),
+    "Collect Manyleg": (
+        "critters",
+        "defeat_core_commander",
+        (
+            "defeat_omoroth",
+        ),
+    ),
+    "Collect Pest Bug": (
+        "critters",
+        "lower_wall",
+        (),
+    ),
+    "Collect Sun Pincher": (
+        "critters",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Gem Snail": (
+        "critters",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Snoot Fly": (
+        "critters",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Shadow Newt": (
+        "critters",
+        "defeat_core_commander",
+        (
+            "defeat_azeos",
+            "defeat_omoroth",
+            "defeat_ra_akar",
+        ),
+    ),
+    "Collect Drape Ray": (
+        "critters",
+        "defeat_sahabar",
+        (
+            "defeat_sahabar",
+        ),
+    ),
+    "Collect Sniffling": (
+        "critters",
+        "defeat_core_commander",
+        (
+            "lower_wall",
+        ),
+    ),
+    "Collect Void Larvlet": (
+        "critters",
+        "defeat_sahabar",
+        (
+            "defeat_sahabar",
+        ),
+    ),
 }
 
 

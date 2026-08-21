@@ -7,35 +7,178 @@ class LicenseToggle(Toggle):
     """Adds this crafting-station license as a progression reward and locks the station behind it."""
 
 
-class WorkbenchLicense(LicenseToggle): display_name = "Progressive Workbench License"; default = 1
-class AnvilLicense(LicenseToggle): display_name = "Progressive Anvil License"; default = 1
-class PouchWorkbenchLicense(LicenseToggle): display_name = "Pouch Workbench License"; default = 0
-class TableSawLicense(LicenseToggle): display_name = "Table Saw License"; default = 1
-class CookingPotLicense(LicenseToggle): display_name = "Cooking Pot License"; default = 1
-class JewelryWorkbenchLicense(LicenseToggle): display_name = "Progressive Jewelry Workbench License"; default = 0
-class CarpenterTableLicense(LicenseToggle): display_name = "Carpenter's Table License"; default = 0
-class AlchemyTableLicense(LicenseToggle): display_name = "Progressive Alchemy Table License"; default = 0
-class DistilleryTableLicense(LicenseToggle): display_name = "Distillery Table License"; default = 0
-class ElectronicsTableLicense(LicenseToggle): display_name = "Electronics Table License"; default = 0
-class AutomationTableLicense(LicenseToggle): display_name = "Progressive Automation Table License"; default = 0
-class RailwayForgeLicense(LicenseToggle): display_name = "Railway Forge License"; default = 0
-class BoatWorkbenchLicense(LicenseToggle): display_name = "Boat Workbench License"; default = 0
-class GoKartWorkbenchLicense(LicenseToggle): display_name = "Go-Kart Workbench License"; default = 0
-class LoomLicense(LicenseToggle): display_name = "Loom License"; default = 0
-class MusicWorkbenchLicense(LicenseToggle): display_name = "Music Workbench License"; default = 0
-class LivestockWorkbenchLicense(LicenseToggle): display_name = "Livestock Workbench License"; default = 0
-class GlassWorkbenchLicense(LicenseToggle): display_name = "Glass Workbench License"; default = 0
-class FishingWorkbenchLicense(LicenseToggle): display_name = "Fishing Workbench License"; default = 1
-class EggIncubatorLicense(LicenseToggle): display_name = "Egg Incubator License"; default = 1
-class KeyCastingTableLicense(LicenseToggle): display_name = "Key Casting Table License"; default = 1
-class PainterTableLicense(LicenseToggle): display_name = "Painter's Table License"; default = 0
-class SmithingTableLicense(LicenseToggle): display_name = "Progressive Smithing Table License"; default = 0
-class FurnaceLicense(LicenseToggle): display_name = "Progressive Furnace License"; default = 1
-class GlassSmelterLicense(LicenseToggle): display_name = "Glass Smelter License"; default = 0
-class HologramLicense(LicenseToggle): display_name = "Ancient Hologram Pod License"; default = 1
-class RiftStatueLicense(LicenseToggle): display_name = "Rift Statue License"; default = 0
-class UpgradeStationLicense(LicenseToggle): display_name = "Upgrade Station License"; default = 0
-class RepairSalvageLicense(LicenseToggle): display_name = "Salvage and Repair Station License"; default = 1
+class WorkbenchLicense(LicenseToggle):
+    """Adds progressive workbench tiers as rewards and locks those tiers behind them."""
+    display_name = "Progressive Workbench License"
+    default = 1
+
+
+class AnvilLicense(LicenseToggle):
+    """Adds progressive anvil tiers as rewards and locks those tiers behind them."""
+    display_name = "Progressive Anvil License"
+    default = 1
+
+
+class PouchWorkbenchLicense(LicenseToggle):
+    """Adds the Pouch Workbench license as a reward and locks the station behind it."""
+    display_name = "Pouch Workbench License"
+    default = 0
+
+
+class TableSawLicense(LicenseToggle):
+    """Adds the Table Saw license as a reward and locks the station behind it."""
+    display_name = "Table Saw License"
+    default = 1
+
+
+class CookingPotLicense(LicenseToggle):
+    """Adds the Cooking Pot license as a reward and locks the station behind it."""
+    display_name = "Cooking Pot License"
+    default = 1
+
+
+class JewelryWorkbenchLicense(LicenseToggle):
+    """Adds progressive jewelry workbench tiers as rewards and locks those tiers behind them."""
+    display_name = "Progressive Jewelry Workbench License"
+    default = 0
+
+
+class CarpenterTableLicense(LicenseToggle):
+    """Adds the Carpenter's Table license as a reward and locks the station behind it."""
+    display_name = "Carpenter's Table License"
+    default = 0
+
+
+class AlchemyTableLicense(LicenseToggle):
+    """Adds progressive alchemy table tiers as rewards and locks those tiers behind them."""
+    display_name = "Progressive Alchemy Table License"
+    default = 0
+
+
+class DistilleryTableLicense(LicenseToggle):
+    """Adds the Distillery Table license as a reward and locks the station behind it."""
+    display_name = "Distillery Table License"
+    default = 0
+
+
+class ElectronicsTableLicense(LicenseToggle):
+    """Adds the Electronics Table license as a reward and locks the station behind it."""
+    display_name = "Electronics Table License"
+    default = 0
+
+
+class AutomationTableLicense(LicenseToggle):
+    """Adds progressive automation table tiers as rewards and locks those tiers behind them."""
+    display_name = "Progressive Automation Table License"
+    default = 0
+
+
+class RailwayForgeLicense(LicenseToggle):
+    """Adds the Railway Forge license as a reward and locks the station behind it."""
+    display_name = "Railway Forge License"
+    default = 0
+
+
+class BoatWorkbenchLicense(LicenseToggle):
+    """Adds the Boat Workbench license as a reward and locks the station behind it."""
+    display_name = "Boat Workbench License"
+    default = 0
+
+
+class GoKartWorkbenchLicense(LicenseToggle):
+    """Adds the Go-Kart Workbench license as a reward and locks the station behind it."""
+    display_name = "Go-Kart Workbench License"
+    default = 0
+
+
+class LoomLicense(LicenseToggle):
+    """Adds the Loom license as a reward and locks the station behind it."""
+    display_name = "Loom License"
+    default = 0
+
+
+class MusicWorkbenchLicense(LicenseToggle):
+    """Adds the Music Workbench license as a reward and locks the station behind it."""
+    display_name = "Music Workbench License"
+    default = 0
+
+
+class LivestockWorkbenchLicense(LicenseToggle):
+    """Adds the Livestock Workbench license as a reward and locks the station behind it."""
+    display_name = "Livestock Workbench License"
+    default = 0
+
+
+class GlassWorkbenchLicense(LicenseToggle):
+    """Adds the Glass Workbench license as a reward and locks the station behind it."""
+    display_name = "Glass Workbench License"
+    default = 0
+
+
+class FishingWorkbenchLicense(LicenseToggle):
+    """Adds the Fishing Workbench license as a reward and locks the station behind it."""
+    display_name = "Fishing Workbench License"
+    default = 1
+
+
+class EggIncubatorLicense(LicenseToggle):
+    """Adds the Egg Incubator license as a reward and locks the station behind it."""
+    display_name = "Egg Incubator License"
+    default = 1
+
+
+class KeyCastingTableLicense(LicenseToggle):
+    """Adds the Key Casting Table license as a reward and locks the station behind it."""
+    display_name = "Key Casting Table License"
+    default = 1
+
+
+class PainterTableLicense(LicenseToggle):
+    """Adds the Painter's Table license as a reward and locks the station behind it."""
+    display_name = "Painter's Table License"
+    default = 0
+
+
+class SmithingTableLicense(LicenseToggle):
+    """Adds progressive smithing table tiers as rewards and locks those tiers behind them."""
+    display_name = "Progressive Smithing Table License"
+    default = 0
+
+
+class FurnaceLicense(LicenseToggle):
+    """Adds progressive furnace tiers as rewards and locks those tiers behind them."""
+    display_name = "Progressive Furnace License"
+    default = 1
+
+
+class GlassSmelterLicense(LicenseToggle):
+    """Adds the Glass Smelter license as a reward and locks the station behind it."""
+    display_name = "Glass Smelter License"
+    default = 0
+
+
+class HologramLicense(LicenseToggle):
+    """Adds the Ancient Hologram Pod license as a reward and locks the station behind it."""
+    display_name = "Ancient Hologram Pod License"
+    default = 1
+
+
+class RiftStatueLicense(LicenseToggle):
+    """Adds the Rift Statue license as a reward and locks the station behind it."""
+    display_name = "Rift Statue License"
+    default = 0
+
+
+class UpgradeStationLicense(LicenseToggle):
+    """Adds the Upgrade Station license as a reward and locks the station behind it."""
+    display_name = "Upgrade Station License"
+    default = 0
+
+
+class RepairSalvageLicense(LicenseToggle):
+    """Adds the Salvage and Repair Station license as a reward and locks the station behind it."""
+    display_name = "Salvage and Repair Station License"
+    default = 1
 
 
 class Goal(Choice):
@@ -209,21 +352,31 @@ class MerchantSellsCrownSummon(Toggle):
 
 
 class RandomizeEnemies(Toggle):
-    """Seeded one-to-one permutation of eligible ordinary enemy spawn slots. Bosses, livestock, pets, merchants, structural spawners, and scripted actors are excluded."""
+    """Seeded one-to-one permutation of eligible ordinary enemy spawn slots.
+
+    Bosses, livestock, pets, merchants, structural spawners, and scripted actors are excluded.
+    """
 
     display_name = "Randomize Enemies"
     default = 0
 
 
 class RandomizeBosses(Toggle):
-    """Moves every boss into a different boss encounter, preserving a one-to-one set and scaling combat to the destination slot."""
+    """Moves every boss into a different boss encounter.
+
+    The mapping preserves a one-to-one set and scales combat to the destination slot.
+    """
 
     display_name = "Randomize Bosses"
     default = 0
 
 
 class RandomizerDifficulty(Choice):
-    """Controls enemy-map safety weighting and combat normalization. Easy strongly discourages later-region enemies in earlier slots. Medium relaxes that protection. Hard removes progression weighting. Masochist also keeps replacement health and damage at native values."""
+    """Controls enemy-map safety weighting and combat normalization.
+
+    Easy strongly discourages later-region enemies in earlier slots. Medium relaxes that protection. Hard removes
+    progression weighting. Masochist also keeps replacement health and damage at native values.
+    """
 
     display_name = "Randomizer Difficulty"
     option_easy = 0
@@ -556,7 +709,10 @@ class AutomationCacheWeight(Range):
 
 
 class EmptyCacheWeight(Range):
-    """Relative filler weight for Empty Cache. Forced blank reward slots still become Empty Caches when every weight is zero."""
+    """Relative filler weight for Empty Cache.
+
+    Forced blank reward slots still become Empty Caches when every weight is zero.
+    """
     display_name = "Empty Cache Weight"
     range_start = 0
     range_end = 100

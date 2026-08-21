@@ -11,7 +11,7 @@ The matching in-game client mod is maintained at
 [Core-Keeper-Archipelago](https://github.com/URAQTDev/Core-Keeper-Archipelago)
 and is installed through Core Keeper's in-game **Mods** menu.
 
-Current release: `0.9.0-rc.8`
+Current release: `1.0.0`
 
 ## AI use
 

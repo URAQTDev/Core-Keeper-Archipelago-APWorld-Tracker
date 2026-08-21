@@ -874,7 +874,9 @@ class TestSkillPointsEnabledWithoutSkillsanity(CoreKeeperTestBase):
         skill_rewards = [name for name in names if name.startswith("+5 ")]
         self.assertEqual(60, len(skill_rewards))
         self.assertEqual(12, len(set(skill_rewards)))
-        self.assertFalse(any(location.name.startswith("Level ") for location in self.multiworld.get_locations(self.player)))
+        self.assertFalse(
+            any(location.name.startswith("Level ") for location in self.multiworld.get_locations(self.player))
+        )
         self.assertTrue(self.world.fill_slot_data()["skill_points"])
 
 

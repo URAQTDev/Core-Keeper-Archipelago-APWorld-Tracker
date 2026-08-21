@@ -119,16 +119,22 @@ class CoreKeeperWorld(World):
         if self.options.furnace_license:
             guaranteed.append("Progressive Furnace License")
         for license_name in guaranteed:
+            eligible_item_players = {self.player}
+            eligible_location_players = {self.player}
+            for group_id, group in self.multiworld.groups.items():
+                if self.player in group["players"] and license_name in group["item_pool"]:
+                    eligible_item_players.add(group_id)
+                    eligible_location_players.update(group["players"])
             placements = [
                 location for location in self.multiworld.get_locations()
                 if location.item is not None
-                and location.item.player == self.player
+                and location.item.player in eligible_item_players
                 and location.item.name == license_name
             ]
             if not placements:
                 raise RuntimeError(f"Expected a placed {license_name}; found none")
             if not any(
-                placement.player == self.player
+                placement.player in eligible_location_players
                 and (metadata := LOCATION_METADATA.get(placement.name)) is not None
                 and set(metadata[2]).issubset(sphere_one_milestones)
                 for placement in placements
