@@ -2,14 +2,20 @@ name: Publish release
 
 on:
   push:
+    branches:
+      - main
+    paths:
+      - "release-assets/CoreKeeperArchipelago-Tracker-Setup-0.9.0-rc.8.zip"
     tags:
       - "v*"
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
   release:
+    if: startsWith(github.ref, 'refs/tags/')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,3 +29,15 @@ jobs:
           --title "Core Keeper Archipelago APWorld and Tracker ${GITHUB_REF_NAME#v}"
           --notes "Includes the APWorld, texture-free PopTracker pack, and optional local textured-tracker setup. Install the matching in-game mod through Core Keeper's Mods menu."
 
+  update-rc8-tracker-helper:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Replace corrected tracker helper attachment
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: >-
+          gh release upload v0.9.0-rc.8
+          release-assets/CoreKeeperArchipelago-Tracker-Setup-0.9.0-rc.8.zip
+          --clobber
