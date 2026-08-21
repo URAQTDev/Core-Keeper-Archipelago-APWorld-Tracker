@@ -6,6 +6,7 @@ import os
 import argparse
 import contextlib
 import io
+import json
 import runpy
 import shutil
 import subprocess
@@ -15,6 +16,7 @@ import threading
 import time
 import traceback
 import winreg
+import zipfile
 from pathlib import Path
 
 # Explicit imports ensure the frozen setup executable includes Pillow codecs
@@ -24,6 +26,7 @@ from PIL import Image, ImageDraw, ImageEnhance, ImageOps, PngImagePlugin  # noqa
 
 APP_ID = "1621690"
 PACK_NAME = "core_keeper_poptracker_local.zip"
+PACK_UID = "core-keeper-archipelago-mainline"
 PUBLIC_LOG = Path(os.environ.get("PUBLIC", "C:/Users/Public")) / "Documents/CoreKeeperArchipelago-Tracker-Setup.log"
 
 
@@ -114,6 +117,15 @@ def process_running(image_name: str) -> bool:
         capture_output=True, text=True, check=False,
     )
     return image_name.lower() in result.stdout.lower()
+
+
+def wait_for_poptracker_to_close() -> None:
+    if not process_running("PopTracker.exe"):
+        return
+    print("Close PopTracker so setup can replace the currently loaded tracker pack.")
+    while process_running("PopTracker.exe"):
+        time.sleep(1)
+    print("PopTracker closed. Replacing the tracker pack...")
 
 
 def run_recipe(script: str, *arguments: Path | str) -> None:
@@ -224,6 +236,70 @@ def find_documents_folder() -> Path:
     return Path.home() / "Documents"
 
 
+def find_poptracker_pack_folders() -> list[Path]:
+    """Find every installed PopTracker beside its executable.
+
+    Users commonly keep portable PopTracker copies in nested folders. Installing
+    only to Documents/PopTracker can therefore update a copy they never launch.
+    """
+    folders: list[Path] = []
+    for documents in documents_candidates():
+        if not documents.is_dir():
+            continue
+        direct = documents / "PopTracker"
+        if (direct / "poptracker.exe").is_file():
+            folders.append(direct / "packs")
+        try:
+            for executable in documents.rglob("poptracker.exe"):
+                folders.append(executable.parent / "packs")
+        except OSError:
+            continue
+    if not folders:
+        folders.append(find_documents_folder() / "PopTracker/packs")
+    return list(dict.fromkeys(folder.resolve() for folder in folders))
+
+
+def pack_uid(path: Path) -> str | None:
+    try:
+        if path.is_dir():
+            manifest = path / "manifest.json"
+            if not manifest.is_file():
+                return None
+            data = json.loads(manifest.read_text(encoding="utf-8-sig"))
+        elif path.is_file() and path.suffix.lower() == ".zip":
+            with zipfile.ZipFile(path) as archive:
+                names = [name for name in archive.namelist() if name.rstrip("/").endswith("manifest.json")]
+                root_manifests = [name for name in names if name.count("/") <= 1]
+                if not root_manifests:
+                    return None
+                data = json.loads(archive.read(root_manifests[0]).decode("utf-8-sig"))
+        else:
+            return None
+    except (OSError, ValueError, KeyError, zipfile.BadZipFile):
+        return None
+    return data.get("package_uid")
+
+
+def remove_replaced_core_keeper_packs(packs: Path, textured_pack: Path | None = None) -> None:
+    """Remove conflicting versions by manifest identity, not fragile filenames."""
+    if not packs.is_dir():
+        return
+    keep = textured_pack.resolve() if textured_pack is not None and textured_pack.exists() else None
+    for candidate in packs.iterdir():
+        try:
+            if keep is not None and candidate.resolve() == keep:
+                continue
+            if pack_uid(candidate) != PACK_UID:
+                continue
+            if candidate.is_dir():
+                shutil.rmtree(candidate)
+            else:
+                candidate.unlink()
+            print(f"Removed replaced Core Keeper tracker pack: {candidate.name}")
+        except OSError as exception:
+            raise RuntimeError(f"Could not replace old tracker pack {candidate}: {exception}") from exception
+
+
 def build_from_export(export_root: Path, output: Path) -> Path:
     base = payload_root()
     print("Building the textured PopTracker pack...")
@@ -249,26 +325,14 @@ def build_from_export(export_root: Path, output: Path) -> Path:
     return output
 
 
-def remove_texture_free_packs(packs: Path, textured_pack: Path) -> None:
-    patterns = (
-        "core_keeper_poptracker_texture_free*.zip",
-        "3-PopTracker-Pack-TEXTURE-FREE*.zip",
-    )
-    for pattern in patterns:
-        for candidate in packs.glob(pattern):
-            if candidate.resolve() != textured_pack.resolve():
-                candidate.unlink()
-                print(f"Removed replaced texture-free tracker pack: {candidate.name}")
-
-
-def install() -> Path:
+def install() -> list[Path]:
     base = payload_root()
     game = find_game()
     exporter_source = base / "extractor/CoreKeeperArchipelagoExtractor"
     exporter_target = game / "CoreKeeper_Data/StreamingAssets/Mods/CoreKeeperArchipelagoExtractor"
-    documents = find_documents_folder()
-    packs = documents / "PopTracker/packs"
-    packs.mkdir(parents=True, exist_ok=True)
+    pack_folders = find_poptracker_pack_folders()
+    for packs in pack_folders:
+        packs.mkdir(parents=True, exist_ok=True)
 
     if process_running("CoreKeeper.exe"):
         raise RuntimeError("Close Core Keeper before running tracker setup.")
@@ -290,9 +354,17 @@ def install() -> Path:
         if not process_running("CoreKeeper.exe") and exporter_target.exists():
             shutil.rmtree(exporter_target)
 
-    textured_pack = build_from_export(export_root, packs / PACK_NAME)
-    remove_texture_free_packs(packs, textured_pack)
-    return textured_pack
+    wait_for_poptracker_to_close()
+    primary = pack_folders[0] / PACK_NAME
+    for packs in pack_folders:
+        remove_replaced_core_keeper_packs(packs)
+    textured_pack = build_from_export(export_root, primary)
+    installed = [textured_pack]
+    for packs in pack_folders[1:]:
+        destination = packs / PACK_NAME
+        shutil.copy2(textured_pack, destination)
+        installed.append(destination)
+    return installed
 
 
 def run_main() -> int:
@@ -309,7 +381,7 @@ def run_main() -> int:
                 raise RuntimeError("--output is required with --build-from-export")
             output = build_from_export(args.build_from_export, args.output)
         else:
-            output = install()
+            outputs = install()
     except Exception as exception:
         print(f"\nSetup failed: {exception}")
         traceback.print_exc()
@@ -317,7 +389,11 @@ def run_main() -> int:
         if not args.non_interactive:
             input("Press Enter to close...")
         return 1
-    print(f"\nTracker installed successfully:\n{output}")
+    if args.build_from_export:
+        outputs = [output]
+    print("\nTracker installed successfully:")
+    for output in outputs:
+        print(output)
     print("Open PopTracker and select (Textured) Core Keeper Archipelago Mainline, followed by its version number.")
     if not args.non_interactive:
         input("Press Enter to close...")

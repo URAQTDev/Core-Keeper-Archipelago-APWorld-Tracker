@@ -1,5 +1,6 @@
 import hashlib
 import importlib.util
+import json
 import tempfile
 import unittest
 from pathlib import Path
@@ -13,6 +14,16 @@ spec = importlib.util.spec_from_file_location(
 assert spec is not None and spec.loader is not None
 RELEASE = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(RELEASE)
+
+
+def load_tracker_setup():
+    setup_spec = importlib.util.spec_from_file_location(
+        "tracker_local_setup", ROOT / "tools" / "tracker_local_setup.py"
+    )
+    assert setup_spec is not None and setup_spec.loader is not None
+    module = importlib.util.module_from_spec(setup_spec)
+    setup_spec.loader.exec_module(module)
+    return module
 
 
 class ReleasePackageTests(unittest.TestCase):
@@ -138,10 +149,40 @@ class ReleasePackageTests(unittest.TestCase):
         self.assertIn('(\"package_poptracker.py\", (work / \"poptracker\", output))', setup)
         self.assertIn("candidate_export_roots", setup)
         self.assertIn("find_documents_folder", setup)
-        self.assertIn("remove_texture_free_packs", setup)
-        self.assertIn('"core_keeper_poptracker_texture_free*.zip"', setup)
+        self.assertIn("find_poptracker_pack_folders", setup)
+        self.assertIn("wait_for_poptracker_to_close", setup)
+        self.assertIn('process_running("PopTracker.exe")', setup)
+        self.assertIn("remove_replaced_core_keeper_packs", setup)
+        self.assertIn('PACK_UID = "core-keeper-archipelago-mainline"', setup)
+        self.assertIn('documents.rglob("poptracker.exe")', setup)
+        self.assertIn("pack_uid(candidate) != PACK_UID", setup)
         self.assertIn("OneDriveCommercial", setup)
         self.assertIn("CoreKeeperArchipelago-Tracker-Setup.log", setup)
+
+    def test_tracker_setup_replaces_same_uid_regardless_of_filename(self) -> None:
+        setup = load_tracker_setup()
+        with tempfile.TemporaryDirectory() as temporary:
+            packs = Path(temporary)
+            old_zip = packs / "totally-unexpected-old-name.zip"
+            with ZipFile(old_zip, "w") as archive:
+                archive.writestr(
+                    "manifest.json",
+                    json.dumps({"package_uid": setup.PACK_UID, "package_version": "99.0"}),
+                )
+            old_folder = packs / "unpacked-old-copy"
+            old_folder.mkdir()
+            (old_folder / "manifest.json").write_text(
+                json.dumps({"package_uid": setup.PACK_UID}), encoding="utf-8"
+            )
+            unrelated = packs / "another-game.zip"
+            with ZipFile(unrelated, "w") as archive:
+                archive.writestr("manifest.json", json.dumps({"package_uid": "another-game"}))
+
+            setup.remove_replaced_core_keeper_packs(packs)
+
+            self.assertFalse(old_zip.exists())
+            self.assertFalse(old_folder.exists())
+            self.assertTrue(unrelated.exists())
 
 
 if __name__ == "__main__":
