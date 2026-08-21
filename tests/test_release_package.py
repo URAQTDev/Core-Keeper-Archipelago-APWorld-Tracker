@@ -154,8 +154,12 @@ class ReleasePackageTests(unittest.TestCase):
         self.assertIn('process_running("PopTracker.exe")', setup)
         self.assertIn("remove_replaced_core_keeper_packs", setup)
         self.assertIn('PACK_UID = "core-keeper-archipelago-mainline"', setup)
-        self.assertIn('documents.rglob("poptracker.exe")', setup)
+        self.assertIn('profile / "Downloads"', setup)
+        self.assertIn('profile / "Desktop"', setup)
+        self.assertIn('root.rglob("poptracker.exe")', setup)
         self.assertIn("pack_uid(candidate) != PACK_UID", setup)
+        self.assertIn("verify_textured_pack(destination, expected_hash)", setup)
+        self.assertNotIn('folders.append(find_documents_folder() / "PopTracker/packs")', setup)
         self.assertIn("OneDriveCommercial", setup)
         self.assertIn("CoreKeeperArchipelago-Tracker-Setup.log", setup)
 
@@ -183,6 +187,20 @@ class ReleasePackageTests(unittest.TestCase):
             self.assertFalse(old_zip.exists())
             self.assertFalse(old_folder.exists())
             self.assertTrue(unrelated.exists())
+
+    def test_tracker_setup_verifies_textured_pack_contents_and_hash(self) -> None:
+        setup = load_tracker_setup()
+        with tempfile.TemporaryDirectory() as temporary:
+            pack = Path(temporary) / "textured.zip"
+            with ZipFile(pack, "w") as archive:
+                archive.writestr(
+                    "manifest.json",
+                    json.dumps({"package_uid": setup.PACK_UID, "name": "(Textured) Core Keeper"}),
+                )
+            expected = hashlib.sha256(pack.read_bytes()).hexdigest()
+            setup.verify_textured_pack(pack, expected)
+            with self.assertRaises(RuntimeError):
+                setup.verify_textured_pack(pack, "not-the-file-hash")
 
 
 if __name__ == "__main__":

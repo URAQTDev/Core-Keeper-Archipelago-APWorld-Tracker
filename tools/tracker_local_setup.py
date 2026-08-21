@@ -5,6 +5,7 @@ from __future__ import annotations
 import os
 import argparse
 import contextlib
+import hashlib
 import io
 import json
 import runpy
@@ -243,19 +244,29 @@ def find_poptracker_pack_folders() -> list[Path]:
     only to Documents/PopTracker can therefore update a copy they never launch.
     """
     folders: list[Path] = []
-    for documents in documents_candidates():
-        if not documents.is_dir():
+    search_roots: list[Path] = []
+    for profile in user_profiles():
+        search_roots.extend((profile / "Documents", profile / "Downloads", profile / "Desktop"))
+        search_roots.extend(profile.glob("OneDrive*"))
+    search_roots.extend(documents_candidates())
+    for root in dict.fromkeys(search_roots):
+        if not root.is_dir():
             continue
-        direct = documents / "PopTracker"
-        if (direct / "poptracker.exe").is_file():
-            folders.append(direct / "packs")
         try:
-            for executable in documents.rglob("poptracker.exe"):
+            for executable in root.rglob("poptracker.exe"):
                 folders.append(executable.parent / "packs")
         except OSError:
             continue
     if not folders:
-        folders.append(find_documents_folder() / "PopTracker/packs")
+        entered = input(
+            "PopTracker was not found automatically. Paste the folder containing PopTracker.exe: "
+        ).strip().strip('"')
+        selected = Path(entered)
+        if selected.name.lower() == "poptracker.exe":
+            selected = selected.parent
+        if not (selected / "poptracker.exe").is_file():
+            raise RuntimeError("That folder does not contain PopTracker.exe.")
+        folders.append(selected / "packs")
     return list(dict.fromkeys(folder.resolve() for folder in folders))
 
 
@@ -298,6 +309,21 @@ def remove_replaced_core_keeper_packs(packs: Path, textured_pack: Path | None = 
             print(f"Removed replaced Core Keeper tracker pack: {candidate.name}")
         except OSError as exception:
             raise RuntimeError(f"Could not replace old tracker pack {candidate}: {exception}") from exception
+
+
+def verify_textured_pack(path: Path, expected_hash: str) -> None:
+    if not path.is_file():
+        raise RuntimeError(f"Tracker installation did not create {path}.")
+    actual_hash = hashlib.sha256(path.read_bytes()).hexdigest()
+    if actual_hash != expected_hash:
+        raise RuntimeError(f"Tracker installation verification failed for {path}.")
+    try:
+        with zipfile.ZipFile(path) as archive:
+            manifest = json.loads(archive.read("manifest.json").decode("utf-8-sig"))
+    except (OSError, ValueError, KeyError, zipfile.BadZipFile) as exception:
+        raise RuntimeError(f"Installed tracker is invalid: {path}") from exception
+    if manifest.get("package_uid") != PACK_UID or not manifest.get("name", "").startswith("(Textured) "):
+        raise RuntimeError(f"Installed tracker is not the textured Core Keeper pack: {path}")
 
 
 def build_from_export(export_root: Path, output: Path) -> Path:
@@ -354,16 +380,18 @@ def install() -> list[Path]:
         if not process_running("CoreKeeper.exe") and exporter_target.exists():
             shutil.rmtree(exporter_target)
 
-    wait_for_poptracker_to_close()
-    primary = pack_folders[0] / PACK_NAME
-    for packs in pack_folders:
-        remove_replaced_core_keeper_packs(packs)
-    textured_pack = build_from_export(export_root, primary)
-    installed = [textured_pack]
-    for packs in pack_folders[1:]:
-        destination = packs / PACK_NAME
-        shutil.copy2(textured_pack, destination)
-        installed.append(destination)
+    with tempfile.TemporaryDirectory(prefix="core-keeper-textured-pack-") as temporary:
+        staged_pack = build_from_export(export_root, Path(temporary) / PACK_NAME)
+        expected_hash = hashlib.sha256(staged_pack.read_bytes()).hexdigest()
+        wait_for_poptracker_to_close()
+        installed: list[Path] = []
+        for packs in pack_folders:
+            remove_replaced_core_keeper_packs(packs)
+            destination = packs / PACK_NAME
+            shutil.copy2(staged_pack, destination)
+            verify_textured_pack(destination, expected_hash)
+            print(f"Verified textured tracker beside PopTracker: {destination}")
+            installed.append(destination)
     return installed
 
 
