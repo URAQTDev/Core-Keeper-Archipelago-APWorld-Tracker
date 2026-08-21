@@ -1,0 +1,56 @@
+name: Public playtest report
+description: Report a Core Keeper Archipelago community playtest or a problem found during one.
+title: "[Playtest] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for testing Core Keeper Archipelago. Do not include room passwords, private server addresses, or other players' private information.
+  - type: input
+    id: integration_version
+    attributes:
+      label: Core Keeper Archipelago version
+      placeholder: 1.0.1
+    validations:
+      required: true
+  - type: input
+    id: archipelago_version
+    attributes:
+      label: Archipelago version
+      placeholder: 0.6.7
+    validations:
+      required: true
+  - type: input
+    id: core_keeper_version
+    attributes:
+      label: Core Keeper platform and version
+      placeholder: Windows/Steam, game version or build if visible
+    validations:
+      required: true
+  - type: textarea
+    id: room
+    attributes:
+      label: Room and options
+      description: Describe the player count, other games, goal, and important non-default options. Do not provide passwords or private addresses.
+    validations:
+      required: true
+  - type: textarea
+    id: coverage
+    attributes:
+      label: What did you test?
+      description: Include whether the goal was completed and which major systems or option groups were exercised.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Results and problems
+      description: Describe missing checks, reward issues, reconnect behavior, crashes, or confusing behavior. A successful test with no problems is also valuable.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Logs or screenshots
+      description: Drag relevant files here after removing private information.
